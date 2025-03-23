@@ -1,0 +1,4 @@
+nimTitle	buildconf	gdext/buildconf.html	module gdext/buildconf		0
+nim	Extension	gdext/buildconf.html#Extension	const Extension		13
+nim	Assistance	gdext/buildconf.html#Assistance	const Assistance		18
+nim	Dev	gdext/buildconf.html#Dev	const Dev		22
