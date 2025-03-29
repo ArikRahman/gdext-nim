@@ -63,10 +63,10 @@ nim	encoded	gdext/private/typeshift.html#encoded.t,typedesc[GdRef[T: RefCounted]
 nim	encode	gdext/private/typeshift.html#encode.t,GdRef[T: RefCounted],pointer	template encode[T: RefCounted](v: GdRef[T]; p: pointer)		142
 nim	decode	gdext/private/typeshift.html#decode,pointer,typedesc[GdRef[T: RefCounted]]	proc decode[T: RefCounted](p: pointer; Result: typedesc[GdRef[T]]): Result:type		144
 nim	variant	gdext/private/typeshift.html#variant,GdRef[T: RefCounted]	proc variant[T: RefCounted](v: GdRef[T]): Variant		146
-nim	get	gdext/private/typeshift.html#get,Variant,typedesc[GdRef[T: RefCounted]]	proc get[T: RefCounted](v: Variant; Result: typedesc[GdRef[T]]): Result:type		148
-nim	decode_result	gdext/private/typeshift.html#decode_result,pointer,typedesc[GdRef[T: RefCounted]]	proc decode_result[T: RefCounted](p: pointer; Result: typedesc[GdRef[T]]): Result:type		151
-nim	APIType	gdext/private/typeshift.html#APIType.t,typedesc[Object]	template APIType(T: typedesc[Object]): typedesc		156
-nim	APIType	gdext/private/typeshift.html#APIType.t,typedesc[]	template APIType(T: typedesc[not Object]): typedesc		157
+nim	get	gdext/private/typeshift.html#get,Variant,typedesc[GdRef[T: RefCounted]]	proc get[T: RefCounted](v: Variant; Result: typedesc[GdRef[T]]): Result:type		149
+nim	decode_result	gdext/private/typeshift.html#decode_result,pointer,typedesc[GdRef[T: RefCounted]]	proc decode_result[T: RefCounted](p: pointer; Result: typedesc[GdRef[T]]): Result:type		152
+nim	APIType	gdext/private/typeshift.html#APIType.t,typedesc[Object]	template APIType(T: typedesc[Object]): typedesc		157
+nim	APIType	gdext/private/typeshift.html#APIType.t,typedesc[]	template APIType(T: typedesc[not Object]): typedesc		158
 nimgrp	decode	gdext/private/typeshift.html#decode-procs-all	proc		10
 nimgrp	decoderesult	gdext/private/typeshift.html#decode_result-procs-all	proc		138
 nimgrp	variant	gdext/private/typeshift.html#variant-procs-all	proc		17
@@ -74,4 +74,4 @@ nimgrp	get	gdext/private/typeshift.html#get-procs-all	proc		19
 nimgrp	getaddr	gdext/private/typeshift.html#getAddr-procs-all	proc		21
 nimgrp	encode	gdext/private/typeshift.html#encode-templates-all	template		13
 nimgrp	encoded	gdext/private/typeshift.html#encoded-templates-all	template		12
-nimgrp	Apitype	gdext/private/typeshift.html#APIType-templates-all	template		156
+nimgrp	Apitype	gdext/private/typeshift.html#APIType-templates-all	template		157

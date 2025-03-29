@@ -1,4 +1,10 @@
 nimTitle	buildconf	gdext/buildconf.html	module gdext/buildconf		0
-nim	Extension	gdext/buildconf.html#Extension	const Extension		13
-nim	Assistance	gdext/buildconf.html#Assistance	const Assistance		18
-nim	Dev	gdext/buildconf.html#Dev	const Dev		22
+nim	Godot	gdext/buildconf.html#Godot	object Godot		18
+nim	Extension	gdext/buildconf.html#Extension	object Extension		19
+nim	Assistance	gdext/buildconf.html#Assistance	object Assistance		20
+nim	RunningSystem	gdext/buildconf.html#RunningSystem	const RunningSystem		22
+nim	Build	gdext/buildconf.html#Build	const Build		33
+nim	libdir=	gdext/buildconf.html#libdir=,typedesc[Extension],string	proc libdir=(_: typedesc[Extension]; path: string)		39
+nim	entrySymbol=	gdext/buildconf.html#entrySymbol=,typedesc[Extension],string	proc entrySymbol=(_: typedesc[Extension]; name: string)		42
+nim	name=	gdext/buildconf.html#name=,typedesc[Extension],string	proc name=(_: typedesc[Extension]; name: string)		45
+nim	genEditorHelp=	gdext/buildconf.html#genEditorHelp=,typedesc[Assistance],bool	proc genEditorHelp=(_: typedesc[Assistance]; b: bool)		54

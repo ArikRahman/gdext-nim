@@ -1,0 +1,4 @@
+nimTitle	buildsettings	gdext/private/buildsettings.html	module gdext/private/buildsettings		0
+nim	Extension	gdext/private/buildsettings.html#Extension	const Extension		12
+nim	Assistance	gdext/private/buildsettings.html#Assistance	const Assistance		17
+nim	Dev	gdext/private/buildsettings.html#Dev	const Dev		21

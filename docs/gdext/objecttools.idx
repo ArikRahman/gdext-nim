@@ -13,12 +13,12 @@ nim	unwrapped	gdext/objecttools.html#unwrapped.t,GdRef[T: RefCounted]	template u
 nim	`[]`	gdext/objecttools.html#[].t,GdRef[T: RefCounted]	template `[]`[T: RefCounted](x: GdRef[T]): T		45
 nim	singleton	gdext/objecttools.html#singleton,typedesc[T]	proc singleton[T: SomeClass](_: typedesc[T]): T		47
 nim	`$`	gdext/objecttools.html#$,T	proc `$`[T: Object](self: T): string		58
-nim	`$`	gdext/objecttools.html#$,Node	proc `$`(self: Node): string		62
-nim	`/`	gdext/objecttools.html#/.t,Node,NodePath	template `/`(self: Node; path: NodePath): Node		65
-nim	`/`	gdext/objecttools.html#/.t,Node,string	template `/`(self: Node; path: string): Node		66
-nim	`/`	gdext/objecttools.html#/.t,Node,typedesc[T]	template `/`[T: Node](self: Node; sub: typedesc[T]): T		68
+nim	`$`	gdext/objecttools.html#$,GdRef	proc `$`(self: GdRef): string		64
+nim	`/`	gdext/objecttools.html#/.t,Node,NodePath	template `/`(self: Node; path: NodePath): Node		67
+nim	`/`	gdext/objecttools.html#/.t,Node,string	template `/`(self: Node; path: string): Node		68
+nim	`/`	gdext/objecttools.html#/.t,Node,typedesc[T]	template `/`[T: Node](self: Node; sub: typedesc[T]): T		70
 nimgrp	castto	gdext/objecttools.html#castTo-procs-all	proc		28
 nimgrp	$	gdext/objecttools.html#$-procs-all	proc		58
 nimgrp	instantiate	gdext/objecttools.html#instantiate-procs-all	proc		17
 nimgrp	as	gdext/objecttools.html#as-procs-all	proc		39
-nimgrp	/	gdext/objecttools.html#/-templates-all	template		65
+nimgrp	/	gdext/objecttools.html#/-templates-all	template		67

@@ -79,7 +79,8 @@
 <p>With this library, all the features of the Godot engine can be used from Nim.</p>
 
 <h1><a class="toc-backref" id="modules" href="#modules">Modules</a></h1><p>The following modules are automatically imported by gdext. There is no need to import them explicitly.</p>
-<ul class="simple"><li><a class="reference external" href="gdext/bridge.html">bridge</a>: Core functionalities of gdext</li>
+<ul class="simple"><li><a class="reference external" href="gdext/buildconf.html">buildconf</a>: It's required to build GDExtension. You <strong>must</strong> import it from your project's config.nims.</li>
+<li><a class="reference external" href="gdext/bridge.html">bridge</a>: Core functionalities of gdext</li>
 <li><a class="reference external" href="gdext/appearances.html">appearances</a>: Appearance of properties on the editor inspector</li>
 <li><a class="reference external" href="gdext/objectcallbacks.html">objectcallbacks</a>: Object callbacks called by the engine</li>
 <li><a class="reference external" href="gdext/builtinindex.html">builtinindex</a>: All type-defs provided by the engine</li>
@@ -94,12 +95,13 @@
 <li><a class="reference external" href="gdext/swizzles.html">swizzles</a>: GLSLang-like swizzling operator</li>
 <li><a class="reference external" href="gdext/utilityfuncs.html">utilityfuncs</a>: Printing functions + misc</li>
 <li><a class="reference external" href="gdext/conversions.html">conversions</a>: Utility converters to make easier to convert types</li>
+<li><a class="reference external" href="gdext/dollars.html">dollars</a>: <tt class="docutils literal"><span class="pre"><span class="Operator">$</span></span></tt> for all engine-builtins</li>
 </ul>
 </p>
     <div class="section" id="6">
   <h1><a class="toc-backref" href="#6">Imports</a></h1>
   <dl class="item">
-    <a class="reference external" href="gdext/buildconf.html">gdext/buildconf</a>, <a class="reference external" href="gdext/private/gdinterface.html">gdext/private/gdinterface</a>, <a class="reference external" href="gdext/private/staticevents.html">gdext/private/staticevents</a>, <a class="reference external" href="gdext/private/internalbridge.html">gdext/private/internalbridge</a>, <a class="reference external" href="gdext/private/native.html">gdext/private/native</a>, <a class="reference external" href="gdext/private/typeshift.html">gdext/private/typeshift</a>, <a class="reference external" href="gdext/builtinindex.html">gdext/builtinindex</a>, <a class="reference external" href="gdext/bridge.html">gdext/bridge</a>, <a class="reference external" href="gdext/appearances.html">gdext/appearances</a>, <a class="reference external" href="gdext/math.html">gdext/math</a>, <a class="reference external" href="gdext/swizzles.html">gdext/swizzles</a>, <a class="reference external" href="gdext/objectcallbacks.html">gdext/objectcallbacks</a>, <a class="reference external" href="gdext/objecttools.html">gdext/objecttools</a>, <a class="reference external" href="gdext/varianttools.html">gdext/varianttools</a>, <a class="reference external" href="gdext/stringtools.html">gdext/stringtools</a>, <a class="reference external" href="gdext/dicttools.html">gdext/dicttools</a>, <a class="reference external" href="gdext/arraytools.html">gdext/arraytools</a>, <a class="reference external" href="gdext/colortools.html">gdext/colortools</a>, <a class="reference external" href="gdext/othertools.html">gdext/othertools</a>, <a class="reference external" href="gdext/utilityfuncs.html">gdext/utilityfuncs</a>, <a class="reference external" href="gdext/conversions.html">gdext/conversions</a>, <a class="reference external" href="gdext/classes/gdengine.html">gdext/classes/gdengine</a>, <a class="reference external" href="gdext/extclasses/gdextensionmain.html">gdext/extclasses/gdextensionmain</a>, <a class="reference external" href="gdext/private/doctools.html">gdext/private/doctools</a>
+    <a class="reference external" href="gdext/private/buildsettings.html">gdext/private/buildsettings</a>, <a class="reference external" href="gdext/private/gdinterface.html">gdext/private/gdinterface</a>, <a class="reference external" href="gdext/private/staticevents.html">gdext/private/staticevents</a>, <a class="reference external" href="gdext/private/internalbridge.html">gdext/private/internalbridge</a>, <a class="reference external" href="gdext/private/native.html">gdext/private/native</a>, <a class="reference external" href="gdext/private/typeshift.html">gdext/private/typeshift</a>, <a class="reference external" href="gdext/builtinindex.html">gdext/builtinindex</a>, <a class="reference external" href="gdext/bridge.html">gdext/bridge</a>, <a class="reference external" href="gdext/appearances.html">gdext/appearances</a>, <a class="reference external" href="gdext/math.html">gdext/math</a>, <a class="reference external" href="gdext/swizzles.html">gdext/swizzles</a>, <a class="reference external" href="gdext/objectcallbacks.html">gdext/objectcallbacks</a>, <a class="reference external" href="gdext/objecttools.html">gdext/objecttools</a>, <a class="reference external" href="gdext/varianttools.html">gdext/varianttools</a>, <a class="reference external" href="gdext/stringtools.html">gdext/stringtools</a>, <a class="reference external" href="gdext/dicttools.html">gdext/dicttools</a>, <a class="reference external" href="gdext/arraytools.html">gdext/arraytools</a>, <a class="reference external" href="gdext/colortools.html">gdext/colortools</a>, <a class="reference external" href="gdext/othertools.html">gdext/othertools</a>, <a class="reference external" href="gdext/utilityfuncs.html">gdext/utilityfuncs</a>, <a class="reference external" href="gdext/conversions.html">gdext/conversions</a>, <a class="reference external" href="gdext/dollars.html">gdext/dollars</a>, <a class="reference external" href="gdext/classes/gdengine.html">gdext/classes/gdengine</a>, <a class="reference external" href="gdext/extclasses/gdextensionmain.html">gdext/extclasses/gdextensionmain</a>, <a class="reference external" href="gdext/private/doctools.html">gdext/private/doctools</a>, <a class="reference external" href="gdext/buildconf.html">gdext/buildconf</a>
   </dl>
 </div>
 <div class="section" id="18">
@@ -126,7 +128,7 @@
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2025-03-23 17:22:44 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2025-03-29 06:42:11 UTC</small>
       </div>
     </div>
   </div>
