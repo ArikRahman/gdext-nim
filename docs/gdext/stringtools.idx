@@ -113,7 +113,7 @@ nim	pathJoin	gdext/stringtools.html#pathJoin,String,String	proc pathJoin(self: S
 nim	unicodeAt	gdext/stringtools.html#unicodeAt,String,Int	proc unicodeAt(self: String; at: Int): Int		401
 nim	indent	gdext/stringtools.html#indent,String,String	proc indent(self: String; prefix: String): String		404
 nim	dedent	gdext/stringtools.html#dedent,String	proc dedent(self: String): String		407
-nim	hash	gdext/stringtools.html#hash,String	proc hash(self: String): Int		409
+nim	hash	gdext/stringtools.html#hash,String	proc hash(self: String): Hash		409
 nim	md5Text	gdext/stringtools.html#md5Text,String	proc md5Text(self: String): String		411
 nim	sha1Text	gdext/stringtools.html#sha1Text,String	proc sha1Text(self: String): String		413
 nim	sha256Text	gdext/stringtools.html#sha256Text,String	proc sha256Text(self: String): String		415
@@ -315,14 +315,14 @@ nim	toUtf16Buffer	gdext/stringtools.html#toUtf16Buffer,StringName	proc toUtf16Bu
 nim	toUtf32Buffer	gdext/stringtools.html#toUtf32Buffer,StringName	proc toUtf32Buffer(self: StringName): PackedByteArray		503
 nim	hexDecode	gdext/stringtools.html#hexDecode,StringName	proc hexDecode(self: StringName): PackedByteArray		505
 nim	toWcharBuffer	gdext/stringtools.html#toWcharBuffer,StringName	proc toWcharBuffer(self: StringName): PackedByteArray		507
-nim	hash	gdext/stringtools.html#hash,StringName	proc hash(self: StringName): Int		509
+nim	hash	gdext/stringtools.html#hash,StringName	proc hash(self: StringName): Hash		509
 nim	`not`	gdext/stringtools.html#not,NodePath	proc `not`(left: NodePath): bool		8
 nim	`==`	gdext/stringtools.html#==,NodePath,NodePath	proc `==`(left: NodePath; right: NodePath): bool		9
 nim	isAbsolute	gdext/stringtools.html#isAbsolute,NodePath	proc isAbsolute(self: NodePath): bool		26
 nim	getNameCount	gdext/stringtools.html#getNameCount,NodePath	proc getNameCount(self: NodePath): Int		28
 nim	getName	gdext/stringtools.html#getName,NodePath,Int	proc getName(self: NodePath; idx: Int): StringName		30
 nim	getSubnameCount	gdext/stringtools.html#getSubnameCount,NodePath	proc getSubnameCount(self: NodePath): Int		33
-nim	hash	gdext/stringtools.html#hash,NodePath	proc hash(self: NodePath): Int		35
+nim	hash	gdext/stringtools.html#hash,NodePath	proc hash(self: NodePath): Hash		35
 nim	getSubname	gdext/stringtools.html#getSubname,NodePath,Int	proc getSubname(self: NodePath; idx: Int): StringName		37
 nim	getConcatenatedNames	gdext/stringtools.html#getConcatenatedNames,NodePath	proc getConcatenatedNames(self: NodePath): StringName		40
 nim	getConcatenatedSubnames	gdext/stringtools.html#getConcatenatedSubnames,NodePath	proc getConcatenatedSubnames(self: NodePath): StringName		42

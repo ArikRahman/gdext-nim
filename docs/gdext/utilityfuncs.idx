@@ -30,8 +30,8 @@ nim	radToDeg	gdext/utilityfuncs.html#radToDeg,Float	proc radToDeg(rad: Float): F
 nim	linearToDb	gdext/utilityfuncs.html#linearToDb,Float	proc linearToDb(lin: Float): Float		256
 nim	dbToLinear	gdext/utilityfuncs.html#dbToLinear,Float	proc dbToLinear(db: Float): Float		261
 nim	wrap	gdext/utilityfuncs.html#wrap,Variant,Variant,Variant	proc wrap(value: Variant; min: Variant; max: Variant): Variant		266
-nim	max	gdext/utilityfuncs.html#max,Variant,Variant,varargs[Variant]	proc max(arg1: Variant; arg2: Variant; args: varargs[Variant]): Variant		271
-nim	min	gdext/utilityfuncs.html#min,Variant,Variant,varargs[Variant]	proc min(arg1: Variant; arg2: Variant; args: varargs[Variant]): Variant		279
+nim	max	gdext/utilityfuncs.html#max,Variant,Variant,varargs[Variant,variant]	proc max(arg1: Variant; arg2: Variant; args: varargs[Variant, variant]): Variant		271
+nim	min	gdext/utilityfuncs.html#min,Variant,Variant,varargs[Variant,variant]	proc min(arg1: Variant; arg2: Variant; args: varargs[Variant, variant]): Variant		279
 nim	clamp	gdext/utilityfuncs.html#clamp,Variant,Variant,Variant	proc clamp(value: Variant; min: Variant; max: Variant): Variant		287
 nim	nearestPo2	gdext/utilityfuncs.html#nearestPo2,Int	proc nearestPo2(value: Int): Int		292
 nim	pingpong	gdext/utilityfuncs.html#pingpong,Float,Float	proc pingpong(value: Float; length: Float): Float		297
@@ -46,18 +46,18 @@ nim	randFromSeed	gdext/utilityfuncs.html#randFromSeed,Int	proc randFromSeed(seed
 nim	weakref	gdext/utilityfuncs.html#weakref,Variant	proc weakref(obj: Variant): Variant		339
 nim	typeof	gdext/utilityfuncs.html#typeof,Variant	proc typeof(variable: Variant): Int		344
 nim	typeConvert	gdext/utilityfuncs.html#typeConvert,Variant,Int	proc typeConvert(variant: Variant; type: Int): Variant		349
-nim	str	gdext/utilityfuncs.html#str,Variant,varargs[Variant]	proc str(arg1: Variant; args: varargs[Variant]): String		354
+nim	str	gdext/utilityfuncs.html#str,varargs[Variant,variant]	proc str(args: varargs[Variant, variant]): String		354
 nim	errorString	gdext/utilityfuncs.html#errorString,Int	proc errorString(error: Int): String		362
 nim	typeString	gdext/utilityfuncs.html#typeString,Int	proc typeString(type: Int): String		367
-nim	print	gdext/utilityfuncs.html#print,Variant,varargs[Variant]	proc print(arg1: Variant; args: varargs[Variant]): void		372
-nim	printRich	gdext/utilityfuncs.html#printRich,Variant,varargs[Variant]	proc printRich(arg1: Variant; args: varargs[Variant]): void		380
-nim	printerr	gdext/utilityfuncs.html#printerr,Variant,varargs[Variant]	proc printerr(arg1: Variant; args: varargs[Variant]): void		388
-nim	printt	gdext/utilityfuncs.html#printt,Variant,varargs[Variant]	proc printt(arg1: Variant; args: varargs[Variant]): void		396
-nim	prints	gdext/utilityfuncs.html#prints,Variant,varargs[Variant]	proc prints(arg1: Variant; args: varargs[Variant]): void		404
-nim	printraw	gdext/utilityfuncs.html#printraw,Variant,varargs[Variant]	proc printraw(arg1: Variant; args: varargs[Variant]): void		412
-nim	printVerbose	gdext/utilityfuncs.html#printVerbose,Variant,varargs[Variant]	proc printVerbose(arg1: Variant; args: varargs[Variant]): void		420
-nim	pushError	gdext/utilityfuncs.html#pushError,Variant,varargs[Variant]	proc pushError(arg1: Variant; args: varargs[Variant]): void		428
-nim	pushWarning	gdext/utilityfuncs.html#pushWarning,Variant,varargs[Variant]	proc pushWarning(arg1: Variant; args: varargs[Variant]): void		436
+nim	print	gdext/utilityfuncs.html#print,varargs[Variant,variant]	proc print(args: varargs[Variant, variant]): void		372
+nim	printRich	gdext/utilityfuncs.html#printRich,varargs[Variant,variant]	proc printRich(args: varargs[Variant, variant]): void		380
+nim	printerr	gdext/utilityfuncs.html#printerr,varargs[Variant,variant]	proc printerr(args: varargs[Variant, variant]): void		388
+nim	printt	gdext/utilityfuncs.html#printt,varargs[Variant,variant]	proc printt(args: varargs[Variant, variant]): void		396
+nim	prints	gdext/utilityfuncs.html#prints,varargs[Variant,variant]	proc prints(args: varargs[Variant, variant]): void		404
+nim	printraw	gdext/utilityfuncs.html#printraw,varargs[Variant,variant]	proc printraw(args: varargs[Variant, variant]): void		412
+nim	printVerbose	gdext/utilityfuncs.html#printVerbose,varargs[Variant,variant]	proc printVerbose(args: varargs[Variant, variant]): void		420
+nim	pushError	gdext/utilityfuncs.html#pushError,varargs[Variant,variant]	proc pushError(args: varargs[Variant, variant]): void		428
+nim	pushWarning	gdext/utilityfuncs.html#pushWarning,varargs[Variant,variant]	proc pushWarning(args: varargs[Variant, variant]): void		436
 nim	varToStr	gdext/utilityfuncs.html#varToStr,Variant	proc varToStr(variable: Variant): String		444
 nim	strToVar	gdext/utilityfuncs.html#strToVar,String	proc strToVar(string: String): Variant		449
 nim	varToBytes	gdext/utilityfuncs.html#varToBytes,Variant	proc varToBytes(variable: Variant): PackedByteArray		454
@@ -71,9 +71,3 @@ nim	ridAllocateId	gdext/utilityfuncs.html#ridAllocateId	proc ridAllocateId(): In
 nim	ridFromInt64	gdext/utilityfuncs.html#ridFromInt64,Int	proc ridFromInt64(base: Int): RID		493
 nim	isSame	gdext/utilityfuncs.html#isSame,Variant,Variant	proc isSame(a: Variant; b: Variant): bool		498
 nim	load	gdext/utilityfuncs.html#load	proc load()		503
-nim	print	gdext/utilityfuncs.html#print,varargs[Variant,variant]	proc print(args: varargs[Variant, variant])		11
-nim	printRich	gdext/utilityfuncs.html#printRich,varargs[Variant,variant]	proc printRich(args: varargs[Variant, variant])		15
-nim	printerr	gdext/utilityfuncs.html#printerr,varargs[Variant,variant]	proc printerr(args: varargs[Variant, variant])		19
-nimgrp	printrich	gdext/utilityfuncs.html#printRich-procs-all	proc		380
-nimgrp	printerr	gdext/utilityfuncs.html#printerr-procs-all	proc		388
-nimgrp	print	gdext/utilityfuncs.html#print-procs-all	proc		372

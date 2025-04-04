@@ -25,12 +25,12 @@ nim	getMetaList	gdext/classes/gdobject.html#getMetaList,Object	proc getMetaList(
 nim	addUserSignal	gdext/classes/gdobject.html#addUserSignal,Object,String,Array	proc addUserSignal(self: Object; signal: String; arguments: Array = newArray()): void		117
 nim	hasUserSignal	gdext/classes/gdobject.html#hasUserSignal,Object,StringName	proc hasUserSignal(self: Object; signal: StringName): bool		121
 nim	removeUserSignal	gdext/classes/gdobject.html#removeUserSignal,Object,StringName	proc removeUserSignal(self: Object; signal: StringName): void		127
-nim	emitSignal	gdext/classes/gdobject.html#emitSignal,Object,Variant,varargs[Variant]	proc emitSignal(self: Object; signal: Variant; args: varargs[Variant]): Error		131
-nim	emitSignal	gdext/classes/gdobject.html#emitSignal.t,Object,StringName,varargs[Variant]	template emitSignal(self: Object; signal: StringName; args: varargs[Variant]): Error		136
-nim	call	gdext/classes/gdobject.html#call,Object,Variant,varargs[Variant]	proc call(self: Object; method: Variant; args: varargs[Variant]): Variant		139
-nim	call	gdext/classes/gdobject.html#call.t,Object,StringName,varargs[Variant]	template call(self: Object; method: StringName; args: varargs[Variant]): Variant		144
-nim	callDeferred	gdext/classes/gdobject.html#callDeferred,Object,Variant,varargs[Variant]	proc callDeferred(self: Object; method: Variant; args: varargs[Variant]): Variant		147
-nim	callDeferred	gdext/classes/gdobject.html#callDeferred.t,Object,StringName,varargs[Variant]	template callDeferred(self: Object; method: StringName; args: varargs[Variant]): Variant		152
+nim	emitSignal	gdext/classes/gdobject.html#emitSignal,Object,Variant,varargs[Variant,variant]	proc emitSignal(self: Object; signal: Variant; args: varargs[Variant, variant]): Error		131
+nim	emitSignal	gdext/classes/gdobject.html#emitSignal.t,Object,StringName,varargs[Variant,variant]	template emitSignal(self: Object; signal: StringName; args: varargs[Variant, variant]): Error		136
+nim	call	gdext/classes/gdobject.html#call,Object,Variant,varargs[Variant,variant]	proc call(self: Object; method: Variant; args: varargs[Variant, variant]): Variant		139
+nim	call	gdext/classes/gdobject.html#call.t,Object,StringName,varargs[Variant,variant]	template call(self: Object; method: StringName; args: varargs[Variant, variant]): Variant		144
+nim	callDeferred	gdext/classes/gdobject.html#callDeferred,Object,Variant,varargs[Variant,variant]	proc callDeferred(self: Object; method: Variant; args: varargs[Variant, variant]): Variant		147
+nim	callDeferred	gdext/classes/gdobject.html#callDeferred.t,Object,StringName,varargs[Variant,variant]	template callDeferred(self: Object; method: StringName; args: varargs[Variant, variant]): Variant		152
 nim	setDeferred	gdext/classes/gdobject.html#setDeferred,Object,StringName,Variant	proc setDeferred(self: Object; property: StringName; value: Variant): void		155
 nim	callv	gdext/classes/gdobject.html#callv,Object,StringName,Array	proc callv(self: Object; method: StringName; argArray: Array): Variant		159
 nim	hasMethod	gdext/classes/gdobject.html#hasMethod,Object,StringName	proc hasMethod(self: Object; method: StringName): bool		165

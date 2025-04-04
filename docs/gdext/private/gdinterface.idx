@@ -3,7 +3,7 @@ nim	getPtr	gdext/private/gdinterface.html#getPtr.t,T	template getPtr[T](v: T): p
 nim	getPtr	gdext/private/gdinterface.html#getPtr.t,Variant	template getPtr(v: Variant): pointer		7
 nim	getPtr	gdext/private/gdinterface.html#getPtr.t,T_2	template getPtr[T: Object](v: T): pointer		8
 nim	getPtr	gdext/private/gdinterface.html#getPtr.t,GdRef	template getPtr(v: GdRef): pointer		10
-nim	load	gdext/private/gdinterface.html#load,VariantType,string,int	proc load(typ: VariantType; proc_name: string; hash: int): PtrBuiltInMethod		13
+nim	load	gdext/private/gdinterface.html#load,VariantType,string,int64	proc load(typ: VariantType; proc_name: string; hash: int64): PtrBuiltInMethod		13
 nim	load	gdext/private/gdinterface.html#load,Variant_Operator,VariantType,VariantType	proc load(op: Variant_Operator; left, right: VariantType): PtrOperatorEvaluator		16
 nim	engineInstance	gdext/private/gdinterface.html#engineInstance,Object	proc engineInstance(obj: Object): ObjectPtr		18
 nim	getPtr	gdext/private/gdinterface.html#getPtr,array[I,Variant]	proc getPtr[I](arr: array[I, Variant]): array[I, pointer]		23

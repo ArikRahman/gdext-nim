@@ -106,7 +106,7 @@
 
 </ul>
 <ul class="simple nested-toc-section">bind
-  <li><a class="reference" href="#bind%2CCallable%2Cvarargs%5BVariant%5D" title="`bind`(self: Callable; args: varargs[Variant]): Callable">`bind`(self: Callable; args: varargs[Variant]): Callable</a></li>
+  <li><a class="reference" href="#bind%2CCallable%2Cvarargs%5BVariant%2Cvariant%5D" title="`bind`(self: Callable; args: varargs[Variant, variant]): Callable">`bind`(self: Callable; args: varargs[Variant, variant]): Callable</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">bindv
@@ -114,7 +114,7 @@
 
 </ul>
 <ul class="simple nested-toc-section">call
-  <li><a class="reference" href="#call%2CCallable%2Cvarargs%5BVariant%5D" title="call(self: Callable; args: varargs[Variant]): Variant">call(self: Callable; args: varargs[Variant]): Variant</a></li>
+  <li><a class="reference" href="#call%2CCallable%2Cvarargs%5BVariant%2Cvariant%5D" title="call(self: Callable; args: varargs[Variant, variant]): Variant">call(self: Callable; args: varargs[Variant, variant]): Variant</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">callable
@@ -124,7 +124,7 @@
 
 </ul>
 <ul class="simple nested-toc-section">callDeferred
-  <li><a class="reference" href="#callDeferred%2CCallable%2Cvarargs%5BVariant%5D" title="callDeferred(self: Callable; args: varargs[Variant]): void">callDeferred(self: Callable; args: varargs[Variant]): void</a></li>
+  <li><a class="reference" href="#callDeferred%2CCallable%2Cvarargs%5BVariant%2Cvariant%5D" title="callDeferred(self: Callable; args: varargs[Variant, variant]): void">callDeferred(self: Callable; args: varargs[Variant, variant]): void</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">callv
@@ -144,7 +144,7 @@
 
 </ul>
 <ul class="simple nested-toc-section">emit
-  <li><a class="reference" href="#emit%2CSignal%2Cvarargs%5BVariant%5D" title="emit(self: Signal; args: varargs[Variant]): void">emit(self: Signal; args: varargs[Variant]): void</a></li>
+  <li><a class="reference" href="#emit%2CSignal%2Cvarargs%5BVariant%2Cvariant%5D" title="emit(self: Signal; args: varargs[Variant, variant]): void">emit(self: Signal; args: varargs[Variant, variant]): void</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">getArgumentCount
@@ -194,7 +194,7 @@
 
 </ul>
 <ul class="simple nested-toc-section">hash
-  <li><a class="reference" href="#hash%2CCallable" title="hash(self: Callable): Int">hash(self: Callable): Int</a></li>
+  <li><a class="reference" href="#hash%2CCallable" title="hash(self: Callable): Hash">hash(self: Callable): Hash</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">isConnected
@@ -247,11 +247,11 @@
 
 </ul>
 <ul class="simple nested-toc-section">rpc
-  <li><a class="reference" href="#rpc%2CCallable%2Cvarargs%5BVariant%5D" title="rpc(self: Callable; args: varargs[Variant]): void">rpc(self: Callable; args: varargs[Variant]): void</a></li>
+  <li><a class="reference" href="#rpc%2CCallable%2Cvarargs%5BVariant%2Cvariant%5D" title="rpc(self: Callable; args: varargs[Variant, variant]): void">rpc(self: Callable; args: varargs[Variant, variant]): void</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">rpcId
-  <li><a class="reference" href="#rpcId%2CCallable%2CInt%2Cvarargs%5BVariant%5D" title="rpcId(self: Callable; peerId: Int; args: varargs[Variant]): void">rpcId(self: Callable; peerId: Int; args: varargs[Variant]): void</a></li>
+  <li><a class="reference" href="#rpcId%2CCallable%2CInt%2Cvarargs%5BVariant%2Cvariant%5D" title="rpcId(self: Callable; peerId: Int; args: varargs[Variant, variant]): void">rpcId(self: Callable; peerId: Int; args: varargs[Variant, variant]): void</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">signal
@@ -557,9 +557,9 @@
 
 </div>
 <div id="bind-procs-all">
-  <div id="bind,Callable,varargs[Variant]">
-  <dt><pre><span class="Keyword">proc</span> <a href="#bind%2CCallable%2Cvarargs%5BVariant%5D"><span class="Identifier">`bind`</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Callable"><span class="Identifier">Callable</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <span class="Identifier">varargs</span><span class="Other">[</span><a href="builtinindex.html#Variant"><span class="Identifier">Variant</span></a><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Callable"><span class="Identifier">Callable</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span>
-    <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
+  <div id="bind,Callable,varargs[Variant,variant]">
+  <dt><pre><span class="Keyword">proc</span> <a href="#bind%2CCallable%2Cvarargs%5BVariant%2Cvariant%5D"><span class="Identifier">`bind`</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Callable"><span class="Identifier">Callable</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <span class="Identifier">varargs</span><span class="Other">[</span><a href="builtinindex.html#Variant"><span class="Identifier">Variant</span></a><span class="Other">,</span> <span class="Identifier">variant</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Callable"><span class="Identifier">Callable</span></a> {.
+    <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
   <dd>
     
     
@@ -581,9 +581,9 @@
 
 </div>
 <div id="call-procs-all">
-  <div id="call,Callable,varargs[Variant]">
-  <dt><pre><span class="Keyword">proc</span> <a href="#call%2CCallable%2Cvarargs%5BVariant%5D"><span class="Identifier">call</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Callable"><span class="Identifier">Callable</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <span class="Identifier">varargs</span><span class="Other">[</span><a href="builtinindex.html#Variant"><span class="Identifier">Variant</span></a><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Variant"><span class="Identifier">Variant</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span>
-    <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
+  <div id="call,Callable,varargs[Variant,variant]">
+  <dt><pre><span class="Keyword">proc</span> <a href="#call%2CCallable%2Cvarargs%5BVariant%2Cvariant%5D"><span class="Identifier">call</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Callable"><span class="Identifier">Callable</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <span class="Identifier">varargs</span><span class="Other">[</span><a href="builtinindex.html#Variant"><span class="Identifier">Variant</span></a><span class="Other">,</span> <span class="Identifier">variant</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Variant"><span class="Identifier">Variant</span></a> {.
+    <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
   <dd>
     
     
@@ -622,9 +622,9 @@
 
 </div>
 <div id="callDeferred-procs-all">
-  <div id="callDeferred,Callable,varargs[Variant]">
-  <dt><pre><span class="Keyword">proc</span> <a href="#callDeferred%2CCallable%2Cvarargs%5BVariant%5D"><span class="Identifier">callDeferred</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Callable"><span class="Identifier">Callable</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <span class="Identifier">varargs</span><span class="Other">[</span><a href="builtinindex.html#Variant"><span class="Identifier">Variant</span></a><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">void</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span>
-    <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
+  <div id="callDeferred,Callable,varargs[Variant,variant]">
+  <dt><pre><span class="Keyword">proc</span> <a href="#callDeferred%2CCallable%2Cvarargs%5BVariant%2Cvariant%5D"><span class="Identifier">callDeferred</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Callable"><span class="Identifier">Callable</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <span class="Identifier">varargs</span><span class="Other">[</span><a href="builtinindex.html#Variant"><span class="Identifier">Variant</span></a><span class="Other">,</span> <span class="Identifier">variant</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">void</span> {.
+    <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
   <dd>
     
     
@@ -681,8 +681,8 @@
 
 </div>
 <div id="emit-procs-all">
-  <div id="emit,Signal,varargs[Variant]">
-  <dt><pre><span class="Keyword">proc</span> <a href="#emit%2CSignal%2Cvarargs%5BVariant%5D"><span class="Identifier">emit</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Signal"><span class="Identifier">Signal</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <span class="Identifier">varargs</span><span class="Other">[</span><a href="builtinindex.html#Variant"><span class="Identifier">Variant</span></a><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">void</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span>
+  <div id="emit,Signal,varargs[Variant,variant]">
+  <dt><pre><span class="Keyword">proc</span> <a href="#emit%2CSignal%2Cvarargs%5BVariant%2Cvariant%5D"><span class="Identifier">emit</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Signal"><span class="Identifier">Signal</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <span class="Identifier">varargs</span><span class="Other">[</span><a href="builtinindex.html#Variant"><span class="Identifier">Variant</span></a><span class="Other">,</span> <span class="Identifier">variant</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">void</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span>
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
   <dd>
     
@@ -843,7 +843,7 @@
 </div>
 <div id="hash-procs-all">
   <div id="hash,Callable">
-  <dt><pre><span class="Keyword">proc</span> <a href="#hash%2CCallable"><span class="Identifier">hash</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Callable"><span class="Identifier">Callable</span></a><span class="Other">)</span><span class="Other">:</span> <a href="private/native.html#Int"><span class="Identifier">Int</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
+  <dt><pre><span class="Keyword">proc</span> <a href="#hash%2CCallable"><span class="Identifier">hash</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Callable"><span class="Identifier">Callable</span></a><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">Hash</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
   <dd>
     
     
@@ -1092,8 +1092,8 @@
 
 </div>
 <div id="rpc-procs-all">
-  <div id="rpc,Callable,varargs[Variant]">
-  <dt><pre><span class="Keyword">proc</span> <a href="#rpc%2CCallable%2Cvarargs%5BVariant%5D"><span class="Identifier">rpc</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Callable"><span class="Identifier">Callable</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <span class="Identifier">varargs</span><span class="Other">[</span><a href="builtinindex.html#Variant"><span class="Identifier">Variant</span></a><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">void</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span>
+  <div id="rpc,Callable,varargs[Variant,variant]">
+  <dt><pre><span class="Keyword">proc</span> <a href="#rpc%2CCallable%2Cvarargs%5BVariant%2Cvariant%5D"><span class="Identifier">rpc</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Callable"><span class="Identifier">Callable</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <span class="Identifier">varargs</span><span class="Other">[</span><a href="builtinindex.html#Variant"><span class="Identifier">Variant</span></a><span class="Other">,</span> <span class="Identifier">variant</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">void</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span>
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
   <dd>
     
@@ -1104,8 +1104,8 @@
 
 </div>
 <div id="rpcId-procs-all">
-  <div id="rpcId,Callable,Int,varargs[Variant]">
-  <dt><pre><span class="Keyword">proc</span> <a href="#rpcId%2CCallable%2CInt%2Cvarargs%5BVariant%5D"><span class="Identifier">rpcId</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Callable"><span class="Identifier">Callable</span></a><span class="Other">;</span> <span class="Identifier">peerId</span><span class="Other">:</span> <a href="private/native.html#Int"><span class="Identifier">Int</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <span class="Identifier">varargs</span><span class="Other">[</span><a href="builtinindex.html#Variant"><span class="Identifier">Variant</span></a><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">void</span> {.
+  <div id="rpcId,Callable,Int,varargs[Variant,variant]">
+  <dt><pre><span class="Keyword">proc</span> <a href="#rpcId%2CCallable%2CInt%2Cvarargs%5BVariant%2Cvariant%5D"><span class="Identifier">rpcId</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Callable"><span class="Identifier">Callable</span></a><span class="Other">;</span> <span class="Identifier">peerId</span><span class="Other">:</span> <a href="private/native.html#Int"><span class="Identifier">Int</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <span class="Identifier">varargs</span><span class="Other">[</span><a href="builtinindex.html#Variant"><span class="Identifier">Variant</span></a><span class="Other">,</span> <span class="Identifier">variant</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">void</span> {.
     <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
   <dd>
     
@@ -1276,7 +1276,7 @@
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2025-03-29 06:42:10 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2025-04-04 06:46:21 UTC</small>
       </div>
     </div>
   </div>

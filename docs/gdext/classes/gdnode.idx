@@ -170,17 +170,17 @@ nim	setUniqueNameInOwner	gdext/classes/gdnode.html#setUniqueNameInOwner,Node,boo
 nim	isUniqueNameInOwner	gdext/classes/gdnode.html#isUniqueNameInOwner,Node	proc isUniqueNameInOwner(self: Node): bool		645
 nim	atr	gdext/classes/gdnode.html#atr,Node,String,StringName	proc atr(self: Node; message: String; context: StringName = default(StringName)): String		651
 nim	atrN	gdext/classes/gdnode.html#atrN,Node,String,StringName,int32,StringName	proc atrN(self: Node; message: String; pluralMessage: StringName; n: int32;\n     context: StringName = default(StringName)): String		657
-nim	rpc	gdext/classes/gdnode.html#rpc,Node,Variant,varargs[Variant]	proc rpc(self: Node; method: Variant; args: varargs[Variant]): Error		663
-nim	rpc	gdext/classes/gdnode.html#rpc.t,Node,StringName,varargs[Variant]	template rpc(self: Node; method: StringName; args: varargs[Variant]): Error		668
-nim	rpcId	gdext/classes/gdnode.html#rpcId,Node,Variant,Variant,varargs[Variant]	proc rpcId(self: Node; peerId: Variant; method: Variant; args: varargs[Variant]): Error		671
-nim	rpcId	gdext/classes/gdnode.html#rpcId.t,Node,Int,StringName,varargs[Variant]	template rpcId(self: Node; peerId: Int; method: StringName; args: varargs[Variant]): Error		676
+nim	rpc	gdext/classes/gdnode.html#rpc,Node,Variant,varargs[Variant,variant]	proc rpc(self: Node; method: Variant; args: varargs[Variant, variant]): Error		663
+nim	rpc	gdext/classes/gdnode.html#rpc.t,Node,StringName,varargs[Variant,variant]	template rpc(self: Node; method: StringName; args: varargs[Variant, variant]): Error		668
+nim	rpcId	gdext/classes/gdnode.html#rpcId,Node,Variant,Variant,varargs[Variant,variant]	proc rpcId(self: Node; peerId: Variant; method: Variant;\n      args: varargs[Variant, variant]): Error		671
+nim	rpcId	gdext/classes/gdnode.html#rpcId.t,Node,Int,StringName,varargs[Variant,variant]	template rpcId(self: Node; peerId: Int; method: StringName;\n      args: varargs[Variant, variant]): Error		676
 nim	updateConfigurationWarnings	gdext/classes/gdnode.html#updateConfigurationWarnings,Node	proc updateConfigurationWarnings(self: Node): void		679
-nim	callDeferredThreadGroup	gdext/classes/gdnode.html#callDeferredThreadGroup,Node,Variant,varargs[Variant]	proc callDeferredThreadGroup(self: Node; method: Variant; args: varargs[Variant]): Variant		683
-nim	callDeferredThreadGroup	gdext/classes/gdnode.html#callDeferredThreadGroup.t,Node,StringName,varargs[Variant]	template callDeferredThreadGroup(self: Node; method: StringName; args: varargs[Variant]): Variant		688
+nim	callDeferredThreadGroup	gdext/classes/gdnode.html#callDeferredThreadGroup,Node,Variant,varargs[Variant,variant]	proc callDeferredThreadGroup(self: Node; method: Variant;\n                        args: varargs[Variant, variant]): Variant		683
+nim	callDeferredThreadGroup	gdext/classes/gdnode.html#callDeferredThreadGroup.t,Node,StringName,varargs[Variant,variant]	template callDeferredThreadGroup(self: Node; method: StringName;\n                        args: varargs[Variant, variant]): Variant		688
 nim	setDeferredThreadGroup	gdext/classes/gdnode.html#setDeferredThreadGroup,Node,StringName,Variant	proc setDeferredThreadGroup(self: Node; property: StringName; value: Variant): void		691
 nim	notifyDeferredThreadGroup	gdext/classes/gdnode.html#notifyDeferredThreadGroup,Node,int32	proc notifyDeferredThreadGroup(self: Node; what: int32): void		695
-nim	callThreadSafe	gdext/classes/gdnode.html#callThreadSafe,Node,Variant,varargs[Variant]	proc callThreadSafe(self: Node; method: Variant; args: varargs[Variant]): Variant		699
-nim	callThreadSafe	gdext/classes/gdnode.html#callThreadSafe.t,Node,StringName,varargs[Variant]	template callThreadSafe(self: Node; method: StringName; args: varargs[Variant]): Variant		704
+nim	callThreadSafe	gdext/classes/gdnode.html#callThreadSafe,Node,Variant,varargs[Variant,variant]	proc callThreadSafe(self: Node; method: Variant; args: varargs[Variant, variant]): Variant		699
+nim	callThreadSafe	gdext/classes/gdnode.html#callThreadSafe.t,Node,StringName,varargs[Variant,variant]	template callThreadSafe(self: Node; method: StringName; args: varargs[Variant, variant]): Variant		704
 nim	setThreadSafe	gdext/classes/gdnode.html#setThreadSafe,Node,StringName,Variant	proc setThreadSafe(self: Node; property: StringName; value: Variant): void		707
 nim	notifyThreadSafe	gdext/classes/gdnode.html#notifyThreadSafe,Node,int32	proc notifyThreadSafe(self: Node; what: int32): void		711
 nim	name	gdext/classes/gdnode.html#name.t,Node	template name(self: Node): untyped		715

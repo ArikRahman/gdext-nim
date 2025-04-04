@@ -50,7 +50,7 @@ nim	`+`	gdext/arraytools.html#+,Array,Array	proc `+`(left: Array; right: Array):
 nim	size	gdext/arraytools.html#size,Array	proc size(self: Array): Int		76
 nim	isEmpty	gdext/arraytools.html#isEmpty,Array	proc isEmpty(self: Array): bool		78
 nim	clear	gdext/arraytools.html#clear,Array	proc clear(self: var Array): void		80
-nim	hash	gdext/arraytools.html#hash,Array	proc hash(self: Array): Int		82
+nim	hash	gdext/arraytools.html#hash,Array	proc hash(self: Array): Hash		82
 nim	assign	gdext/arraytools.html#assign,Array,Array	proc assign(self: var Array; array: Array): void		84
 nim	get	gdext/arraytools.html#get,Array,Int	proc get(self: Array; index: Int): Variant		87
 nim	set	gdext/arraytools.html#set,Array,Int,Variant	proc set(self: var Array; index: Int; value: Variant): void		90

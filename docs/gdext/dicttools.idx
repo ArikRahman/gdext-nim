@@ -1,7 +1,7 @@
 nimTitle	dicttools	gdext/dicttools.html	module gdext/dicttools		0
-nim	`[]`	gdext/dicttools.html#[],Dictionary,Variant	proc `[]`(self: Dictionary; key: Variant): Variant		7
-nim	`[]`	gdext/dicttools.html#[],Dictionary,Variant_2	proc `[]`(self: var Dictionary; key: Variant): var Variant		9
-nim	`[]=`	gdext/dicttools.html#[]=,Dictionary,Variant,sinkVariant	proc `[]=`(self: var Dictionary; key: Variant; value: sink Variant)		11
+nim	`[]`	gdext/dicttools.html#[],Dictionary,Variant	proc `[]`(self: Dictionary; key: Variant): Variant		9
+nim	`[]`	gdext/dicttools.html#[],Dictionary,Variant_2	proc `[]`(self: var Dictionary; key: Variant): var Variant		11
+nim	`[]=`	gdext/dicttools.html#[]=,Dictionary,Variant,sinkVariant	proc `[]=`(self: var Dictionary; key: Variant; value: sink Variant)		13
 nim	newDictionary	gdext/dicttools.html#newDictionary	proc newDictionary(): Dictionary		6
 nim	newDictionary	gdext/dicttools.html#newDictionary,Dictionary	proc newDictionary(from: Dictionary): Dictionary		8
 nim	newDictionary	gdext/dicttools.html#newDictionary,Dictionary,Int,StringName,Variant,Int,StringName,Variant	proc newDictionary(base: Dictionary; keyType: Int; keyClassName: StringName;\n              keyScript: Variant; valueType: Int; valueClassName: StringName;\n              valueScript: Variant): Dictionary		11
@@ -18,7 +18,7 @@ nim	has	gdext/dicttools.html#has,Dictionary,Variant	proc has(self: Dictionary; k
 nim	hasAll	gdext/dicttools.html#hasAll,Dictionary,Array	proc hasAll(self: Dictionary; keys: Array): bool		68
 nim	findKey	gdext/dicttools.html#findKey,Dictionary,Variant	proc findKey(self: Dictionary; value: Variant): Variant		71
 nim	erase	gdext/dicttools.html#erase,Dictionary,Variant	proc erase(self: var Dictionary; key: Variant): bool		74
-nim	hash	gdext/dicttools.html#hash,Dictionary	proc hash(self: Dictionary): Int		77
+nim	hash	gdext/dicttools.html#hash,Dictionary	proc hash(self: Dictionary): Hash		77
 nim	keys	gdext/dicttools.html#keys,Dictionary	proc keys(self: Dictionary): Array		79
 nim	values	gdext/dicttools.html#values,Dictionary	proc values(self: Dictionary): Array		81
 nim	duplicate	gdext/dicttools.html#duplicate,Dictionary,bool	proc duplicate(self: Dictionary; deep: bool = false): Dictionary		83
@@ -40,7 +40,7 @@ nim	getTypedValueScript	gdext/dicttools.html#getTypedValueScript,Dictionary	proc
 nim	makeReadOnly	gdext/dicttools.html#makeReadOnly,Dictionary	proc makeReadOnly(self: var Dictionary): void		122
 nim	isReadOnly	gdext/dicttools.html#isReadOnly,Dictionary	proc isReadOnly(self: Dictionary): bool		124
 nim	recursiveEqual	gdext/dicttools.html#recursiveEqual,Dictionary,Dictionary,Int	proc recursiveEqual(self: Dictionary; dictionary: Dictionary; recursionCount: Int): bool		126
-nim	contains	gdext/dicttools.html#contains,Dictionary,T	proc contains[T: SomeProperty](dict: Dictionary; value: T): bool		17
-nim	dictionary	gdext/dicttools.html#dictionary.t,varargs[untyped]	template dictionary(args: varargs[untyped]): untyped		19
+nim	contains	gdext/dicttools.html#contains,Dictionary,T	proc contains[T: SomeProperty](dict: Dictionary; value: T): bool		19
+nim	dictionary	gdext/dicttools.html#dictionary.t,varargs[untyped]	template dictionary(args: varargs[untyped]): untyped		21
 nimgrp	newdictionary	gdext/dicttools.html#newDictionary-procs-all	proc		6
-nimgrp	[]	gdext/dicttools.html#[]-procs-all	proc		7
+nimgrp	[]	gdext/dicttools.html#[]-procs-all	proc		9
