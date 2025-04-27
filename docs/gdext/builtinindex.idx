@@ -6,52 +6,49 @@ nim	char16	gdext/builtinindex.html#char16	type char16		13
 nim	char32	gdext/builtinindex.html#char32	type char32		14
 nim	Vector	gdext/builtinindex.html#Vector	type Vector		22
 nim	NVector	gdext/builtinindex.html#NVector	type NVector		23
-nim	Radian	gdext/builtinindex.html#Radian	type Radian		24
-nim	Radian32	gdext/builtinindex.html#Radian32	type Radian32		27
-nim	Radian64	gdext/builtinindex.html#Radian64	type Radian64		28
-nim	VectorR	gdext/builtinindex.html#VectorR	type VectorR		31
-nim	VectorI	gdext/builtinindex.html#VectorI	type VectorI		32
-nim	PackedArray	gdext/builtinindex.html#PackedArray	object PackedArray		34
-nim	GodotDefect	gdext/builtinindex.html#GodotDefect	object GodotDefect		42
-nim	GodotCallDefect	gdext/builtinindex.html#GodotCallDefect	object GodotCallDefect		43
-nim	GodotVariantTypeDefect	gdext/builtinindex.html#GodotVariantTypeDefect	object GodotVariantTypeDefect		44
-nim	Variant	gdext/builtinindex.html#Variant	object Variant		46
-nim	Float	gdext/builtinindex.html#Float	type Float		49
-nim	Vector2	gdext/builtinindex.html#Vector2	type Vector2		50
-nim	Vector3	gdext/builtinindex.html#Vector3	type Vector3		51
-nim	Vector4	gdext/builtinindex.html#Vector4	type Vector4		52
-nim	Vector2i	gdext/builtinindex.html#Vector2i	type Vector2i		53
-nim	Vector3i	gdext/builtinindex.html#Vector3i	type Vector3i		54
-nim	Vector4i	gdext/builtinindex.html#Vector4i	type Vector4i		55
-nim	Rect2	gdext/builtinindex.html#Rect2	object Rect2		56
-nim	Rect2i	gdext/builtinindex.html#Rect2i	object Rect2i		59
-nim	Transform2D	gdext/builtinindex.html#Transform2D	object Transform2D		62
-nim	Plane	gdext/builtinindex.html#Plane	object Plane		66
-nim	Quaternion	gdext/builtinindex.html#Quaternion	object Quaternion		69
-nim	AABB	gdext/builtinindex.html#AABB	object AABB		74
-nim	Basis	gdext/builtinindex.html#Basis	object Basis		77
-nim	Transform3D	gdext/builtinindex.html#Transform3D	object Transform3D		81
-nim	Projection	gdext/builtinindex.html#Projection	object Projection		84
-nim	Color	gdext/builtinindex.html#Color	object Color		89
-nim	RID	gdext/builtinindex.html#RID	object RID		94
-nim	String	gdext/builtinindex.html#String	object String		96
-nim	StringName	gdext/builtinindex.html#StringName	object StringName		98
-nim	NodePath	gdext/builtinindex.html#NodePath	object NodePath		100
-nim	Dictionary	gdext/builtinindex.html#Dictionary	object Dictionary		102
-nim	Array	gdext/builtinindex.html#Array	object Array		104
-nim	PackedByteArray	gdext/builtinindex.html#PackedByteArray	type PackedByteArray		107
-nim	PackedInt32Array	gdext/builtinindex.html#PackedInt32Array	type PackedInt32Array		108
-nim	PackedInt64Array	gdext/builtinindex.html#PackedInt64Array	type PackedInt64Array		109
-nim	PackedFloat32Array	gdext/builtinindex.html#PackedFloat32Array	type PackedFloat32Array		110
-nim	PackedFloat64Array	gdext/builtinindex.html#PackedFloat64Array	type PackedFloat64Array		111
-nim	PackedStringArray	gdext/builtinindex.html#PackedStringArray	type PackedStringArray		112
-nim	PackedVector2Array	gdext/builtinindex.html#PackedVector2Array	type PackedVector2Array		113
-nim	PackedVector3Array	gdext/builtinindex.html#PackedVector3Array	type PackedVector3Array		114
-nim	PackedVector4Array	gdext/builtinindex.html#PackedVector4Array	type PackedVector4Array		115
-nim	PackedColorArray	gdext/builtinindex.html#PackedColorArray	type PackedColorArray		116
-nim	Object	gdext/builtinindex.html#Object	type Object		118
-nim	RefCounted	gdext/builtinindex.html#RefCounted	type RefCounted		122
-nim	GdRef	gdext/builtinindex.html#GdRef	object GdRef		124
+nim	VectorR	gdext/builtinindex.html#VectorR	type VectorR		26
+nim	VectorI	gdext/builtinindex.html#VectorI	type VectorI		27
+nim	PackedArray	gdext/builtinindex.html#PackedArray	object PackedArray		29
+nim	GodotDefect	gdext/builtinindex.html#GodotDefect	object GodotDefect		37
+nim	GodotCallDefect	gdext/builtinindex.html#GodotCallDefect	object GodotCallDefect		38
+nim	GodotVariantTypeDefect	gdext/builtinindex.html#GodotVariantTypeDefect	object GodotVariantTypeDefect		39
+nim	Variant	gdext/builtinindex.html#Variant	object Variant		41
+nim	Float	gdext/builtinindex.html#Float	type Float		44
+nim	Vector2	gdext/builtinindex.html#Vector2	type Vector2		45
+nim	Vector3	gdext/builtinindex.html#Vector3	type Vector3		46
+nim	Vector4	gdext/builtinindex.html#Vector4	type Vector4		47
+nim	Vector2i	gdext/builtinindex.html#Vector2i	type Vector2i		48
+nim	Vector3i	gdext/builtinindex.html#Vector3i	type Vector3i		49
+nim	Vector4i	gdext/builtinindex.html#Vector4i	type Vector4i		50
+nim	Rect2	gdext/builtinindex.html#Rect2	object Rect2		51
+nim	Rect2i	gdext/builtinindex.html#Rect2i	object Rect2i		54
+nim	Transform2D	gdext/builtinindex.html#Transform2D	object Transform2D		57
+nim	Plane	gdext/builtinindex.html#Plane	object Plane		61
+nim	Quaternion	gdext/builtinindex.html#Quaternion	object Quaternion		64
+nim	AABB	gdext/builtinindex.html#AABB	object AABB		69
+nim	Basis	gdext/builtinindex.html#Basis	object Basis		72
+nim	Transform3D	gdext/builtinindex.html#Transform3D	object Transform3D		76
+nim	Projection	gdext/builtinindex.html#Projection	object Projection		79
+nim	Color	gdext/builtinindex.html#Color	object Color		84
+nim	RID	gdext/builtinindex.html#RID	object RID		89
+nim	String	gdext/builtinindex.html#String	object String		91
+nim	StringName	gdext/builtinindex.html#StringName	object StringName		93
+nim	NodePath	gdext/builtinindex.html#NodePath	object NodePath		95
+nim	Dictionary	gdext/builtinindex.html#Dictionary	object Dictionary		97
+nim	Array	gdext/builtinindex.html#Array	object Array		99
+nim	PackedByteArray	gdext/builtinindex.html#PackedByteArray	type PackedByteArray		102
+nim	PackedInt32Array	gdext/builtinindex.html#PackedInt32Array	type PackedInt32Array		103
+nim	PackedInt64Array	gdext/builtinindex.html#PackedInt64Array	type PackedInt64Array		104
+nim	PackedFloat32Array	gdext/builtinindex.html#PackedFloat32Array	type PackedFloat32Array		105
+nim	PackedFloat64Array	gdext/builtinindex.html#PackedFloat64Array	type PackedFloat64Array		106
+nim	PackedStringArray	gdext/builtinindex.html#PackedStringArray	type PackedStringArray		107
+nim	PackedVector2Array	gdext/builtinindex.html#PackedVector2Array	type PackedVector2Array		108
+nim	PackedVector3Array	gdext/builtinindex.html#PackedVector3Array	type PackedVector3Array		109
+nim	PackedVector4Array	gdext/builtinindex.html#PackedVector4Array	type PackedVector4Array		110
+nim	PackedColorArray	gdext/builtinindex.html#PackedColorArray	type PackedColorArray		111
+nim	Object	gdext/builtinindex.html#Object	type Object		113
+nim	RefCounted	gdext/builtinindex.html#RefCounted	type RefCounted		117
+nim	GdRef	gdext/builtinindex.html#GdRef	object GdRef		119
 nim	Vector2_Axis	gdext/builtinindex.html#Vector2_Axis	enum Vector2_Axis		1
 nim	Vector2i_Axis	gdext/builtinindex.html#Vector2i_Axis	enum Vector2i_Axis		5
 nim	Vector3_Axis	gdext/builtinindex.html#Vector3_Axis	enum Vector3_Axis		9
@@ -1116,74 +1113,74 @@ nim	PhysicsServer3DExtensionRayResult	gdext/builtinindex.html#PhysicsServer3DExt
 nim	PhysicsServer3DExtensionShapeRestInfo	gdext/builtinindex.html#PhysicsServer3DExtensionShapeRestInfo	object PhysicsServer3DExtensionShapeRestInfo		92
 nim	PhysicsServer3DExtensionShapeResult	gdext/builtinindex.html#PhysicsServer3DExtensionShapeResult	object PhysicsServer3DExtensionShapeResult		100
 nim	ScriptLanguageExtensionProfilingInfo	gdext/builtinindex.html#ScriptLanguageExtensionProfilingInfo	object ScriptLanguageExtensionProfilingInfo		106
-nim	Signal	gdext/builtinindex.html#Signal	object Signal		130
-nim	Callable	gdext/builtinindex.html#Callable	object Callable		133
-nim	TypedArray	gdext/builtinindex.html#TypedArray	type TypedArray		136
-nim	SomePackedArray	gdext/builtinindex.html#SomePackedArray	type SomePackedArray		138
-nim	SomeFloatVector	gdext/builtinindex.html#SomeFloatVector	type SomeFloatVector		149
-nim	SomeIntVector	gdext/builtinindex.html#SomeIntVector	type SomeIntVector		153
-nim	SomeVector	gdext/builtinindex.html#SomeVector	type SomeVector		157
-nim	SomePrimitives	gdext/builtinindex.html#SomePrimitives	type SomePrimitives		160
-nim	SomeGodotUniques	gdext/builtinindex.html#SomeGodotUniques	type SomeGodotUniques		175
-nim	SomeBuiltins	gdext/builtinindex.html#SomeBuiltins	type SomeBuiltins		185
-nim	SomeClass	gdext/builtinindex.html#SomeClass	type SomeClass		187
-nim	SomeEngineClass	gdext/builtinindex.html#SomeEngineClass	type SomeEngineClass		188
-nim	SomeUserClass	gdext/builtinindex.html#SomeUserClass	type SomeUserClass		191
-nim	SomeProperty	gdext/builtinindex.html#SomeProperty	type SomeProperty		195
-nim	AltInt	gdext/builtinindex.html#AltInt	type AltInt		200
-nim	AltFloat	gdext/builtinindex.html#AltFloat	type AltFloat		201
-nim	AltString	gdext/builtinindex.html#AltString	type AltString		202
-nim	Item	gdext/builtinindex.html#Item.t,typedesc[String]	template Item(typ: typedesc[String]): typedesc		204
-nim	Item	gdext/builtinindex.html#Item.t,typedesc[Array]	template Item(typ: typedesc[Array]): typedesc		205
-nim	Item	gdext/builtinindex.html#Item.t,typedesc[Dictionary]	template Item(typ: typedesc[Dictionary]): typedesc		206
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Bool]	template variantType(_: typedesc[Bool]): VariantType		208
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Int]	template variantType(_: typedesc[Int]): VariantType		209
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Float]	template variantType(_: typedesc[Float]): VariantType		210
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Vector2]	template variantType(_: typedesc[Vector2]): VariantType		211
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Vector3]	template variantType(_: typedesc[Vector3]): VariantType		212
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Vector4]	template variantType(_: typedesc[Vector4]): VariantType		213
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Vector2i]	template variantType(_: typedesc[Vector2i]): VariantType		214
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Vector3i]	template variantType(_: typedesc[Vector3i]): VariantType		215
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Vector4i]	template variantType(_: typedesc[Vector4i]): VariantType		216
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Rect2]	template variantType(_: typedesc[Rect2]): VariantType		217
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Rect2i]	template variantType(_: typedesc[Rect2i]): VariantType		218
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Transform2D]	template variantType(_: typedesc[Transform2D]): VariantType		219
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Plane]	template variantType(_: typedesc[Plane]): VariantType		220
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Quaternion]	template variantType(_: typedesc[Quaternion]): VariantType		221
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[AABB]	template variantType(_: typedesc[AABB]): VariantType		222
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Basis]	template variantType(_: typedesc[Basis]): VariantType		223
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Transform3D]	template variantType(_: typedesc[Transform3D]): VariantType		224
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Projection]	template variantType(_: typedesc[Projection]): VariantType		225
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Color]	template variantType(_: typedesc[Color]): VariantType		226
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[RID]	template variantType(_: typedesc[RID]): VariantType		227
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[String]	template variantType(_: typedesc[String]): VariantType		228
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[StringName]	template variantType(_: typedesc[StringName]): VariantType		229
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[NodePath]	template variantType(_: typedesc[NodePath]): VariantType		230
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Callable]	template variantType(_: typedesc[Callable]): VariantType		231
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Signal]	template variantType(_: typedesc[Signal]): VariantType		232
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Dictionary]	template variantType(_: typedesc[Dictionary]): VariantType		233
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Array]	template variantType(_: typedesc[Array]): VariantType		234
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedByteArray]	template variantType(_: typedesc[PackedByteArray]): VariantType		235
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedInt32Array]	template variantType(_: typedesc[PackedInt32Array]): VariantType		236
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedInt64Array]	template variantType(_: typedesc[PackedInt64Array]): VariantType		237
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedFloat32Array]	template variantType(_: typedesc[PackedFloat32Array]): VariantType		238
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedFloat64Array]	template variantType(_: typedesc[PackedFloat64Array]): VariantType		239
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedStringArray]	template variantType(_: typedesc[PackedStringArray]): VariantType		240
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedVector2Array]	template variantType(_: typedesc[PackedVector2Array]): VariantType		241
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedVector3Array]	template variantType(_: typedesc[PackedVector3Array]): VariantType		242
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedVector4Array]	template variantType(_: typedesc[PackedVector4Array]): VariantType		243
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedColorArray]	template variantType(_: typedesc[PackedColorArray]): VariantType		244
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[TypedArray]	template variantType(_: typedesc[TypedArray]): VariantType		246
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[ObjectPtr]	template variantType(Type: typedesc[ObjectPtr]): VariantType		250
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Object]	template variantType(Type: typedesc[Object]): VariantType		251
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[GdRef]	template variantType(Type: typedesc[GdRef]): VariantType		253
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Variant]	template variantType(Type: typedesc[Variant]): VariantType		257
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[AltInt]	template variantType(Type: typedesc[AltInt]): VariantType		261
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[AltFloat]	template variantType(Type: typedesc[AltFloat]): VariantType		262
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[AltString]	template variantType(Type: typedesc[AltString]): VariantType		263
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[]	template variantType(Type: typedesc[enum]): VariantType		264
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[set[E]]	template variantType[E: enum](Type: typedesc[set[E]]): VariantType		265
-nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[ptr.Variant]	template variantType(Type: typedesc[ptr Variant]): VariantType		267
+nim	Signal	gdext/builtinindex.html#Signal	object Signal		125
+nim	Callable	gdext/builtinindex.html#Callable	object Callable		128
+nim	TypedArray	gdext/builtinindex.html#TypedArray	type TypedArray		131
+nim	SomePackedArray	gdext/builtinindex.html#SomePackedArray	type SomePackedArray		133
+nim	SomeFloatVector	gdext/builtinindex.html#SomeFloatVector	type SomeFloatVector		144
+nim	SomeIntVector	gdext/builtinindex.html#SomeIntVector	type SomeIntVector		148
+nim	SomeVector	gdext/builtinindex.html#SomeVector	type SomeVector		152
+nim	SomePrimitives	gdext/builtinindex.html#SomePrimitives	type SomePrimitives		155
+nim	SomeGodotUniques	gdext/builtinindex.html#SomeGodotUniques	type SomeGodotUniques		170
+nim	SomeBuiltins	gdext/builtinindex.html#SomeBuiltins	type SomeBuiltins		180
+nim	SomeClass	gdext/builtinindex.html#SomeClass	type SomeClass		182
+nim	SomeEngineClass	gdext/builtinindex.html#SomeEngineClass	type SomeEngineClass		183
+nim	SomeUserClass	gdext/builtinindex.html#SomeUserClass	type SomeUserClass		186
+nim	SomeProperty	gdext/builtinindex.html#SomeProperty	type SomeProperty		190
+nim	AltInt	gdext/builtinindex.html#AltInt	type AltInt		195
+nim	AltFloat	gdext/builtinindex.html#AltFloat	type AltFloat		196
+nim	AltString	gdext/builtinindex.html#AltString	type AltString		197
+nim	Item	gdext/builtinindex.html#Item.t,typedesc[String]	template Item(typ: typedesc[String]): typedesc		199
+nim	Item	gdext/builtinindex.html#Item.t,typedesc[Array]	template Item(typ: typedesc[Array]): typedesc		200
+nim	Item	gdext/builtinindex.html#Item.t,typedesc[Dictionary]	template Item(typ: typedesc[Dictionary]): typedesc		201
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Bool]	template variantType(_: typedesc[Bool]): VariantType		203
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Int]	template variantType(_: typedesc[Int]): VariantType		204
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Float]	template variantType(_: typedesc[Float]): VariantType		205
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Vector2]	template variantType(_: typedesc[Vector2]): VariantType		206
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Vector3]	template variantType(_: typedesc[Vector3]): VariantType		207
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Vector4]	template variantType(_: typedesc[Vector4]): VariantType		208
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Vector2i]	template variantType(_: typedesc[Vector2i]): VariantType		209
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Vector3i]	template variantType(_: typedesc[Vector3i]): VariantType		210
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Vector4i]	template variantType(_: typedesc[Vector4i]): VariantType		211
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Rect2]	template variantType(_: typedesc[Rect2]): VariantType		212
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Rect2i]	template variantType(_: typedesc[Rect2i]): VariantType		213
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Transform2D]	template variantType(_: typedesc[Transform2D]): VariantType		214
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Plane]	template variantType(_: typedesc[Plane]): VariantType		215
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Quaternion]	template variantType(_: typedesc[Quaternion]): VariantType		216
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[AABB]	template variantType(_: typedesc[AABB]): VariantType		217
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Basis]	template variantType(_: typedesc[Basis]): VariantType		218
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Transform3D]	template variantType(_: typedesc[Transform3D]): VariantType		219
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Projection]	template variantType(_: typedesc[Projection]): VariantType		220
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Color]	template variantType(_: typedesc[Color]): VariantType		221
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[RID]	template variantType(_: typedesc[RID]): VariantType		222
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[String]	template variantType(_: typedesc[String]): VariantType		223
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[StringName]	template variantType(_: typedesc[StringName]): VariantType		224
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[NodePath]	template variantType(_: typedesc[NodePath]): VariantType		225
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Callable]	template variantType(_: typedesc[Callable]): VariantType		226
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Signal]	template variantType(_: typedesc[Signal]): VariantType		227
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Dictionary]	template variantType(_: typedesc[Dictionary]): VariantType		228
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Array]	template variantType(_: typedesc[Array]): VariantType		229
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedByteArray]	template variantType(_: typedesc[PackedByteArray]): VariantType		230
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedInt32Array]	template variantType(_: typedesc[PackedInt32Array]): VariantType		231
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedInt64Array]	template variantType(_: typedesc[PackedInt64Array]): VariantType		232
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedFloat32Array]	template variantType(_: typedesc[PackedFloat32Array]): VariantType		233
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedFloat64Array]	template variantType(_: typedesc[PackedFloat64Array]): VariantType		234
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedStringArray]	template variantType(_: typedesc[PackedStringArray]): VariantType		235
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedVector2Array]	template variantType(_: typedesc[PackedVector2Array]): VariantType		236
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedVector3Array]	template variantType(_: typedesc[PackedVector3Array]): VariantType		237
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedVector4Array]	template variantType(_: typedesc[PackedVector4Array]): VariantType		238
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[PackedColorArray]	template variantType(_: typedesc[PackedColorArray]): VariantType		239
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[TypedArray]	template variantType(_: typedesc[TypedArray]): VariantType		241
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[ObjectPtr]	template variantType(Type: typedesc[ObjectPtr]): VariantType		245
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Object]	template variantType(Type: typedesc[Object]): VariantType		246
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[GdRef]	template variantType(Type: typedesc[GdRef]): VariantType		248
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[Variant]	template variantType(Type: typedesc[Variant]): VariantType		252
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[AltInt]	template variantType(Type: typedesc[AltInt]): VariantType		256
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[AltFloat]	template variantType(Type: typedesc[AltFloat]): VariantType		257
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[AltString]	template variantType(Type: typedesc[AltString]): VariantType		258
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[]	template variantType(Type: typedesc[enum]): VariantType		259
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[set[E]]	template variantType[E: enum](Type: typedesc[set[E]]): VariantType		260
+nim	variantType	gdext/builtinindex.html#variantType.t,typedesc[ptr.Variant]	template variantType(Type: typedesc[ptr Variant]): VariantType		262
 nim	AudioServer	gdext/builtinindex.html#AudioServer	type AudioServer		2
 nim	CameraServer	gdext/builtinindex.html#CameraServer	type CameraServer		3
 nim	ClassDB	gdext/builtinindex.html#ClassDB	type ClassDB		4
@@ -3087,45 +3084,45 @@ nim	EngineClass	gdext/builtinindex.html#EngineClass.t,typedesc[VisualShaderNodeG
 nim	EngineClass	gdext/builtinindex.html#EngineClass.t,typedesc[EditorScriptPicker]	template EngineClass(_: typedesc[EditorScriptPicker]): typedesc		1903
 nim	EngineClass	gdext/builtinindex.html#EngineClass.t,typedesc[OpenXRInteractionProfileEditor]	template EngineClass(_: typedesc[OpenXRInteractionProfileEditor]): typedesc		1904
 nim	GodotThread	gdext/builtinindex.html#GodotThread	type GodotThread		1906
-nim	`=dup`	gdext/builtinindex.html#=dup,String	proc `=dup`(src: String): String		271
-nim	`=destroy`	gdext/builtinindex.html#=destroy,String	proc `=destroy`(val: String)		274
-nim	`=copy`	gdext/builtinindex.html#=copy,String,String	proc `=copy`(dst: var String; src: String)		277
-nim	`=dup`	gdext/builtinindex.html#=dup,StringName	proc `=dup`(src: StringName): StringName		283
-nim	`=destroy`	gdext/builtinindex.html#=destroy,StringName	proc `=destroy`(val: StringName)		286
-nim	`=copy`	gdext/builtinindex.html#=copy,StringName,StringName	proc `=copy`(dst: var StringName; src: StringName)		289
-nim	`=dup`	gdext/builtinindex.html#=dup,NodePath	proc `=dup`(src: NodePath): NodePath		295
-nim	`=destroy`	gdext/builtinindex.html#=destroy,NodePath	proc `=destroy`(val: NodePath)		298
-nim	`=copy`	gdext/builtinindex.html#=copy,NodePath,NodePath	proc `=copy`(dst: var NodePath; src: NodePath)		301
-nim	`=dup`	gdext/builtinindex.html#=dup,RID	proc `=dup`(src: RID): RID		307
-nim	`=copy`	gdext/builtinindex.html#=copy,RID,RID	proc `=copy`(dst: var RID; src: RID)		310
-nim	`=dup`	gdext/builtinindex.html#=dup,Callable	proc `=dup`(src: Callable): Callable		316
-nim	`=destroy`	gdext/builtinindex.html#=destroy,Callable	proc `=destroy`(val: Callable)		319
-nim	`=copy`	gdext/builtinindex.html#=copy,Callable,Callable	proc `=copy`(dst: var Callable; src: Callable)		322
-nim	`=dup`	gdext/builtinindex.html#=dup,Signal	proc `=dup`(src: Signal): Signal		328
-nim	`=destroy`	gdext/builtinindex.html#=destroy,Signal	proc `=destroy`(val: Signal)		331
-nim	`=copy`	gdext/builtinindex.html#=copy,Signal,Signal	proc `=copy`(dst: var Signal; src: Signal)		334
-nim	`=dup`	gdext/builtinindex.html#=dup,Dictionary	proc `=dup`(src: Dictionary): Dictionary		340
-nim	`=destroy`	gdext/builtinindex.html#=destroy,Dictionary	proc `=destroy`(val: Dictionary)		343
-nim	`=copy`	gdext/builtinindex.html#=copy,Dictionary,Dictionary	proc `=copy`(dst: var Dictionary; src: Dictionary)		346
-nim	`=dup`	gdext/builtinindex.html#=dup,Array	proc `=dup`(src: Array): Array		352
-nim	`=destroy`	gdext/builtinindex.html#=destroy,Array	proc `=destroy`(val: Array)		355
-nim	`=copy`	gdext/builtinindex.html#=copy,Array,Array	proc `=copy`(dst: var Array; src: Array)		358
-nim	`=dup`	gdext/builtinindex.html#=dup,PackedArray[T]	proc `=dup`[T](src: PackedArray[T]): PackedArray[T]		364
-nim	`=destroy`	gdext/builtinindex.html#=destroy,PackedArray[T]	proc `=destroy`[T](val: PackedArray[T])		386
-nim	`=copy`	gdext/builtinindex.html#=copy,PackedArray[T],PackedArray[T]	proc `=copy`[T](dst: var PackedArray[T]; src: PackedArray[T])		408
-nim	`=destroy`	gdext/builtinindex.html#=destroy,Variant	proc `=destroy`(x: Variant)		414
-nim	`=dup`	gdext/builtinindex.html#=dup,Variant	proc `=dup`(x: Variant): Variant		416
-nim	`=copy`	gdext/builtinindex.html#=copy,Variant,Variant	proc `=copy`(dest: var Variant; source: Variant)		418
-nim	`=destroy`	gdext/builtinindex.html#=destroy,GdRef[T]	proc `=destroy`[T](self: GdRef[T])		426
-nim	`=dup`	gdext/builtinindex.html#=dup,GdRef[T]	proc `=dup`[T](src: GdRef[T]): GdRef[T]		432
-nim	`=copy`	gdext/builtinindex.html#=copy,GdRef[T],GdRef[T]	proc `=copy`[T](dst: var GdRef[T]; src: GdRef[T])		438
-nim	gdref	gdext/builtinindex.html#gdref.t,typedesc[T]	template gdref[T](Type: typedesc[T]): typedesc		450
-nimgrp	=dup	gdext/builtinindex.html#=dup-procs-all	proc		271
-nimgrp	=destroy	gdext/builtinindex.html#=destroy-procs-all	proc		274
-nimgrp	=copy	gdext/builtinindex.html#=copy-procs-all	proc		277
+nim	`=dup`	gdext/builtinindex.html#=dup,String	proc `=dup`(src: String): String		266
+nim	`=destroy`	gdext/builtinindex.html#=destroy,String	proc `=destroy`(val: String)		269
+nim	`=copy`	gdext/builtinindex.html#=copy,String,String	proc `=copy`(dst: var String; src: String)		272
+nim	`=dup`	gdext/builtinindex.html#=dup,StringName	proc `=dup`(src: StringName): StringName		278
+nim	`=destroy`	gdext/builtinindex.html#=destroy,StringName	proc `=destroy`(val: StringName)		281
+nim	`=copy`	gdext/builtinindex.html#=copy,StringName,StringName	proc `=copy`(dst: var StringName; src: StringName)		284
+nim	`=dup`	gdext/builtinindex.html#=dup,NodePath	proc `=dup`(src: NodePath): NodePath		290
+nim	`=destroy`	gdext/builtinindex.html#=destroy,NodePath	proc `=destroy`(val: NodePath)		293
+nim	`=copy`	gdext/builtinindex.html#=copy,NodePath,NodePath	proc `=copy`(dst: var NodePath; src: NodePath)		296
+nim	`=dup`	gdext/builtinindex.html#=dup,RID	proc `=dup`(src: RID): RID		302
+nim	`=copy`	gdext/builtinindex.html#=copy,RID,RID	proc `=copy`(dst: var RID; src: RID)		305
+nim	`=dup`	gdext/builtinindex.html#=dup,Callable	proc `=dup`(src: Callable): Callable		311
+nim	`=destroy`	gdext/builtinindex.html#=destroy,Callable	proc `=destroy`(val: Callable)		314
+nim	`=copy`	gdext/builtinindex.html#=copy,Callable,Callable	proc `=copy`(dst: var Callable; src: Callable)		317
+nim	`=dup`	gdext/builtinindex.html#=dup,Signal	proc `=dup`(src: Signal): Signal		323
+nim	`=destroy`	gdext/builtinindex.html#=destroy,Signal	proc `=destroy`(val: Signal)		326
+nim	`=copy`	gdext/builtinindex.html#=copy,Signal,Signal	proc `=copy`(dst: var Signal; src: Signal)		329
+nim	`=dup`	gdext/builtinindex.html#=dup,Dictionary	proc `=dup`(src: Dictionary): Dictionary		335
+nim	`=destroy`	gdext/builtinindex.html#=destroy,Dictionary	proc `=destroy`(val: Dictionary)		338
+nim	`=copy`	gdext/builtinindex.html#=copy,Dictionary,Dictionary	proc `=copy`(dst: var Dictionary; src: Dictionary)		341
+nim	`=dup`	gdext/builtinindex.html#=dup,Array	proc `=dup`(src: Array): Array		347
+nim	`=destroy`	gdext/builtinindex.html#=destroy,Array	proc `=destroy`(val: Array)		350
+nim	`=copy`	gdext/builtinindex.html#=copy,Array,Array	proc `=copy`(dst: var Array; src: Array)		353
+nim	`=dup`	gdext/builtinindex.html#=dup,PackedArray[T]	proc `=dup`[T](src: PackedArray[T]): PackedArray[T]		359
+nim	`=destroy`	gdext/builtinindex.html#=destroy,PackedArray[T]	proc `=destroy`[T](val: PackedArray[T])		381
+nim	`=copy`	gdext/builtinindex.html#=copy,PackedArray[T],PackedArray[T]	proc `=copy`[T](dst: var PackedArray[T]; src: PackedArray[T])		403
+nim	`=destroy`	gdext/builtinindex.html#=destroy,Variant	proc `=destroy`(x: Variant)		409
+nim	`=dup`	gdext/builtinindex.html#=dup,Variant	proc `=dup`(x: Variant): Variant		411
+nim	`=copy`	gdext/builtinindex.html#=copy,Variant,Variant	proc `=copy`(dest: var Variant; source: Variant)		413
+nim	`=destroy`	gdext/builtinindex.html#=destroy,GdRef[T]	proc `=destroy`[T](self: GdRef[T])		421
+nim	`=dup`	gdext/builtinindex.html#=dup,GdRef[T]	proc `=dup`[T](src: GdRef[T]): GdRef[T]		427
+nim	`=copy`	gdext/builtinindex.html#=copy,GdRef[T],GdRef[T]	proc `=copy`[T](dst: var GdRef[T]; src: GdRef[T])		433
+nim	gdref	gdext/builtinindex.html#gdref.t,typedesc[T]	template gdref[T](Type: typedesc[T]): typedesc		445
+nimgrp	=dup	gdext/builtinindex.html#=dup-procs-all	proc		266
+nimgrp	=destroy	gdext/builtinindex.html#=destroy-procs-all	proc		269
+nimgrp	=copy	gdext/builtinindex.html#=copy-procs-all	proc		272
 nimgrp	arrayformatcustombase	gdext/builtinindex.html#arrayFormatCustomBase-templates-all	template		1986
 nimgrp	pathmetadataincludeall	gdext/builtinindex.html#pathMetadataIncludeAll-templates-all	template		2076
-nimgrp	Item	gdext/builtinindex.html#Item-templates-all	template		204
+nimgrp	Item	gdext/builtinindex.html#Item-templates-all	template		199
 nimgrp	arrayformatcustom2shift	gdext/builtinindex.html#arrayFormatCustom2Shift-templates-all	template		1989
 nimgrp	Engineclass	gdext/builtinindex.html#EngineClass-templates-all	template		953
 nimgrp	arrayformatblendshapemask	gdext/builtinindex.html#arrayFormatBlendShapeMask-templates-all	template		1984
@@ -3133,7 +3130,7 @@ nimgrp	arrayformatcustommask	gdext/builtinindex.html#arrayFormatCustomMask-templ
 nimgrp	arrayformatcustom1shift	gdext/builtinindex.html#arrayFormatCustom1Shift-templates-all	template		1988
 nimgrp	arrayformatcustombits	gdext/builtinindex.html#arrayFormatCustomBits-templates-all	template		1983
 nimgrp	arrayformatcustom3shift	gdext/builtinindex.html#arrayFormatCustom3Shift-templates-all	template		1990
-nimgrp	varianttype	gdext/builtinindex.html#variantType-templates-all	template		208
+nimgrp	varianttype	gdext/builtinindex.html#variantType-templates-all	template		203
 nimgrp	arraycompressflagsbase	gdext/builtinindex.html#arrayCompressFlagsBase-templates-all	template		1991
 nimgrp	arrayformatcustom0shift	gdext/builtinindex.html#arrayFormatCustom0Shift-templates-all	template		1987
 nimgrp	layoutdirectionlocale	gdext/builtinindex.html#layoutDirectionLocale-templates-all	template		801

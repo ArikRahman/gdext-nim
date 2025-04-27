@@ -1,85 +1,85 @@
 nimTitle	math	gdext/math.html	module gdext/math		0
-nim	x	gdext/math.html#x.t	template x[T](vector: array[2, T]): T		27
+nim	x	gdext/math.html#x.t	template x[T](vector: array[2, T]): T		26
 nim	x=	gdext/math.html#x=.t,,T	template x=[T](vector: var array[2, T]; value: T)		89
-nim	y	gdext/math.html#y.t	template y[T](vector: array[2, T]): T		27
+nim	y	gdext/math.html#y.t	template y[T](vector: array[2, T]): T		26
 nim	y=	gdext/math.html#y=.t,,T	template y=[T](vector: var array[2, T]; value: T)		89
-nim	x	gdext/math.html#x.t_2	template x[T](vector: array[3, T]): T		27
+nim	x	gdext/math.html#x.t_2	template x[T](vector: array[3, T]): T		26
 nim	x=	gdext/math.html#x=.t,,T_2	template x=[T](vector: var array[3, T]; value: T)		89
-nim	y	gdext/math.html#y.t_2	template y[T](vector: array[3, T]): T		27
+nim	y	gdext/math.html#y.t_2	template y[T](vector: array[3, T]): T		26
 nim	y=	gdext/math.html#y=.t,,T_2	template y=[T](vector: var array[3, T]; value: T)		89
-nim	z	gdext/math.html#z.t	template z[T](vector: array[3, T]): T		27
+nim	z	gdext/math.html#z.t	template z[T](vector: array[3, T]): T		26
 nim	z=	gdext/math.html#z=.t,,T	template z=[T](vector: var array[3, T]; value: T)		89
-nim	x	gdext/math.html#x.t_3	template x[T](vector: array[4, T]): T		27
+nim	x	gdext/math.html#x.t_3	template x[T](vector: array[4, T]): T		26
 nim	x=	gdext/math.html#x=.t,,T_3	template x=[T](vector: var array[4, T]; value: T)		89
-nim	y	gdext/math.html#y.t_3	template y[T](vector: array[4, T]): T		27
+nim	y	gdext/math.html#y.t_3	template y[T](vector: array[4, T]): T		26
 nim	y=	gdext/math.html#y=.t,,T_3	template y=[T](vector: var array[4, T]; value: T)		89
-nim	z	gdext/math.html#z.t_2	template z[T](vector: array[4, T]): T		27
+nim	z	gdext/math.html#z.t_2	template z[T](vector: array[4, T]): T		26
 nim	z=	gdext/math.html#z=.t,,T_2	template z=[T](vector: var array[4, T]; value: T)		89
-nim	w	gdext/math.html#w.t	template w[T](vector: array[4, T]): T		27
+nim	w	gdext/math.html#w.t	template w[T](vector: array[4, T]): T		26
 nim	w=	gdext/math.html#w=.t,,T	template w=[T](vector: var array[4, T]; value: T)		89
-nim	vec	gdext/math.html#vec.m,varargs[typed]	macro vec(exp: varargs[typed]): Vector		75
-nim	vector	gdext/math.html#vector.m,varargs[typed]	macro vector(exp: varargs[typed]): VectorR		90
-nim	vectori	gdext/math.html#vectori.m,varargs[typed]	macro vectori(exp: varargs[typed]): VectorI		95
-nim	vector2	gdext/math.html#vector2	proc vector2(): Vector2		102
-nim	vector2	gdext/math.html#vector2,Vector2	proc vector2(from: Vector2): Vector2		103
-nim	vector2	gdext/math.html#vector2,Vector2i	proc vector2(from: Vector2i): Vector2		104
-nim	vector2	gdext/math.html#vector2,real_elem,real_elem	proc vector2(x, y: real_elem): Vector2		105
-nim	vector3	gdext/math.html#vector3	proc vector3(): Vector3		107
-nim	vector3	gdext/math.html#vector3,Vector3	proc vector3(from: Vector3): Vector3		108
-nim	vector3	gdext/math.html#vector3,Vector3i	proc vector3(from: Vector3i): Vector3		109
-nim	vector3	gdext/math.html#vector3,real_elem,real_elem,real_elem	proc vector3(x, y, z: real_elem): Vector3		110
-nim	vector4	gdext/math.html#vector4	proc vector4(): Vector4		112
-nim	vector4	gdext/math.html#vector4,Vector4	proc vector4(from: Vector4): Vector4		113
-nim	vector4	gdext/math.html#vector4,Vector4i	proc vector4(from: Vector4i): Vector4		114
-nim	vector4	gdext/math.html#vector4,real_elem,real_elem,real_elem,real_elem	proc vector4(x, y, z, w: real_elem): Vector4		115
-nim	vector2i	gdext/math.html#vector2i	proc vector2i(): Vector2i		117
-nim	vector2i	gdext/math.html#vector2i,Vector2i	proc vector2i(from: Vector2i): Vector2i		118
-nim	vector2i	gdext/math.html#vector2i,Vector2	proc vector2i(from: Vector2): Vector2i		119
-nim	vector2i	gdext/math.html#vector2i,int_elem,int_elem	proc vector2i(x, y: int_elem): Vector2i		120
-nim	vector3i	gdext/math.html#vector3i	proc vector3i(): Vector3i		122
-nim	vector3i	gdext/math.html#vector3i,Vector3i	proc vector3i(from: Vector3i): Vector3i		123
-nim	vector3i	gdext/math.html#vector3i,Vector3	proc vector3i(from: Vector3): Vector3i		124
-nim	vector3i	gdext/math.html#vector3i,int_elem,int_elem,int_elem	proc vector3i(x, y, z: int_elem): Vector3i		125
-nim	vector4i	gdext/math.html#vector4i	proc vector4i(): Vector4i		127
-nim	vector4i	gdext/math.html#vector4i,Vector4i	proc vector4i(from: Vector4i): Vector4i		128
-nim	vector4i	gdext/math.html#vector4i,Vector4	proc vector4i(from: Vector4): Vector4i		129
-nim	vector4i	gdext/math.html#vector4i,int_elem,int_elem,int_elem,int_elem	proc vector4i(x, y, z, w: int_elem): Vector4i		130
-nim	quaternion	gdext/math.html#quaternion	proc quaternion(): Quaternion		133
-nim	quaternion	gdext/math.html#quaternion,Quaternion	proc quaternion(from: Quaternion): Quaternion		134
-nim	quaternion	gdext/math.html#quaternion,real_elem,real_elem,real_elem,real_elem	proc quaternion(x, y, z, w: real_elem): Quaternion		135
-nim	aabb	gdext/math.html#aabb	proc aabb(): AABB		138
-nim	aabb	gdext/math.html#aabb,AABB	proc aabb(from: AABB): AABB		139
-nim	basis	gdext/math.html#basis	proc basis(): Basis		141
-nim	basis	gdext/math.html#basis,Basis	proc basis(from: Basis): Basis		142
-nim	basis	gdext/math.html#basis,Vector3,Vector3,Vector3	proc basis(xAxis, yAxis, zAxis: Vector3): Basis		143
-nim	basis	gdext/math.html#basis,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem	proc basis(xx, xy, xz, yx, yy, yz, zx, zy, zz: real_elem): Basis		144
-nim	plane	gdext/math.html#plane	proc plane(): Plane		150
-nim	plane	gdext/math.html#plane,Plane	proc plane(from: Plane): Plane		151
-nim	plane	gdext/math.html#plane,Vector3,real_elem	proc plane(normal: Vector3; d: real_elem): Plane		152
-nim	plane	gdext/math.html#plane,real_elem,real_elem,real_elem,real_elem	proc plane(a, b, c, d: real_elem): Plane		154
-nim	projection	gdext/math.html#projection	proc projection(): Projection		157
-nim	projection	gdext/math.html#projection,Projection	proc projection(from: Projection): Projection		158
-nim	projection	gdext/math.html#projection,Vector4,Vector4,Vector4,Vector4	proc projection(xAxis, yAxis, zAxis, wAxis: Vector4): Projection		159
-nim	projection	gdext/math.html#projection,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem	proc projection(xx, xy, xz, xw, yx, yy, yz, yw, zx, zy, zz, zw, wx, wy, wz, ww: real_elem): Projection		161
-nim	transform2D	gdext/math.html#transform2D	proc transform2D(): Transform2D		169
-nim	transform2D	gdext/math.html#transform2D,Transform2D	proc transform2D(from: Transform2D): Transform2D		170
-nim	transform2D	gdext/math.html#transform2D,Vector2,Vector2,Vector2	proc transform2D(xAxis, yAxis, origin: Vector2): Transform2D		171
-nim	transform2D	gdext/math.html#transform2D,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem	proc transform2D(xx, xy, yx, yy, ox, oy: real_elem): Transform2D		173
-nim	transform3D	gdext/math.html#transform3D	proc transform3D(): Transform3D		179
-nim	transform3D	gdext/math.html#transform3D,Transform3D	proc transform3D(from: Transform3D): Transform3D		180
-nim	transform3D	gdext/math.html#transform3D,Basis,Vector3	proc transform3D(basis: Basis; origin: Vector3): Transform3D		181
-nim	transform3D	gdext/math.html#transform3D,Vector3,Vector3,Vector3,Vector3	proc transform3D(xAxis, yAxis, zAxis, origin: Vector3): Transform3D		183
-nim	transform3D	gdext/math.html#transform3D,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem	proc transform3D(xx, xy, xz, yx, yy, yz, zx, zy, zz, ox, oy, oz: real_elem): Transform3D		185
-nim	rect2	gdext/math.html#rect2	proc rect2(): Rect2		194
-nim	rect2	gdext/math.html#rect2,Rect2	proc rect2(from: Rect2): Rect2		195
-nim	rect2	gdext/math.html#rect2,Rect2i	proc rect2(from: Rect2i): Rect2		196
-nim	rect2	gdext/math.html#rect2,Vector2,Vector2	proc rect2(position, size: Vector2): Rect2		198
-nim	rect2	gdext/math.html#rect2,real_elem,real_elem,real_elem,real_elem	proc rect2(x, y, width, height: real_elem): Rect2		200
-nim	rect2i	gdext/math.html#rect2i	proc rect2i(): Rect2i		203
-nim	rect2i	gdext/math.html#rect2i,Rect2i	proc rect2i(a: Rect2i): Rect2i		204
-nim	rect2i	gdext/math.html#rect2i,Rect2	proc rect2i(from: Rect2): Rect2i		205
-nim	rect2i	gdext/math.html#rect2i,Vector2i,Vector2i	proc rect2i(position, size: Vector2i): Rect2i		207
-nim	rect2i	gdext/math.html#rect2i,int_elem,int_elem,int_elem,int_elem	proc rect2i(x, y, width, height: int_elem): Rect2i		209
+nim	vec	gdext/math.html#vec.m,varargs[typed]	macro vec(exp: varargs[typed]): Vector		74
+nim	vector	gdext/math.html#vector.m,varargs[typed]	macro vector(exp: varargs[typed]): VectorR		89
+nim	vectori	gdext/math.html#vectori.m,varargs[typed]	macro vectori(exp: varargs[typed]): VectorI		94
+nim	vector2	gdext/math.html#vector2	proc vector2(): Vector2		101
+nim	vector2	gdext/math.html#vector2,Vector2	proc vector2(from: Vector2): Vector2		102
+nim	vector2	gdext/math.html#vector2,Vector2i	proc vector2(from: Vector2i): Vector2		103
+nim	vector2	gdext/math.html#vector2,real_elem,real_elem	proc vector2(x, y: real_elem): Vector2		104
+nim	vector3	gdext/math.html#vector3	proc vector3(): Vector3		106
+nim	vector3	gdext/math.html#vector3,Vector3	proc vector3(from: Vector3): Vector3		107
+nim	vector3	gdext/math.html#vector3,Vector3i	proc vector3(from: Vector3i): Vector3		108
+nim	vector3	gdext/math.html#vector3,real_elem,real_elem,real_elem	proc vector3(x, y, z: real_elem): Vector3		109
+nim	vector4	gdext/math.html#vector4	proc vector4(): Vector4		111
+nim	vector4	gdext/math.html#vector4,Vector4	proc vector4(from: Vector4): Vector4		112
+nim	vector4	gdext/math.html#vector4,Vector4i	proc vector4(from: Vector4i): Vector4		113
+nim	vector4	gdext/math.html#vector4,real_elem,real_elem,real_elem,real_elem	proc vector4(x, y, z, w: real_elem): Vector4		114
+nim	vector2i	gdext/math.html#vector2i	proc vector2i(): Vector2i		116
+nim	vector2i	gdext/math.html#vector2i,Vector2i	proc vector2i(from: Vector2i): Vector2i		117
+nim	vector2i	gdext/math.html#vector2i,Vector2	proc vector2i(from: Vector2): Vector2i		118
+nim	vector2i	gdext/math.html#vector2i,int_elem,int_elem	proc vector2i(x, y: int_elem): Vector2i		119
+nim	vector3i	gdext/math.html#vector3i	proc vector3i(): Vector3i		121
+nim	vector3i	gdext/math.html#vector3i,Vector3i	proc vector3i(from: Vector3i): Vector3i		122
+nim	vector3i	gdext/math.html#vector3i,Vector3	proc vector3i(from: Vector3): Vector3i		123
+nim	vector3i	gdext/math.html#vector3i,int_elem,int_elem,int_elem	proc vector3i(x, y, z: int_elem): Vector3i		124
+nim	vector4i	gdext/math.html#vector4i	proc vector4i(): Vector4i		126
+nim	vector4i	gdext/math.html#vector4i,Vector4i	proc vector4i(from: Vector4i): Vector4i		127
+nim	vector4i	gdext/math.html#vector4i,Vector4	proc vector4i(from: Vector4): Vector4i		128
+nim	vector4i	gdext/math.html#vector4i,int_elem,int_elem,int_elem,int_elem	proc vector4i(x, y, z, w: int_elem): Vector4i		129
+nim	quaternion	gdext/math.html#quaternion	proc quaternion(): Quaternion		132
+nim	quaternion	gdext/math.html#quaternion,Quaternion	proc quaternion(from: Quaternion): Quaternion		133
+nim	quaternion	gdext/math.html#quaternion,real_elem,real_elem,real_elem,real_elem	proc quaternion(x, y, z, w: real_elem): Quaternion		134
+nim	aabb	gdext/math.html#aabb	proc aabb(): AABB		137
+nim	aabb	gdext/math.html#aabb,AABB	proc aabb(from: AABB): AABB		138
+nim	basis	gdext/math.html#basis	proc basis(): Basis		140
+nim	basis	gdext/math.html#basis,Basis	proc basis(from: Basis): Basis		141
+nim	basis	gdext/math.html#basis,Vector3,Vector3,Vector3	proc basis(xAxis, yAxis, zAxis: Vector3): Basis		142
+nim	basis	gdext/math.html#basis,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem	proc basis(xx, xy, xz, yx, yy, yz, zx, zy, zz: real_elem): Basis		143
+nim	plane	gdext/math.html#plane	proc plane(): Plane		149
+nim	plane	gdext/math.html#plane,Plane	proc plane(from: Plane): Plane		150
+nim	plane	gdext/math.html#plane,Vector3,real_elem	proc plane(normal: Vector3; d: real_elem): Plane		151
+nim	plane	gdext/math.html#plane,real_elem,real_elem,real_elem,real_elem	proc plane(a, b, c, d: real_elem): Plane		153
+nim	projection	gdext/math.html#projection	proc projection(): Projection		156
+nim	projection	gdext/math.html#projection,Projection	proc projection(from: Projection): Projection		157
+nim	projection	gdext/math.html#projection,Vector4,Vector4,Vector4,Vector4	proc projection(xAxis, yAxis, zAxis, wAxis: Vector4): Projection		158
+nim	projection	gdext/math.html#projection,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem	proc projection(xx, xy, xz, xw, yx, yy, yz, yw, zx, zy, zz, zw, wx, wy, wz, ww: real_elem): Projection		160
+nim	transform2D	gdext/math.html#transform2D	proc transform2D(): Transform2D		168
+nim	transform2D	gdext/math.html#transform2D,Transform2D	proc transform2D(from: Transform2D): Transform2D		169
+nim	transform2D	gdext/math.html#transform2D,Vector2,Vector2,Vector2	proc transform2D(xAxis, yAxis, origin: Vector2): Transform2D		170
+nim	transform2D	gdext/math.html#transform2D,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem	proc transform2D(xx, xy, yx, yy, ox, oy: real_elem): Transform2D		172
+nim	transform3D	gdext/math.html#transform3D	proc transform3D(): Transform3D		178
+nim	transform3D	gdext/math.html#transform3D,Transform3D	proc transform3D(from: Transform3D): Transform3D		179
+nim	transform3D	gdext/math.html#transform3D,Basis,Vector3	proc transform3D(basis: Basis; origin: Vector3): Transform3D		180
+nim	transform3D	gdext/math.html#transform3D,Vector3,Vector3,Vector3,Vector3	proc transform3D(xAxis, yAxis, zAxis, origin: Vector3): Transform3D		182
+nim	transform3D	gdext/math.html#transform3D,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem,real_elem	proc transform3D(xx, xy, xz, yx, yy, yz, zx, zy, zz, ox, oy, oz: real_elem): Transform3D		184
+nim	rect2	gdext/math.html#rect2	proc rect2(): Rect2		193
+nim	rect2	gdext/math.html#rect2,Rect2	proc rect2(from: Rect2): Rect2		194
+nim	rect2	gdext/math.html#rect2,Rect2i	proc rect2(from: Rect2i): Rect2		195
+nim	rect2	gdext/math.html#rect2,Vector2,Vector2	proc rect2(position, size: Vector2): Rect2		197
+nim	rect2	gdext/math.html#rect2,real_elem,real_elem,real_elem,real_elem	proc rect2(x, y, width, height: real_elem): Rect2		199
+nim	rect2i	gdext/math.html#rect2i	proc rect2i(): Rect2i		202
+nim	rect2i	gdext/math.html#rect2i,Rect2i	proc rect2i(a: Rect2i): Rect2i		203
+nim	rect2i	gdext/math.html#rect2i,Rect2	proc rect2i(from: Rect2): Rect2i		204
+nim	rect2i	gdext/math.html#rect2i,Vector2i,Vector2i	proc rect2i(position, size: Vector2i): Rect2i		206
+nim	rect2i	gdext/math.html#rect2i,int_elem,int_elem,int_elem,int_elem	proc rect2i(x, y, width, height: int_elem): Rect2i		208
 nim	aABB	gdext/math.html#aABB,Vector3,Vector3	proc aABB(position: Vector3; size: Vector3): AABB		8
 nim	basis	gdext/math.html#basis,Quaternion	proc basis(from: Quaternion): Basis		8
 nim	basis	gdext/math.html#basis,Vector3,Float	proc basis(axis: Vector3; angle: Float): Basis		11
@@ -447,235 +447,221 @@ nim	max	gdext/math.html#max,Vector4i,Vector4i	proc max(self: Vector4i; with: Vec
 nim	maxi	gdext/math.html#maxi,Vector4i,Int	proc maxi(self: Vector4i; with: Int): Vector4i		71
 nim	distanceTo	gdext/math.html#distanceTo,Vector4i,Vector4i	proc distanceTo(self: Vector4i; to: Vector4i): Float		74
 nim	distanceSquaredTo	gdext/math.html#distanceSquaredTo,Vector4i,Vector4i	proc distanceSquaredTo(self: Vector4i; to: Vector4i): Int		77
-nim	`[]`	gdext/math.html#[],Basis,int	proc `[]`(self: Basis; index: int): Vector3		238
-nim	`[]`	gdext/math.html#[],Transform2D,int	proc `[]`(self: Transform2D; index: int): Vector2		242
-nim	`[]`	gdext/math.html#[],Projection,int	proc `[]`(self: Projection; index: int): Vector4		246
-nim	`[]`	gdext/math.html#[],Quaternion,int	proc `[]`(self: Quaternion; index: int): real_elem		250
-nim	extend	gdext/math.html#extend,T,staticint	proc extend[T](value: T; N: static int): array[N, T]		254
-nim	fmap	gdext/math.html#fmap.m,,array[N,T]	macro fmap[N: static int; T](pred; v1: array[N, T]): auto		257
-nim	fmap	gdext/math.html#fmap.m,,,	macro fmap[N: static int; T1, T2](pred; v1: array[N, T1] | T1; v2: array[N, T2] | T2): auto		267
-nim	fmap	gdext/math.html#fmap.m,,,,	macro fmap[N: static int; T1, T2, T3](pred; v1: array[N, T1] | T1;\n                                v2: array[N, T2] | T2; v3: array[N, T3] | T3): auto		279
-nim	all	gdext/math.html#all.t,,array[N,T]	template all[N: static int; T](pred; v: array[N, T]): bool		304
-nim	all	gdext/math.html#all.t,,,	template all[N: static int; T1, T2](pred; v1: array[N, T1] | T1; v2: array[N, T2] | T2): bool		313
-nim	any	gdext/math.html#any.t,,array[N,T]	template any[N: static int; T](pred; v: array[N, T]): bool		324
-nim	any	gdext/math.html#any.t,,,	template any[N: static int; T1, T2](pred; v1: array[N, T1] | T1; v2: array[N, T2] | T2): bool		333
-nim	asNormalized	gdext/math.html#asNormalized,Vector[N,T: SomeFloat]	proc asNormalized[N: static int; T: SomeFloat](vec: Vector[N, T]): NVector[N, T]		344
-nim	SQRT12	gdext/math.html#SQRT12	const SQRT12		346
-nim	SQRT2	gdext/math.html#SQRT2	const SQRT2		347
-nim	LN2	gdext/math.html#LN2	const LN2		348
-nim	`+`	gdext/math.html#+.t,F,I	template `+`[F: SomeFloat; I: SomeInteger](f: F; i: I): F		350
-nim	`+`	gdext/math.html#+.t,I,F	template `+`[F: SomeFloat; I: SomeInteger](i: I; f: F): F		351
-nim	`-`	gdext/math.html#-.t,F,I	template `-`[F: SomeFloat; I: SomeInteger](f: F; i: I): F		352
-nim	`-`	gdext/math.html#-.t,I,F	template `-`[F: SomeFloat; I: SomeInteger](i: I; f: F): F		353
-nim	`*`	gdext/math.html#*.t,F,I	template `*`[F: SomeFloat; I: SomeInteger](f: F; i: I): F		354
-nim	`*`	gdext/math.html#*.t,I,F	template `*`[F: SomeFloat; I: SomeInteger](i: I; f: F): F		355
-nim	`/`	gdext/math.html#/.t,F,I	template `/`[F: SomeFloat; I: SomeInteger](f: F; i: I): F		356
-nim	`/`	gdext/math.html#/.t,I,F	template `/`[F: SomeFloat; I: SomeInteger](i: I; f: F): F		357
-nim	min	gdext/math.html#min,T,varargs[T]	proc min[T](x: T; xs: varargs[T]): T		359
-nim	max	gdext/math.html#max,T,varargs[T]	proc max[T](x: T; xs: varargs[T]): T		364
-nim	nextPowerOf2	gdext/math.html#nextPowerOf2.t,uint32	template nextPowerOf2(x: uint32): uint32		370
-nim	previousPowerOf2	gdext/math.html#previousPowerOf2.t,uint32	template previousPowerOf2(x: uint32): uint32		381
-nim	closestPowerOf2	gdext/math.html#closestPowerOf2.t,uint32	template closestPowerOf2(x: uint32): uint32		391
-nim	getShiftFromPowerOf2	gdext/math.html#getShiftFromPowerOf2,uint32	proc getShiftFromPowerOf2(pBits: uint32): int32		399
-nim	nearestPowerOf2Templated	gdext/math.html#nearestPowerOf2Templated.t,T	template nearestPowerOf2Templated[T](x: T): T		405
-nim	nearestShift	gdext/math.html#nearestShift,uint32	proc nearestShift(pNumber: uint32): uint32		412
-nim	floorLog2	gdext/math.html#floorLog2,T	proc floorLog2[T: SomeOrdinal](x: T): T		419
-nim	getNumBits	gdext/math.html#getNumBits,T	proc getNumBits[T](x: T): T		426
-nim	CMP_EPSILON	gdext/math.html#CMP_EPSILON	const CMP_EPSILON		434
-nim	posmod	gdext/math.html#posmod,T,T	proc posmod[T: SomeNumber](pX, pY: T): T		443
-nim	fposmodp	gdext/math.html#fposmodp,T,T	proc fposmodp[T: SomeFloat](pX, pY: T): T		450
-nim	sin	gdext/math.html#sin,Radian[T: SomeFloat]	proc sin[T: SomeFloat](pX: Radian[T]): T		456
-nim	cos	gdext/math.html#cos,Radian[T: SomeFloat]	proc cos[T: SomeFloat](pX: Radian[T]): T		457
-nim	tan	gdext/math.html#tan,Radian[T: SomeFloat]	proc tan[T: SomeFloat](pX: Radian[T]): T		458
-nim	sinc	gdext/math.html#sinc,T	proc sinc[T: SomeFloat](pX: T): T		460
-nim	sinc	gdext/math.html#sinc,Radian[T: SomeFloat]	proc sinc[T: SomeFloat](pX: Radian[T]): T		461
-nim	sincn	gdext/math.html#sincn,T	proc sincn[T: SomeFloat](pX: T): T		463
-nim	sincn	gdext/math.html#sincn,Radian[T: SomeFloat]	proc sincn[T: SomeFloat](pX: Radian[T]): T		464
-nim	arcsin	gdext/math.html#arcsin,T	proc arcsin[T: SomeFloat](pX: T): Radian[T]		466
-nim	arccos	gdext/math.html#arccos,T	proc arccos[T: SomeFloat](pX: T): Radian[T]		467
-nim	arctan	gdext/math.html#arctan,T	proc arctan[T: SomeFloat](pX: T): Radian[T]		468
-nim	arctan2	gdext/math.html#arctan2,T,T	proc arctan2[T: SomeFloat](pY, pX: T): Radian[T]		469
-nim	isFinite	gdext/math.html#isFinite,T	proc isFinite[T: SomeFloat](pX: T): bool		472
-nim	clamp01	gdext/math.html#clamp01,T	proc clamp01[T: SomeFloat](x: T): T		554
-nim	degToRad	gdext/math.html#degToRad,T	proc degToRad[T: SomeFloat](degree: T): Radian[T]		556
-nim	degree	gdext/math.html#degree,Radian[T: SomeFloat]	proc degree[T: SomeFloat](rad: Radian[T]): T		557
-nim	`~=`	gdext/math.html#~=.t,typed,typed	template `~=`(a, b: typed): bool		578
-nim	isEqualApprox	gdext/math.html#isEqualApprox,T,T	proc isEqualApprox[T: SomeFloat](a, b: T): bool		580
-nim	isEqualApprox	gdext/math.html#isEqualApprox,T,T,T	proc isEqualApprox[T: SomeFloat](a, b, tolerance: T): bool		585
-nim	isZeroApprox	gdext/math.html#isZeroApprox,T	proc isZeroApprox[T: SomeFloat](s: T): bool		589
-nim	moveToward	gdext/math.html#moveToward,T,T,T	proc moveToward[T: SomeFloat](from, to, delta: T): T		607
-nim	wrap	gdext/math.html#wrap,T,T,T	proc wrap[T: SomeInteger](value, min, max: T): T		628
-nim	wrap	gdext/math.html#wrap,T,T,T_2	proc wrap[T: SomeFloat](value, min, max: T): T		634
-nim	wrap	gdext/math.html#wrap,T,Slice[T]	proc wrap[T](value: T; bounds: Slice[T]): T		639
-nim	snapped	gdext/math.html#snapped,T,S	proc snapped[T: SomeFloat; S: SomeNumber](value: T; step: S): S		682
-nim	lerp	gdext/math.html#lerp,T,T,T	proc lerp[T: SomeFloat](pFrom, pTo: T; t: T): T		705
-nim	lerp	gdext/math.html#lerp,Radian[T: SomeFloat],Radian[T: SomeFloat],T	proc lerp[T: SomeFloat](pFrom, pTo: Radian[T]; t: T): Radian[T]		708
-nim	cubicInterpolate	gdext/math.html#cubicInterpolate,T,T,T,T,T	proc cubicInterpolate[T: SomeFloat](pFrom, pTo, pPre, pPost, pWeight: T): T		714
-nim	cubicInterpolate	gdext/math.html#cubicInterpolate,Radian[T: SomeFloat],Radian[T: SomeFloat],Radian[T: SomeFloat],Radian[T: SomeFloat],T	proc cubicInterpolate[T: SomeFloat](pFrom, pTo, pPre, pPost: Radian[T]; pWeight: T): Radian[\n    T]		720
-nim	Zero	gdext/math.html#Zero.t,typedesc[Vector[N,T: SomeNumber]]	template Zero[N: static int; T: SomeNumber](_: typedesc[Vector[N, T]]): Vector[N, T]		743
-nim	One	gdext/math.html#One.t,typedesc[Vector[N,T: SomeNumber]]	template One[N: static int; T: SomeNumber](_: typedesc[Vector[N, T]]): Vector[N, T]		744
-nim	Inf	gdext/math.html#Inf.t,typedesc[Vector[N,T: SomeFloat]]	template Inf[N: static int; T: SomeFloat](_: typedesc[Vector[N, T]]): Vector[N, T]		745
-nim	Left	gdext/math.html#Left.t,typedesc[NVector[,T: SomeNumber]]	template Left[T: SomeNumber](_: typedesc[NVector[2, T]]): NVector[2, T]		747
-nim	Right	gdext/math.html#Right.t,typedesc[NVector[,T: SomeNumber]]	template Right[T: SomeNumber](_: typedesc[NVector[2, T]]): NVector[2, T]		748
-nim	Up	gdext/math.html#Up.t,typedesc[NVector[,T: SomeNumber]]	template Up[T: SomeNumber](_: typedesc[NVector[2, T]]): NVector[2, T]		749
-nim	Down	gdext/math.html#Down.t,typedesc[NVector[,T: SomeNumber]]	template Down[T: SomeNumber](_: typedesc[NVector[2, T]]): NVector[2, T]		750
-nim	Left	gdext/math.html#Left.t,typedesc[NVector[,T: SomeNumber]]_2	template Left[T: SomeNumber](_: typedesc[NVector[3, T]]): NVector[3, T]		752
-nim	Right	gdext/math.html#Right.t,typedesc[NVector[,T: SomeNumber]]_2	template Right[T: SomeNumber](_: typedesc[NVector[3, T]]): NVector[3, T]		753
-nim	Up	gdext/math.html#Up.t,typedesc[NVector[,T: SomeNumber]]_2	template Up[T: SomeNumber](_: typedesc[NVector[3, T]]): NVector[3, T]		754
-nim	Down	gdext/math.html#Down.t,typedesc[NVector[,T: SomeNumber]]_2	template Down[T: SomeNumber](_: typedesc[NVector[3, T]]): NVector[3, T]		755
-nim	Forward	gdext/math.html#Forward.t,typedesc[NVector[,T: SomeNumber]]	template Forward[T: SomeNumber](_: typedesc[NVector[3, T]]): NVector[3, T]		756
-nim	Back	gdext/math.html#Back.t,typedesc[NVector[,T: SomeNumber]]	template Back[T: SomeNumber](_: typedesc[NVector[3, T]]): NVector[3, T]		757
-nim	`<`	gdext/math.html#<,Vector[N,T: SomeNumber],Vector[N,T: SomeNumber]	proc `<`[N: static int; T: SomeNumber](left, right: Vector[N, T]): bool		763
-nim	`<=`	gdext/math.html#<=,Vector[N,T: SomeNumber],Vector[N,T: SomeNumber]	proc `<=`[N: static int; T: SomeNumber](left, right: Vector[N, T]): bool		764
-nim	isEqualApprox	gdext/math.html#isEqualApprox,Vector[N,T: SomeFloat],Vector[N,T: SomeFloat]	proc isEqualApprox[N: static int; T: SomeFloat](left, right: Vector[N, T]): bool		766
-nim	isZeroApprox	gdext/math.html#isZeroApprox,Vector[N,T: SomeFloat]	proc isZeroApprox[N: static int; T: SomeFloat](self: Vector[N, T]): bool		767
-nim	min	gdext/math.html#min,Vector[N,T: SomeNumber]	proc min[N: static int; T: SomeNumber](self: Vector[N, T]): T		769
-nim	max	gdext/math.html#max,Vector[N,T: SomeNumber]	proc max[N: static int; T: SomeNumber](self: Vector[N, T]): T		773
-nim	minidx	gdext/math.html#minidx,Vector[N,T: SomeNumber]	proc minidx[N: static int; T: SomeNumber](self: Vector[N, T]): int		778
-nim	maxidx	gdext/math.html#maxidx,Vector[N,T: SomeNumber]	proc maxidx[N: static int; T: SomeNumber](self: Vector[N, T]): int		781
-nim	isFinite	gdext/math.html#isFinite,Vector[N,T: SomeFloat]	proc isFinite[N: static int; T: SomeFloat](self: Vector[N, T]): bool		785
-nim	clamp	gdext/math.html#clamp,Vector[N,T: SomeNumber],Vector[N,T: SomeNumber],Vector[N,T: SomeNumber]	proc clamp[N: static int; T: SomeNumber](self, min, max: Vector[N, T]): Vector[N, T]		786
-nim	clamp	gdext/math.html#clamp,Vector[N,T: SomeNumber],T,T	proc clamp[N: static int; T: SomeNumber](self: Vector[N, T]; min, max: T): Vector[N,\n    T]		787
-nim	clamp01	gdext/math.html#clamp01,Vector[N,T: SomeNumber]	proc clamp01[N: static int; T: SomeNumber](self: Vector[N, T]): Vector[N, T]		788
-nim	sgn	gdext/math.html#sgn,Vector[N,T: SomeNumber]	proc sgn[N: static int; T: SomeNumber](self: Vector[N, T]): Vector[N, int]		789
-nim	`+`	gdext/math.html#+.t,Vector[N,T: SomeNumber]	template `+`[N: static int; T: SomeNumber](left: Vector[N, T]): Vector[N, T]		792
-nim	`-`	gdext/math.html#-,Vector[N,T: SomeNumber]	proc `-`[N: static int; T: SomeNumber](left: Vector[N, T]): Vector[N, T]		793
-nim	`+`	gdext/math.html#+,Vector[N,T: SomeNumber],Vector[N,S: SomeNumber]	proc `+`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: Vector[N, S]): auto		807
-nim	`-`	gdext/math.html#-,Vector[N,T: SomeNumber],Vector[N,S: SomeNumber]	proc `-`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: Vector[N, S]): auto		808
-nim	`*`	gdext/math.html#*,Vector[N,T: SomeNumber],Vector[N,S: SomeNumber]	proc `*`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: Vector[N, S]): auto		809
-nim	`/`	gdext/math.html#/,Vector[N,T: SomeNumber],Vector[N,S: SomeNumber]	proc `/`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: Vector[N, S]): auto		810
-nim	`div`	gdext/math.html#div,Vector[N,T: SomeInteger],Vector[N,S: SomeInteger]	proc `div`[N: static int; T, S: SomeInteger](left: Vector[N, T]; right: Vector[N, S]): auto		812
-nim	`mod`	gdext/math.html#mod,Vector[N,T: SomeInteger],Vector[N,S: SomeInteger]	proc `mod`[N: static int; T, S: SomeInteger](left: Vector[N, T]; right: Vector[N, S]): auto		813
-nim	`+`	gdext/math.html#+,Vector[N,T: SomeNumber],S	proc `+`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: S): auto		816
-nim	`+`	gdext/math.html#+,T,Vector[N,S: SomeNumber]	proc `+`[N: static int; T, S: SomeNumber](left: T; right: Vector[N, S]): auto		817
-nim	`-`	gdext/math.html#-,Vector[N,T: SomeNumber],S	proc `-`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: S): auto		819
-nim	`-`	gdext/math.html#-,T,Vector[N,S: SomeNumber]	proc `-`[N: static int; T, S: SomeNumber](left: T; right: Vector[N, S]): auto		820
-nim	`*`	gdext/math.html#*,Vector[N,T: SomeNumber],S	proc `*`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: S): auto		822
-nim	`*`	gdext/math.html#*,T,Vector[N,S: SomeNumber]	proc `*`[N: static int; T, S: SomeNumber](left: T; right: Vector[N, S]): auto		823
-nim	`/`	gdext/math.html#/,Vector[N,T: SomeNumber],S	proc `/`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: S): auto		825
-nim	`/`	gdext/math.html#/,T,Vector[N,S: SomeNumber]	proc `/`[N: static int; T, S: SomeNumber](left: T; right: Vector[N, S]): auto		826
-nim	`div`	gdext/math.html#div,Vector[N,T: SomeInteger],S	proc `div`[N: static int; T, S: SomeInteger](left: Vector[N, T]; right: S): auto		828
-nim	`div`	gdext/math.html#div,T,Vector[N,S: SomeInteger]	proc `div`[N: static int; T, S: SomeInteger](left: T; right: Vector[N, S]): auto		829
-nim	`mod`	gdext/math.html#mod,Vector[N,T: SomeInteger],S	proc `mod`[N: static int; T, S: SomeInteger](left: Vector[N, T]; right: S): auto		831
-nim	`mod`	gdext/math.html#mod,T,Vector[N,S: SomeInteger]	proc `mod`[N: static int; T, S: SomeInteger](left: T; right: Vector[N, S]): auto		832
-nim	dot	gdext/math.html#dot,Vector[N,T: SomeNumber],Vector[N,T: SomeNumber]	proc dot[N: static int; T: SomeNumber](left, right: Vector[N, T]): T		838
-nim	lengthSquared	gdext/math.html#lengthSquared,Vector[N,T: SomeNumber]	proc lengthSquared[N: static int; T: SomeNumber](self: Vector[N, T]): T		839
-nim	length	gdext/math.html#length,Vector[N,T: SomeFloat]	proc length[N: static int; T: SomeFloat](self: Vector[N, T]): T		840
-nim	length	gdext/math.html#length,Vector[N,T: SomeInteger]	proc length[N: static int; T: SomeInteger](self: Vector[N, T]): float		841
-nim	unwrapped	gdext/math.html#unwrapped.c,NVector[N,T: SomeFloat]	converter unwrapped[N: static int; T: SomeFloat](v: NVector[N, T]): Vector[N, T]		842
-nim	length	gdext/math.html#length,NVector[N,T: SomeFloat]	proc length[N: static int; T: SomeFloat](self: NVector[N, T]): T		844
-nim	normalized	gdext/math.html#normalized,Vector[N,T: SomeFloat]	proc normalized[N: static int; T: SomeFloat](self: Vector[N, T]): NVector[N, T]		847
-nim	cross	gdext/math.html#cross,Vector[,T],Vector[,T]	proc cross[T](self: Vector[2, T]; with: Vector[2, T]): T		853
-nim	abs	gdext/math.html#abs,Vector[N,T: SomeNumber]	proc abs[N: static int; T: SomeNumber](self: Vector[N, T]): Vector[N, T]		855
-nim	ceil	gdext/math.html#ceil,Vector[N,T: SomeFloat]	proc ceil[N: static int; T: SomeFloat](self: Vector[N, T]): Vector[N, T]		856
-nim	floor	gdext/math.html#floor,Vector[N,T: SomeFloat]	proc floor[N: static int; T: SomeFloat](self: Vector[N, T]): Vector[N, T]		857
-nim	round	gdext/math.html#round,Vector[N,T: SomeFloat]	proc round[N: static int; T: SomeFloat](self: Vector[N, T]): Vector[N, T]		858
-nim	posmod	gdext/math.html#posmod,Vector[N,T: SomeFloat],Vector[N,T: SomeFloat]	proc posmod[N: static int; T: SomeFloat](x, y: Vector[N, T]): Vector[N, T]		860
-nim	posmod	gdext/math.html#posmod,Vector[N,T: SomeFloat],T	proc posmod[N: static int; T: SomeFloat](x: Vector[N, T]; y: T): Vector[N, T]		861
-nim	distanceTo	gdext/math.html#distanceTo,Vector[N,T: SomeFloat],Vector[N,T: SomeFloat]	proc distanceTo[N: static int; T: SomeFloat](self, to: Vector[N, T]): T		864
-nim	distanceSquaredTo	gdext/math.html#distanceSquaredTo,Vector[N,T: SomeFloat],Vector[N,T: SomeFloat]	proc distanceSquaredTo[N: static int; T: SomeFloat](self, to: Vector[N, T]): T		865
-nim	directionTo	gdext/math.html#directionTo,Vector[N,T: SomeFloat],Vector[N,T: SomeFloat]	proc directionTo[N: static int; T: SomeFloat](self, to: Vector[N, T]): Vector[N, T]		866
-nim	slide	gdext/math.html#slide,Vector[N,T: SomeFloat],NVector[N,T: SomeFloat]	proc slide[N: static int; T: SomeFloat](self: Vector[N, T]; normal: NVector[N, T]): Vector[\n    N, T]		868
-nim	snapped	gdext/math.html#snapped,Vector[N,T: SomeNumber],Vector[N,T: SomeNumber]	proc snapped[N: static int; T: SomeNumber](self, step: Vector[N, T]): Vector[N, T]		871
-nim	snapped	gdext/math.html#snapped,Vector[N,T: SomeNumber],T	proc snapped[N: static int; T: SomeNumber](self: Vector[N, T]; step: T): Vector[N, T]		872
-nim	lerp	gdext/math.html#lerp,Vector[N,T: SomeFloat],Vector[N,T: SomeFloat],T	proc lerp[N: static int; T: SomeFloat](x, y: Vector[N, T]; ratio: T): Vector[N, T]		875
-nim	moveToward	gdext/math.html#moveToward,Vector[N,T: SomeFloat],Vector[N,T: SomeFloat],T	proc moveToward[N: static int; T: SomeFloat](from, to: Vector[N, T]; delta: T): Vector[\n    N, T]		876
-nim	fromAngle	gdext/math.html#fromAngle,typedesc[NVector[,T: SomeFloat]],Radian[T: SomeFloat]	proc fromAngle[T: SomeFloat](_: typedesc[NVector[2, T]]; angle: Radian[T]): NVector[\n    2, T]		883
-nim	angle	gdext/math.html#angle,Vector[,T: SomeFloat]	proc angle[T: SomeFloat](self: Vector[2, T]): Radian[T]		886
-nim	angleToPoint	gdext/math.html#angleToPoint,Vector[,T],Vector[,T]	proc angleToPoint[T](self, to: Vector[2, T]): Radian[T]		888
-nim	angleTo	gdext/math.html#angleTo,Vector[,T: SomeFloat],Vector[,T: SomeFloat]	proc angleTo[T: SomeFloat](self, to: Vector[2, T]): Radian[T]		890
-nim	aspect	gdext/math.html#aspect,Vector[,T: SomeFloat]	proc aspect[T: SomeFloat](self: Vector[2, T]): T		894
-nim	aspect	gdext/math.html#aspect,Vector[,T: SomeInteger]	proc aspect[T: SomeInteger](self: Vector[2, T]): float		895
-nim	sign	gdext/math.html#sign.t,T	template sign[T](v: T): auto		900
-nim	asin	gdext/math.html#asin.t,T	template asin[T: SomeFloat](pX: T): Radian[T]		901
-nim	acos	gdext/math.html#acos.t,T	template acos[T: SomeFloat](pX: T): Radian[T]		902
-nim	atan	gdext/math.html#atan.t,T	template atan[T: SomeFloat](pX: T): Radian[T]		903
-nim	atan2	gdext/math.html#atan2.t,T,T	template atan2[T: SomeFloat](pY, pX: T): Radian[T]		904
-nim	fmod	gdext/math.html#fmod.t,T,T	template fmod[T: SomeNumber](x, y: T): T		905
-nim	fposmod	gdext/math.html#fposmod.t,T,T	template fposmod[T: SomeFloat](x, y: T): T		906
-nim	floorf	gdext/math.html#floorf.t,T	template floorf[T: SomeFloat](x: T): T		907
-nim	floori	gdext/math.html#floori.t,T	template floori[T: SomeFloat](x: T): int		908
-nim	ceilf	gdext/math.html#ceilf.t,T	template ceilf[T: SomeFloat](x: T): T		909
-nim	ceili	gdext/math.html#ceili.t,T	template ceili[T: SomeFloat](x: T): int		910
-nim	roundf	gdext/math.html#roundf.t,T	template roundf[T: SomeFloat](x: T): T		911
-nim	roundi	gdext/math.html#roundi.t,T	template roundi[T: SomeFloat](x: T): int		912
-nim	absf	gdext/math.html#absf.t,T	template absf[T: SomeFloat](x: T): T		913
-nim	absi	gdext/math.html#absi.t,T	template absi[T: SomeInteger](x: T): T		914
-nim	signf	gdext/math.html#signf.t,T	template signf[T: SomeFloat](x: T): T		915
-nim	signi	gdext/math.html#signi.t,T	template signi[T: SomeInteger](x: T): T		916
-nim	snappedf	gdext/math.html#snappedf.t,T,S	template snappedf[T: SomeFloat; S: SomeFloat](value: T; step: S): S		917
-nim	snappedi	gdext/math.html#snappedi.t,T,S	template snappedi[T: SomeFloat; S: SomeInteger](value: T; step: S): S		918
-nim	isInf	gdext/math.html#isInf.t,T	template isInf[T: SomeFloat](x: T): bool		919
-nim	wrapf	gdext/math.html#wrapf.t,T,T,T	template wrapf[T: SomeFloat](value, min, max: T): T		920
-nim	wrapi	gdext/math.html#wrapi.t,T,T,T	template wrapi[T: SomeInteger](value, min, max: T): T		921
-nim	maxf	gdext/math.html#maxf.t,T,T	template maxf[T: SomeFloat](a, b: T): T		922
-nim	maxi	gdext/math.html#maxi.t,T,T	template maxi[T: SomeInteger](a, b: T): T		923
-nim	minf	gdext/math.html#minf.t,T,T	template minf[T: SomeFloat](a, b: T): T		924
-nim	mini	gdext/math.html#mini.t,T,T	template mini[T: SomeInteger](a, b: T): T		925
-nim	clampf	gdext/math.html#clampf.t,T,T,T	template clampf[T: SomeFloat](value, min, max: T): T		926
-nim	clampi	gdext/math.html#clampi.t,T,T,T	template clampi[T: SomeInteger](value, min, max: T): T		927
+nim	`[]`	gdext/math.html#[],Basis,int	proc `[]`(self: Basis; index: int): Vector3		237
+nim	`[]`	gdext/math.html#[],Transform2D,int	proc `[]`(self: Transform2D; index: int): Vector2		241
+nim	`[]`	gdext/math.html#[],Projection,int	proc `[]`(self: Projection; index: int): Vector4		245
+nim	`[]`	gdext/math.html#[],Quaternion,int	proc `[]`(self: Quaternion; index: int): real_elem		249
+nim	extend	gdext/math.html#extend,T,staticint	proc extend[T](value: T; N: static int): array[N, T]		253
+nim	fmap	gdext/math.html#fmap.m,,array[N,T]	macro fmap[N: static int; T](pred; v1: array[N, T]): auto		256
+nim	fmap	gdext/math.html#fmap.m,,,	macro fmap[N: static int; T1, T2](pred; v1: array[N, T1] | T1; v2: array[N, T2] | T2): auto		266
+nim	fmap	gdext/math.html#fmap.m,,,,	macro fmap[N: static int; T1, T2, T3](pred; v1: array[N, T1] | T1;\n                                v2: array[N, T2] | T2; v3: array[N, T3] | T3): auto		278
+nim	all	gdext/math.html#all.t,,array[N,T]	template all[N: static int; T](pred; v: array[N, T]): bool		303
+nim	all	gdext/math.html#all.t,,,	template all[N: static int; T1, T2](pred; v1: array[N, T1] | T1; v2: array[N, T2] | T2): bool		312
+nim	any	gdext/math.html#any.t,,array[N,T]	template any[N: static int; T](pred; v: array[N, T]): bool		323
+nim	any	gdext/math.html#any.t,,,	template any[N: static int; T1, T2](pred; v1: array[N, T1] | T1; v2: array[N, T2] | T2): bool		332
+nim	asNormalized	gdext/math.html#asNormalized,Vector[N,T: SomeFloat]	proc asNormalized[N: static int; T: SomeFloat](vec: Vector[N, T]): NVector[N, T]		343
+nim	SQRT12	gdext/math.html#SQRT12	const SQRT12		345
+nim	SQRT2	gdext/math.html#SQRT2	const SQRT2		346
+nim	LN2	gdext/math.html#LN2	const LN2		347
+nim	`+`	gdext/math.html#+.t,F,I	template `+`[F: SomeFloat; I: SomeInteger](f: F; i: I): F		349
+nim	`+`	gdext/math.html#+.t,I,F	template `+`[F: SomeFloat; I: SomeInteger](i: I; f: F): F		350
+nim	`-`	gdext/math.html#-.t,F,I	template `-`[F: SomeFloat; I: SomeInteger](f: F; i: I): F		351
+nim	`-`	gdext/math.html#-.t,I,F	template `-`[F: SomeFloat; I: SomeInteger](i: I; f: F): F		352
+nim	`*`	gdext/math.html#*.t,F,I	template `*`[F: SomeFloat; I: SomeInteger](f: F; i: I): F		353
+nim	`*`	gdext/math.html#*.t,I,F	template `*`[F: SomeFloat; I: SomeInteger](i: I; f: F): F		354
+nim	`/`	gdext/math.html#/.t,F,I	template `/`[F: SomeFloat; I: SomeInteger](f: F; i: I): F		355
+nim	`/`	gdext/math.html#/.t,I,F	template `/`[F: SomeFloat; I: SomeInteger](i: I; f: F): F		356
+nim	min	gdext/math.html#min,T,varargs[T]	proc min[T](x: T; xs: varargs[T]): T		358
+nim	max	gdext/math.html#max,T,varargs[T]	proc max[T](x: T; xs: varargs[T]): T		363
+nim	floorLog2	gdext/math.html#floorLog2,T	proc floorLog2[T: SomeOrdinal](x: T): T		369
+nim	getNumBits	gdext/math.html#getNumBits,T	proc getNumBits[T](x: T): T		376
+nim	CMP_EPSILON	gdext/math.html#CMP_EPSILON	const CMP_EPSILON		384
+nim	posmod	gdext/math.html#posmod,T,T	proc posmod[T: SomeNumber](pX, pY: T): T		393
+nim	fposmodp	gdext/math.html#fposmodp,T,T	proc fposmodp[T: SomeFloat](pX, pY: T): T		400
+nim	sinc	gdext/math.html#sinc,T	proc sinc[T: SomeFloat](pX: T): T		406
+nim	sincn	gdext/math.html#sincn,T	proc sincn[T: SomeFloat](pX: T): T		408
+nim	isFinite	gdext/math.html#isFinite,T	proc isFinite[T: SomeFloat](pX: T): bool		412
+nim	clamp01	gdext/math.html#clamp01,T	proc clamp01[T: SomeFloat](x: T): T		494
+nim	`~=`	gdext/math.html#~=.t,typed,typed	template `~=`(a, b: typed): bool		515
+nim	isEqualApprox	gdext/math.html#isEqualApprox,T,T	proc isEqualApprox[T: SomeFloat](a, b: T): bool		517
+nim	isEqualApprox	gdext/math.html#isEqualApprox,T,T,T	proc isEqualApprox[T: SomeFloat](a, b, tolerance: T): bool		522
+nim	isZeroApprox	gdext/math.html#isZeroApprox,T	proc isZeroApprox[T: SomeFloat](s: T): bool		526
+nim	moveToward	gdext/math.html#moveToward,T,T,T	proc moveToward[T: SomeFloat](from, to, delta: T): T		544
+nim	wrap	gdext/math.html#wrap,T,T,T	proc wrap[T: SomeInteger](value, min, max: T): T		565
+nim	wrap	gdext/math.html#wrap,T,T,T_2	proc wrap[T: SomeFloat](value, min, max: T): T		571
+nim	wrap	gdext/math.html#wrap,T,Slice[T]	proc wrap[T](value: T; bounds: Slice[T]): T		576
+nim	snapped	gdext/math.html#snapped,T,S	proc snapped[T: SomeFloat; S: SomeNumber](value: T; step: S): S		619
+nim	lerp	gdext/math.html#lerp,T,T,T	proc lerp[T: SomeFloat](pFrom, pTo: T; t: T): T		642
+nim	lerpAngle	gdext/math.html#lerpAngle,T,T,T	proc lerpAngle[T: SomeFloat](pFrom, pTo: T; t: T): T		645
+nim	cubicInterpolate	gdext/math.html#cubicInterpolate,T,T,T,T,T	proc cubicInterpolate[T: SomeFloat](pFrom, pTo, pPre, pPost, pWeight: T): T		651
+nim	cubicInterpolateAngle	gdext/math.html#cubicInterpolateAngle,T,T,T,T,T	proc cubicInterpolateAngle[T: SomeFloat](pFrom, pTo, pPre, pPost: T; pWeight: T): T		657
+nim	Zero	gdext/math.html#Zero.t,typedesc[Vector[N,T: SomeNumber]]	template Zero[N: static int; T: SomeNumber](_: typedesc[Vector[N, T]]): Vector[N, T]		680
+nim	One	gdext/math.html#One.t,typedesc[Vector[N,T: SomeNumber]]	template One[N: static int; T: SomeNumber](_: typedesc[Vector[N, T]]): Vector[N, T]		681
+nim	Inf	gdext/math.html#Inf.t,typedesc[Vector[N,T: SomeFloat]]	template Inf[N: static int; T: SomeFloat](_: typedesc[Vector[N, T]]): Vector[N, T]		682
+nim	Left	gdext/math.html#Left.t,typedesc[NVector[,T: SomeNumber]]	template Left[T: SomeNumber](_: typedesc[NVector[2, T]]): NVector[2, T]		684
+nim	Right	gdext/math.html#Right.t,typedesc[NVector[,T: SomeNumber]]	template Right[T: SomeNumber](_: typedesc[NVector[2, T]]): NVector[2, T]		685
+nim	Up	gdext/math.html#Up.t,typedesc[NVector[,T: SomeNumber]]	template Up[T: SomeNumber](_: typedesc[NVector[2, T]]): NVector[2, T]		686
+nim	Down	gdext/math.html#Down.t,typedesc[NVector[,T: SomeNumber]]	template Down[T: SomeNumber](_: typedesc[NVector[2, T]]): NVector[2, T]		687
+nim	Left	gdext/math.html#Left.t,typedesc[NVector[,T: SomeNumber]]_2	template Left[T: SomeNumber](_: typedesc[NVector[3, T]]): NVector[3, T]		689
+nim	Right	gdext/math.html#Right.t,typedesc[NVector[,T: SomeNumber]]_2	template Right[T: SomeNumber](_: typedesc[NVector[3, T]]): NVector[3, T]		690
+nim	Up	gdext/math.html#Up.t,typedesc[NVector[,T: SomeNumber]]_2	template Up[T: SomeNumber](_: typedesc[NVector[3, T]]): NVector[3, T]		691
+nim	Down	gdext/math.html#Down.t,typedesc[NVector[,T: SomeNumber]]_2	template Down[T: SomeNumber](_: typedesc[NVector[3, T]]): NVector[3, T]		692
+nim	Forward	gdext/math.html#Forward.t,typedesc[NVector[,T: SomeNumber]]	template Forward[T: SomeNumber](_: typedesc[NVector[3, T]]): NVector[3, T]		693
+nim	Back	gdext/math.html#Back.t,typedesc[NVector[,T: SomeNumber]]	template Back[T: SomeNumber](_: typedesc[NVector[3, T]]): NVector[3, T]		694
+nim	`<`	gdext/math.html#<,Vector[N,T: SomeNumber],Vector[N,T: SomeNumber]	proc `<`[N: static int; T: SomeNumber](left, right: Vector[N, T]): bool		700
+nim	`<=`	gdext/math.html#<=,Vector[N,T: SomeNumber],Vector[N,T: SomeNumber]	proc `<=`[N: static int; T: SomeNumber](left, right: Vector[N, T]): bool		701
+nim	isEqualApprox	gdext/math.html#isEqualApprox,Vector[N,T: SomeFloat],Vector[N,T: SomeFloat]	proc isEqualApprox[N: static int; T: SomeFloat](left, right: Vector[N, T]): bool		703
+nim	isZeroApprox	gdext/math.html#isZeroApprox,Vector[N,T: SomeFloat]	proc isZeroApprox[N: static int; T: SomeFloat](self: Vector[N, T]): bool		704
+nim	min	gdext/math.html#min,Vector[N,T: SomeNumber]	proc min[N: static int; T: SomeNumber](self: Vector[N, T]): T		706
+nim	max	gdext/math.html#max,Vector[N,T: SomeNumber]	proc max[N: static int; T: SomeNumber](self: Vector[N, T]): T		710
+nim	minidx	gdext/math.html#minidx,Vector[N,T: SomeNumber]	proc minidx[N: static int; T: SomeNumber](self: Vector[N, T]): int		715
+nim	maxidx	gdext/math.html#maxidx,Vector[N,T: SomeNumber]	proc maxidx[N: static int; T: SomeNumber](self: Vector[N, T]): int		718
+nim	isFinite	gdext/math.html#isFinite,Vector[N,T: SomeFloat]	proc isFinite[N: static int; T: SomeFloat](self: Vector[N, T]): bool		722
+nim	clamp	gdext/math.html#clamp,Vector[N,T: SomeNumber],Vector[N,T: SomeNumber],Vector[N,T: SomeNumber]	proc clamp[N: static int; T: SomeNumber](self, min, max: Vector[N, T]): Vector[N, T]		723
+nim	clamp	gdext/math.html#clamp,Vector[N,T: SomeNumber],T,T	proc clamp[N: static int; T: SomeNumber](self: Vector[N, T]; min, max: T): Vector[N,\n    T]		724
+nim	clamp01	gdext/math.html#clamp01,Vector[N,T: SomeNumber]	proc clamp01[N: static int; T: SomeNumber](self: Vector[N, T]): Vector[N, T]		725
+nim	sgn	gdext/math.html#sgn,Vector[N,T: SomeNumber]	proc sgn[N: static int; T: SomeNumber](self: Vector[N, T]): Vector[N, int]		726
+nim	`+`	gdext/math.html#+.t,Vector[N,T: SomeNumber]	template `+`[N: static int; T: SomeNumber](left: Vector[N, T]): Vector[N, T]		729
+nim	`-`	gdext/math.html#-,Vector[N,T: SomeNumber]	proc `-`[N: static int; T: SomeNumber](left: Vector[N, T]): Vector[N, T]		730
+nim	`+`	gdext/math.html#+,Vector[N,T: SomeNumber],Vector[N,S: SomeNumber]	proc `+`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: Vector[N, S]): auto		744
+nim	`-`	gdext/math.html#-,Vector[N,T: SomeNumber],Vector[N,S: SomeNumber]	proc `-`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: Vector[N, S]): auto		745
+nim	`*`	gdext/math.html#*,Vector[N,T: SomeNumber],Vector[N,S: SomeNumber]	proc `*`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: Vector[N, S]): auto		746
+nim	`/`	gdext/math.html#/,Vector[N,T: SomeNumber],Vector[N,S: SomeNumber]	proc `/`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: Vector[N, S]): auto		747
+nim	`div`	gdext/math.html#div,Vector[N,T: SomeInteger],Vector[N,S: SomeInteger]	proc `div`[N: static int; T, S: SomeInteger](left: Vector[N, T]; right: Vector[N, S]): auto		749
+nim	`mod`	gdext/math.html#mod,Vector[N,T: SomeInteger],Vector[N,S: SomeInteger]	proc `mod`[N: static int; T, S: SomeInteger](left: Vector[N, T]; right: Vector[N, S]): auto		750
+nim	`+`	gdext/math.html#+,Vector[N,T: SomeNumber],S	proc `+`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: S): auto		753
+nim	`+`	gdext/math.html#+,T,Vector[N,S: SomeNumber]	proc `+`[N: static int; T, S: SomeNumber](left: T; right: Vector[N, S]): auto		754
+nim	`-`	gdext/math.html#-,Vector[N,T: SomeNumber],S	proc `-`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: S): auto		756
+nim	`-`	gdext/math.html#-,T,Vector[N,S: SomeNumber]	proc `-`[N: static int; T, S: SomeNumber](left: T; right: Vector[N, S]): auto		757
+nim	`*`	gdext/math.html#*,Vector[N,T: SomeNumber],S	proc `*`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: S): auto		759
+nim	`*`	gdext/math.html#*,T,Vector[N,S: SomeNumber]	proc `*`[N: static int; T, S: SomeNumber](left: T; right: Vector[N, S]): auto		760
+nim	`/`	gdext/math.html#/,Vector[N,T: SomeNumber],S	proc `/`[N: static int; T, S: SomeNumber](left: Vector[N, T]; right: S): auto		762
+nim	`/`	gdext/math.html#/,T,Vector[N,S: SomeNumber]	proc `/`[N: static int; T, S: SomeNumber](left: T; right: Vector[N, S]): auto		763
+nim	`div`	gdext/math.html#div,Vector[N,T: SomeInteger],S	proc `div`[N: static int; T, S: SomeInteger](left: Vector[N, T]; right: S): auto		765
+nim	`div`	gdext/math.html#div,T,Vector[N,S: SomeInteger]	proc `div`[N: static int; T, S: SomeInteger](left: T; right: Vector[N, S]): auto		766
+nim	`mod`	gdext/math.html#mod,Vector[N,T: SomeInteger],S	proc `mod`[N: static int; T, S: SomeInteger](left: Vector[N, T]; right: S): auto		768
+nim	`mod`	gdext/math.html#mod,T,Vector[N,S: SomeInteger]	proc `mod`[N: static int; T, S: SomeInteger](left: T; right: Vector[N, S]): auto		769
+nim	dot	gdext/math.html#dot,Vector[N,T: SomeNumber],Vector[N,T: SomeNumber]	proc dot[N: static int; T: SomeNumber](left, right: Vector[N, T]): T		775
+nim	lengthSquared	gdext/math.html#lengthSquared,Vector[N,T: SomeNumber]	proc lengthSquared[N: static int; T: SomeNumber](self: Vector[N, T]): T		776
+nim	length	gdext/math.html#length,Vector[N,T: SomeFloat]	proc length[N: static int; T: SomeFloat](self: Vector[N, T]): T		777
+nim	length	gdext/math.html#length,Vector[N,T: SomeInteger]	proc length[N: static int; T: SomeInteger](self: Vector[N, T]): float		778
+nim	unwrapped	gdext/math.html#unwrapped.c,NVector[N,T: SomeFloat]	converter unwrapped[N: static int; T: SomeFloat](v: NVector[N, T]): Vector[N, T]		779
+nim	length	gdext/math.html#length,NVector[N,T: SomeFloat]	proc length[N: static int; T: SomeFloat](self: NVector[N, T]): T		781
+nim	normalized	gdext/math.html#normalized,Vector[N,T: SomeFloat]	proc normalized[N: static int; T: SomeFloat](self: Vector[N, T]): NVector[N, T]		784
+nim	cross	gdext/math.html#cross,Vector[,T],Vector[,T]	proc cross[T](self: Vector[2, T]; with: Vector[2, T]): T		790
+nim	abs	gdext/math.html#abs,Vector[N,T: SomeNumber]	proc abs[N: static int; T: SomeNumber](self: Vector[N, T]): Vector[N, T]		792
+nim	ceil	gdext/math.html#ceil,Vector[N,T: SomeFloat]	proc ceil[N: static int; T: SomeFloat](self: Vector[N, T]): Vector[N, T]		793
+nim	floor	gdext/math.html#floor,Vector[N,T: SomeFloat]	proc floor[N: static int; T: SomeFloat](self: Vector[N, T]): Vector[N, T]		794
+nim	round	gdext/math.html#round,Vector[N,T: SomeFloat]	proc round[N: static int; T: SomeFloat](self: Vector[N, T]): Vector[N, T]		795
+nim	posmod	gdext/math.html#posmod,Vector[N,T: SomeFloat],Vector[N,T: SomeFloat]	proc posmod[N: static int; T: SomeFloat](x, y: Vector[N, T]): Vector[N, T]		797
+nim	posmod	gdext/math.html#posmod,Vector[N,T: SomeFloat],T	proc posmod[N: static int; T: SomeFloat](x: Vector[N, T]; y: T): Vector[N, T]		798
+nim	distanceTo	gdext/math.html#distanceTo,Vector[N,T: SomeFloat],Vector[N,T: SomeFloat]	proc distanceTo[N: static int; T: SomeFloat](self, to: Vector[N, T]): T		801
+nim	distanceSquaredTo	gdext/math.html#distanceSquaredTo,Vector[N,T: SomeFloat],Vector[N,T: SomeFloat]	proc distanceSquaredTo[N: static int; T: SomeFloat](self, to: Vector[N, T]): T		802
+nim	directionTo	gdext/math.html#directionTo,Vector[N,T: SomeFloat],Vector[N,T: SomeFloat]	proc directionTo[N: static int; T: SomeFloat](self, to: Vector[N, T]): Vector[N, T]		803
+nim	slide	gdext/math.html#slide,Vector[N,T: SomeFloat],NVector[N,T: SomeFloat]	proc slide[N: static int; T: SomeFloat](self: Vector[N, T]; normal: NVector[N, T]): Vector[\n    N, T]		805
+nim	snapped	gdext/math.html#snapped,Vector[N,T: SomeNumber],Vector[N,T: SomeNumber]	proc snapped[N: static int; T: SomeNumber](self, step: Vector[N, T]): Vector[N, T]		808
+nim	snapped	gdext/math.html#snapped,Vector[N,T: SomeNumber],T	proc snapped[N: static int; T: SomeNumber](self: Vector[N, T]; step: T): Vector[N, T]		809
+nim	lerp	gdext/math.html#lerp,Vector[N,T: SomeFloat],Vector[N,T: SomeFloat],T	proc lerp[N: static int; T: SomeFloat](x, y: Vector[N, T]; ratio: T): Vector[N, T]		812
+nim	moveToward	gdext/math.html#moveToward,Vector[N,T: SomeFloat],Vector[N,T: SomeFloat],T	proc moveToward[N: static int; T: SomeFloat](from, to: Vector[N, T]; delta: T): Vector[\n    N, T]		813
+nim	fromAngle	gdext/math.html#fromAngle,typedesc[NVector[,T: SomeFloat]],T	proc fromAngle[T: SomeFloat](_: typedesc[NVector[2, T]]; angle: T): NVector[2, T]		820
+nim	angle	gdext/math.html#angle,Vector[,T: SomeFloat]	proc angle[T: SomeFloat](self: Vector[2, T]): T		823
+nim	angleToPoint	gdext/math.html#angleToPoint,Vector[,T],Vector[,T]	proc angleToPoint[T](self, to: Vector[2, T]): T		825
+nim	angleTo	gdext/math.html#angleTo,Vector[,T: SomeFloat],Vector[,T: SomeFloat]	proc angleTo[T: SomeFloat](self, to: Vector[2, T]): T		827
+nim	aspect	gdext/math.html#aspect,Vector[,T: SomeFloat]	proc aspect[T: SomeFloat](self: Vector[2, T]): T		831
+nim	aspect	gdext/math.html#aspect,Vector[,T: SomeInteger]	proc aspect[T: SomeInteger](self: Vector[2, T]): float		832
+nim	sign	gdext/math.html#sign.t,T	template sign[T](v: T): auto		837
+nim	asin	gdext/math.html#asin.t,T	template asin[T: SomeFloat](pX: T): T		838
+nim	acos	gdext/math.html#acos.t,T	template acos[T: SomeFloat](pX: T): T		839
+nim	atan	gdext/math.html#atan.t,T	template atan[T: SomeFloat](pX: T): T		840
+nim	atan2	gdext/math.html#atan2.t,T,T	template atan2[T: SomeFloat](pY, pX: T): T		841
+nim	asinh	gdext/math.html#asinh.t,T	template asinh[T: SomeFloat](pX: T): T		842
+nim	acosh	gdext/math.html#acosh.t,T	template acosh[T: SomeFloat](pX: T): T		843
+nim	atanh	gdext/math.html#atanh.t,T	template atanh[T: SomeFloat](pX: T): T		844
+nim	fmod	gdext/math.html#fmod.t,T,T	template fmod[T: SomeNumber](x, y: T): T		845
+nim	fposmod	gdext/math.html#fposmod.t,T,T	template fposmod[T: SomeFloat](x, y: T): T		846
+nim	floorf	gdext/math.html#floorf.t,T	template floorf[T: SomeFloat](x: T): T		847
+nim	floori	gdext/math.html#floori.t,T	template floori[T: SomeFloat](x: T): int		848
+nim	ceilf	gdext/math.html#ceilf.t,T	template ceilf[T: SomeFloat](x: T): T		849
+nim	ceili	gdext/math.html#ceili.t,T	template ceili[T: SomeFloat](x: T): int		850
+nim	roundf	gdext/math.html#roundf.t,T	template roundf[T: SomeFloat](x: T): T		851
+nim	roundi	gdext/math.html#roundi.t,T	template roundi[T: SomeFloat](x: T): int		852
+nim	absf	gdext/math.html#absf.t,T	template absf[T: SomeFloat](x: T): T		853
+nim	absi	gdext/math.html#absi.t,T	template absi[T: SomeInteger](x: T): T		854
+nim	signf	gdext/math.html#signf.t,T	template signf[T: SomeFloat](x: T): T		855
+nim	signi	gdext/math.html#signi.t,T	template signi[T: SomeInteger](x: T): T		856
+nim	snappedf	gdext/math.html#snappedf.t,T,S	template snappedf[T: SomeFloat; S: SomeFloat](value: T; step: S): S		857
+nim	snappedi	gdext/math.html#snappedi.t,T,S	template snappedi[T: SomeFloat; S: SomeInteger](value: T; step: S): S		858
+nim	isInf	gdext/math.html#isInf.t,T	template isInf[T: SomeFloat](x: T): bool		859
+nim	wrapf	gdext/math.html#wrapf.t,T,T,T	template wrapf[T: SomeFloat](value, min, max: T): T		860
+nim	wrapi	gdext/math.html#wrapi.t,T,T,T	template wrapi[T: SomeInteger](value, min, max: T): T		861
+nim	maxf	gdext/math.html#maxf.t,T,T	template maxf[T: SomeFloat](a, b: T): T		862
+nim	maxi	gdext/math.html#maxi.t,T,T	template maxi[T: SomeInteger](a, b: T): T		863
+nim	minf	gdext/math.html#minf.t,T,T	template minf[T: SomeFloat](a, b: T): T		864
+nim	mini	gdext/math.html#mini.t,T,T	template mini[T: SomeInteger](a, b: T): T		865
+nim	clampf	gdext/math.html#clampf.t,T,T,T	template clampf[T: SomeFloat](value, min, max: T): T		866
+nim	clampi	gdext/math.html#clampi.t,T,T,T	template clampi[T: SomeInteger](value, min, max: T): T		867
+nim	lerpf	gdext/math.html#lerpf.t,Float,Float,Float	template lerpf(from: Float; to: Float; weight: Float): Float		868
+nim	nearestPo2	gdext/math.html#nearestPo2.t,Int	template nearestPo2(value: Int): Int		869
 nimgrp	maxf	gdext/math.html#maxf-procs-all	proc		147
 nimgrp	project	gdext/math.html#project-procs-all	proc		62
 nimgrp	translated	gdext/math.html#translated-procs-all	proc		95
-nimgrp	movetoward	gdext/math.html#moveToward-procs-all	proc		607
-nimgrp	posmod	gdext/math.html#posmod-procs-all	proc		443
-nimgrp	vector2	gdext/math.html#vector2-procs-all	proc		102
+nimgrp	movetoward	gdext/math.html#moveToward-procs-all	proc		544
+nimgrp	posmod	gdext/math.html#posmod-procs-all	proc		393
+nimgrp	vector2	gdext/math.html#vector2-procs-all	proc		101
 nimgrp	reflect	gdext/math.html#reflect-procs-all	proc		129
 nimgrp	slerp	gdext/math.html#slerp-procs-all	proc		92
 nimgrp	translatedlocal	gdext/math.html#translatedLocal-procs-all	proc		98
 nimgrp	intersection	gdext/math.html#intersection-procs-all	proc		68
-nimgrp	vector4i	gdext/math.html#vector4i-procs-all	proc		127
+nimgrp	vector4i	gdext/math.html#vector4i-procs-all	proc		126
 nimgrp	affineinverse	gdext/math.html#affineInverse-procs-all	proc		71
 nimgrp	/	gdext/math.html#/-procs-all	proc		30
 nimgrp	distanceto	gdext/math.html#distanceTo-procs-all	proc		56
-nimgrp	vector3	gdext/math.html#vector3-procs-all	proc		107
+nimgrp	vector3	gdext/math.html#vector3-procs-all	proc		106
 nimgrp	determinant	gdext/math.html#determinant-procs-all	proc		70
-nimgrp	sinc	gdext/math.html#sinc-procs-all	proc		460
 nimgrp	limitlength	gdext/math.html#limitLength-procs-all	proc		100
-nimgrp	vector4	gdext/math.html#vector4-procs-all	proc		112
+nimgrp	vector4	gdext/math.html#vector4-procs-all	proc		111
 nimgrp	expand	gdext/math.html#expand-procs-all	proc		74
 nimgrp	intersectsray	gdext/math.html#intersectsRay-procs-all	proc		101
-nimgrp	transform3d	gdext/math.html#transform3D-procs-all	proc		179
+nimgrp	transform3d	gdext/math.html#transform3D-procs-all	proc		178
 nimgrp	mini	gdext/math.html#mini-procs-all	proc		84
 nimgrp	growindividual	gdext/math.html#growIndividual-procs-all	proc		70
 nimgrp	bounce	gdext/math.html#bounce-procs-all	proc		126
 nimgrp	getscale	gdext/math.html#getScale-procs-all	proc		78
 nimgrp	clampi	gdext/math.html#clampi-procs-all	proc		75
-nimgrp	snapped	gdext/math.html#snapped-procs-all	proc		682
-nimgrp	aspect	gdext/math.html#aspect-procs-all	proc		894
+nimgrp	snapped	gdext/math.html#snapped-procs-all	proc		619
+nimgrp	aspect	gdext/math.html#aspect-procs-all	proc		831
 nimgrp	encloses	gdext/math.html#encloses-procs-all	proc		62
 nimgrp	snappedf	gdext/math.html#snappedf-procs-all	proc		135
 nimgrp	cross	gdext/math.html#cross-procs-all	proc		165
-nimgrp	vector2i	gdext/math.html#vector2i-procs-all	proc		117
+nimgrp	vector2i	gdext/math.html#vector2i-procs-all	proc		116
 nimgrp	getcenter	gdext/math.html#getCenter-procs-all	proc		43
-nimgrp	sincn	gdext/math.html#sincn-procs-all	proc		463
 nimgrp	snappedi	gdext/math.html#snappedi-procs-all	proc		78
-nimgrp	plane	gdext/math.html#plane-procs-all	proc		150
+nimgrp	plane	gdext/math.html#plane-procs-all	proc		149
 nimgrp	rotated	gdext/math.html#rotated-procs-all	proc		72
-nimgrp	div	gdext/math.html#div-procs-all	proc		812
+nimgrp	div	gdext/math.html#div-procs-all	proc		749
 nimgrp	isconformal	gdext/math.html#isConformal-procs-all	proc		95
 nimgrp	fromeuler	gdext/math.html#fromEuler-procs-all	proc		110
 nimgrp	normalized	gdext/math.html#normalized-procs-all	proc		44
-nimgrp	vector3i	gdext/math.html#vector3i-procs-all	proc		122
+nimgrp	vector3i	gdext/math.html#vector3i-procs-all	proc		121
 nimgrp	geteuler	gdext/math.html#getEuler-procs-all	proc		80
-nimgrp	rect2	gdext/math.html#rect2-procs-all	proc		194
+nimgrp	rect2	gdext/math.html#rect2-procs-all	proc		193
 nimgrp	dot	gdext/math.html#dot-procs-all	proc		89
 nimgrp	-	gdext/math.html#--procs-all	proc		22
-nimgrp	transform2d	gdext/math.html#transform2D-procs-all	proc		169
-nimgrp	[]	gdext/math.html#[]-procs-all	proc		238
-nimgrp	clamp01	gdext/math.html#clamp01-procs-all	proc		554
+nimgrp	transform2d	gdext/math.html#transform2D-procs-all	proc		168
+nimgrp	[]	gdext/math.html#[]-procs-all	proc		237
+nimgrp	clamp01	gdext/math.html#clamp01-procs-all	proc		494
 nimgrp	growside	gdext/math.html#growSide-procs-all	proc		67
 nimgrp	cubicinterpolateintime	gdext/math.html#cubicInterpolateInTime-procs-all	proc		112
-nimgrp	mod	gdext/math.html#mod-procs-all	proc		813
+nimgrp	mod	gdext/math.html#mod-procs-all	proc		750
 nimgrp	min	gdext/math.html#min-procs-all	proc		138
 nimgrp	lookingat	gdext/math.html#lookingAt-procs-all	proc		104
-nimgrp	basis	gdext/math.html#basis-procs-all	proc		141
+nimgrp	basis	gdext/math.html#basis-procs-all	proc		140
 nimgrp	getsupport	gdext/math.html#getSupport-procs-all	proc		80
-nimgrp	quaternion	gdext/math.html#quaternion-procs-all	proc		133
+nimgrp	quaternion	gdext/math.html#quaternion-procs-all	proc		132
 nimgrp	*	gdext/math.html#*-procs-all	proc		10
 nimgrp	angleto	gdext/math.html#angleTo-procs-all	proc		86
 nimgrp	isfinite	gdext/math.html#isFinite-procs-all	proc		57
-nimgrp	iszeroapprox	gdext/math.html#isZeroApprox-procs-all	proc		589
+nimgrp	iszeroapprox	gdext/math.html#isZeroApprox-procs-all	proc		526
 nimgrp	distancesquaredto	gdext/math.html#distanceSquaredTo-procs-all	proc		72
 nimgrp	bezierinterpolate	gdext/math.html#bezierInterpolate-procs-all	proc		115
 nimgrp	grow	gdext/math.html#grow-procs-all	proc		77
@@ -693,47 +679,47 @@ nimgrp	haspoint	gdext/math.html#hasPoint-procs-all	proc		51
 nimgrp	isequalapprox	gdext/math.html#isEqualApprox-procs-all	proc		54
 nimgrp	scaledlocal	gdext/math.html#scaledLocal-procs-all	proc		92
 nimgrp	not	gdext/math.html#not-procs-all	proc		9
-nimgrp	aabb	gdext/math.html#aabb-procs-all	proc		138
+nimgrp	aabb	gdext/math.html#aabb-procs-all	proc		137
 nimgrp	maxi	gdext/math.html#maxi-procs-all	proc		90
 nimgrp	interpolatewith	gdext/math.html#interpolateWith-procs-all	proc		109
-nimgrp	clamp	gdext/math.html#clamp-procs-all	proc		786
+nimgrp	clamp	gdext/math.html#clamp-procs-all	proc		723
 nimgrp	clampf	gdext/math.html#clampf-procs-all	proc		132
 nimgrp	lengthsquared	gdext/math.html#lengthSquared-procs-all	proc		69
 nimgrp	intersects	gdext/math.html#intersects-procs-all	proc		59
 nimgrp	intersectssegment	gdext/math.html#intersectsSegment-procs-all	proc		98
 nimgrp	+	gdext/math.html#+-procs-all	proc		23
-nimgrp	rect2i	gdext/math.html#rect2i-procs-all	proc		203
+nimgrp	rect2i	gdext/math.html#rect2i-procs-all	proc		202
 nimgrp	getarea	gdext/math.html#getArea-procs-all	proc		34
 nimgrp	bezierderivative	gdext/math.html#bezierDerivative-procs-all	proc		118
-nimgrp	projection	gdext/math.html#projection-procs-all	proc		157
+nimgrp	projection	gdext/math.html#projection-procs-all	proc		156
 nimgrp	minf	gdext/math.html#minf-procs-all	proc		141
-nimgrp	lerp	gdext/math.html#lerp-procs-all	proc		705
-nimgrp	wrap	gdext/math.html#wrap-procs-all	proc		628
-nimgrp	fmap	gdext/math.html#fmap-macros-all	macro		257
+nimgrp	lerp	gdext/math.html#lerp-procs-all	proc		642
+nimgrp	wrap	gdext/math.html#wrap-procs-all	proc		565
+nimgrp	fmap	gdext/math.html#fmap-macros-all	macro		256
 nimgrp	Flipz	gdext/math.html#FlipZ-templates-all	template		13
-nimgrp	x	gdext/math.html#x-templates-all	template		27
+nimgrp	x	gdext/math.html#x-templates-all	template		26
 nimgrp	Max	gdext/math.html#Max-templates-all	template		13
 nimgrp	Back	gdext/math.html#Back-templates-all	template		28
-nimgrp	-	gdext/math.html#--templates-all	template		352
+nimgrp	-	gdext/math.html#--templates-all	template		351
 nimgrp	Inf	gdext/math.html#Inf-templates-all	template		10
-nimgrp	y	gdext/math.html#y-templates-all	template		27
-nimgrp	z	gdext/math.html#z-templates-all	template		27
+nimgrp	y	gdext/math.html#y-templates-all	template		26
+nimgrp	z	gdext/math.html#z-templates-all	template		26
 nimgrp	Right	gdext/math.html#Right-templates-all	template		16
-nimgrp	x=	gdext/math.html#x=-templates-all	template		28
+nimgrp	x=	gdext/math.html#x=-templates-all	template		27
 nimgrp	One	gdext/math.html#One-templates-all	template		7
 nimgrp	Identity	gdext/math.html#Identity-templates-all	template		4
 nimgrp	Zero	gdext/math.html#Zero-templates-all	template		7
 nimgrp	Min	gdext/math.html#Min-templates-all	template		10
 nimgrp	Forward	gdext/math.html#Forward-templates-all	template		25
-nimgrp	z=	gdext/math.html#z=-templates-all	template		28
-nimgrp	all	gdext/math.html#all-templates-all	template		304
-nimgrp	+	gdext/math.html#+-templates-all	template		350
+nimgrp	z=	gdext/math.html#z=-templates-all	template		27
+nimgrp	all	gdext/math.html#all-templates-all	template		303
+nimgrp	+	gdext/math.html#+-templates-all	template		349
 nimgrp	Up	gdext/math.html#Up-templates-all	template		19
-nimgrp	/	gdext/math.html#/-templates-all	template		356
+nimgrp	/	gdext/math.html#/-templates-all	template		355
 nimgrp	Flipy	gdext/math.html#FlipY-templates-all	template		10
 nimgrp	Flipx	gdext/math.html#FlipX-templates-all	template		7
-nimgrp	*	gdext/math.html#*-templates-all	template		354
-nimgrp	y=	gdext/math.html#y=-templates-all	template		28
+nimgrp	*	gdext/math.html#*-templates-all	template		353
+nimgrp	y=	gdext/math.html#y=-templates-all	template		27
 nimgrp	Left	gdext/math.html#Left-templates-all	template		13
-nimgrp	any	gdext/math.html#any-templates-all	template		324
+nimgrp	any	gdext/math.html#any-templates-all	template		323
 nimgrp	Down	gdext/math.html#Down-templates-all	template		22

@@ -177,33 +177,17 @@
 
 </ul>
 <ul class="simple nested-toc-section">angle
-  <li><a class="reference" href="#angle%2CVector%5B%2CT%3A%20SomeFloat%5D" title="angle[T: SomeFloat](self: Vector[2, T]): Radian[T]">angle[T: SomeFloat](self: Vector[2, T]): Radian[T]</a></li>
+  <li><a class="reference" href="#angle%2CVector%5B%2CT%3A%20SomeFloat%5D" title="angle[T: SomeFloat](self: Vector[2, T]): T">angle[T: SomeFloat](self: Vector[2, T]): T</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">angleTo
   <li><a class="reference" href="#angleTo%2CQuaternion%2CQuaternion" title="angleTo(self: Quaternion; to: Quaternion): Float">angleTo(self: Quaternion; to: Quaternion): Float</a></li>
 <li><a class="reference" href="#angleTo%2CVector3%2CVector3" title="angleTo(self: Vector3; to: Vector3): Float">angleTo(self: Vector3; to: Vector3): Float</a></li>
-<li><a class="reference" href="#angleTo%2CVector%5B%2CT%3A%20SomeFloat%5D%2CVector%5B%2CT%3A%20SomeFloat%5D" title="angleTo[T: SomeFloat](self, to: Vector[2, T]): Radian[T]">angleTo[T: SomeFloat](self, to: Vector[2, T]): Radian[T]</a></li>
+<li><a class="reference" href="#angleTo%2CVector%5B%2CT%3A%20SomeFloat%5D%2CVector%5B%2CT%3A%20SomeFloat%5D" title="angleTo[T: SomeFloat](self, to: Vector[2, T]): T">angleTo[T: SomeFloat](self, to: Vector[2, T]): T</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">angleToPoint
-  <li><a class="reference" href="#angleToPoint%2CVector%5B%2CT%5D%2CVector%5B%2CT%5D" title="angleToPoint[T](self, to: Vector[2, T]): Radian[T]">angleToPoint[T](self, to: Vector[2, T]): Radian[T]</a></li>
-
-</ul>
-<ul class="simple nested-toc-section">arccos
-  <li><a class="reference" href="#arccos%2CT" title="arccos[T: SomeFloat](pX: T): Radian[T]">arccos[T: SomeFloat](pX: T): Radian[T]</a></li>
-
-</ul>
-<ul class="simple nested-toc-section">arcsin
-  <li><a class="reference" href="#arcsin%2CT" title="arcsin[T: SomeFloat](pX: T): Radian[T]">arcsin[T: SomeFloat](pX: T): Radian[T]</a></li>
-
-</ul>
-<ul class="simple nested-toc-section">arctan
-  <li><a class="reference" href="#arctan%2CT" title="arctan[T: SomeFloat](pX: T): Radian[T]">arctan[T: SomeFloat](pX: T): Radian[T]</a></li>
-
-</ul>
-<ul class="simple nested-toc-section">arctan2
-  <li><a class="reference" href="#arctan2%2CT%2CT" title="arctan2[T: SomeFloat](pY, pX: T): Radian[T]">arctan2[T: SomeFloat](pY, pX: T): Radian[T]</a></li>
+  <li><a class="reference" href="#angleToPoint%2CVector%5B%2CT%5D%2CVector%5B%2CT%5D" title="angleToPoint[T](self, to: Vector[2, T]): T">angleToPoint[T](self, to: Vector[2, T]): T</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">asNormalized
@@ -283,10 +267,6 @@
 <li><a class="reference" href="#clampi%2CVector4i%2CInt%2CInt" title="clampi(self: Vector4i; min: Int; max: Int): Vector4i">clampi(self: Vector4i; min: Int; max: Int): Vector4i</a></li>
 
 </ul>
-<ul class="simple nested-toc-section">cos
-  <li><a class="reference" href="#cos%2CRadian%5BT%3A%20SomeFloat%5D" title="cos[T: SomeFloat](pX: Radian[T]): T">cos[T: SomeFloat](pX: Radian[T]): T</a></li>
-
-</ul>
 <ul class="simple nested-toc-section">createDepthCorrection
   <li><a class="reference" href="#createDepthCorrection%2Ctypedesc%5BProjection%5D%2Cbool" title="createDepthCorrection(_: typedesc[Projection]; flipY: bool): Projection">createDepthCorrection(_: typedesc[Projection]; flipY: bool): Projection</a></li>
 
@@ -363,9 +343,10 @@
                  weight: Float): Vector4">cubicInterpolate(self: Vector4; b: Vector4; preA: Vector4; postB: Vector4;
                  weight: Float): Vector4</a></li>
 <li><a class="reference" href="#cubicInterpolate%2CT%2CT%2CT%2CT%2CT" title="cubicInterpolate[T: SomeFloat](pFrom, pTo, pPre, pPost, pWeight: T): T">cubicInterpolate[T: SomeFloat](pFrom, pTo, pPre, pPost, pWeight: T): T</a></li>
-<li><a class="reference" href="#cubicInterpolate%2CRadian%5BT%3A%20SomeFloat%5D%2CRadian%5BT%3A%20SomeFloat%5D%2CRadian%5BT%3A%20SomeFloat%5D%2CRadian%5BT%3A%20SomeFloat%5D%2CT" title="cubicInterpolate[T: SomeFloat](pFrom, pTo, pPre, pPost: Radian[T]; pWeight: T): Radian[
-    T]">cubicInterpolate[T: SomeFloat](pFrom, pTo, pPre, pPost: Radian[T]; pWeight: T): Radian[
-    T]</a></li>
+
+</ul>
+<ul class="simple nested-toc-section">cubicInterpolateAngle
+  <li><a class="reference" href="#cubicInterpolateAngle%2CT%2CT%2CT%2CT%2CT" title="cubicInterpolateAngle[T: SomeFloat](pFrom, pTo, pPre, pPost: T; pWeight: T): T">cubicInterpolateAngle[T: SomeFloat](pFrom, pTo, pPre, pPost: T; pWeight: T): T</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">cubicInterpolateInTime
@@ -378,14 +359,6 @@
 <li><a class="reference" href="#cubicInterpolateInTime%2CVector4%2CVector4%2CVector4%2CVector4%2CFloat%2CFloat%2CFloat%2CFloat" title="cubicInterpolateInTime(self: Vector4; b: Vector4; preA: Vector4; postB: Vector4;
                        weight: Float; bT: Float; preAT: Float; postBT: Float): Vector4">cubicInterpolateInTime(self: Vector4; b: Vector4; preA: Vector4; postB: Vector4;
                        weight: Float; bT: Float; preAT: Float; postBT: Float): Vector4</a></li>
-
-</ul>
-<ul class="simple nested-toc-section">degree
-  <li><a class="reference" href="#degree%2CRadian%5BT%3A%20SomeFloat%5D" title="degree[T: SomeFloat](rad: Radian[T]): T">degree[T: SomeFloat](rad: Radian[T]): T</a></li>
-
-</ul>
-<ul class="simple nested-toc-section">degToRad
-  <li><a class="reference" href="#degToRad%2CT" title="degToRad[T: SomeFloat](degree: T): Radian[T]">degToRad[T: SomeFloat](degree: T): Radian[T]</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">determinant
@@ -461,9 +434,7 @@
 
 </ul>
 <ul class="simple nested-toc-section">fromAngle
-  <li><a class="reference" href="#fromAngle%2Ctypedesc%5BNVector%5B%2CT%3A%20SomeFloat%5D%5D%2CRadian%5BT%3A%20SomeFloat%5D" title="fromAngle[T: SomeFloat](_: typedesc[NVector[2, T]]; angle: Radian[T]): NVector[
-    2, T]">fromAngle[T: SomeFloat](_: typedesc[NVector[2, T]]; angle: Radian[T]): NVector[
-    2, T]</a></li>
+  <li><a class="reference" href="#fromAngle%2Ctypedesc%5BNVector%5B%2CT%3A%20SomeFloat%5D%5D%2CT" title="fromAngle[T: SomeFloat](_: typedesc[NVector[2, T]]; angle: T): NVector[2, T]">fromAngle[T: SomeFloat](_: typedesc[NVector[2, T]]; angle: T): NVector[2, T]</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">fromEuler
@@ -563,10 +534,6 @@
 <ul class="simple nested-toc-section">getScale
   <li><a class="reference" href="#getScale%2CBasis" title="getScale(self: Basis): Vector3">getScale(self: Basis): Vector3</a></li>
 <li><a class="reference" href="#getScale%2CTransform2D" title="getScale(self: Transform2D): Vector2">getScale(self: Transform2D): Vector2</a></li>
-
-</ul>
-<ul class="simple nested-toc-section">getShiftFromPowerOf2
-  <li><a class="reference" href="#getShiftFromPowerOf2%2Cuint32" title="getShiftFromPowerOf2(pBits: uint32): int32">getShiftFromPowerOf2(pBits: uint32): int32</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">getShortestAxis
@@ -752,8 +719,11 @@
 </ul>
 <ul class="simple nested-toc-section">lerp
   <li><a class="reference" href="#lerp%2CVector%5BN%2CT%3A%20SomeFloat%5D%2CVector%5BN%2CT%3A%20SomeFloat%5D%2CT" title="lerp[N: static int; T: SomeFloat](x, y: Vector[N, T]; ratio: T): Vector[N, T]">lerp[N: static int; T: SomeFloat](x, y: Vector[N, T]; ratio: T): Vector[N, T]</a></li>
-<li><a class="reference" href="#lerp%2CRadian%5BT%3A%20SomeFloat%5D%2CRadian%5BT%3A%20SomeFloat%5D%2CT" title="lerp[T: SomeFloat](pFrom, pTo: Radian[T]; t: T): Radian[T]">lerp[T: SomeFloat](pFrom, pTo: Radian[T]; t: T): Radian[T]</a></li>
 <li><a class="reference" href="#lerp%2CT%2CT%2CT" title="lerp[T: SomeFloat](pFrom, pTo: T; t: T): T">lerp[T: SomeFloat](pFrom, pTo: T; t: T): T</a></li>
+
+</ul>
+<ul class="simple nested-toc-section">lerpAngle
+  <li><a class="reference" href="#lerpAngle%2CT%2CT%2CT" title="lerpAngle[T: SomeFloat](pFrom, pTo: T; t: T): T">lerpAngle[T: SomeFloat](pFrom, pTo: T; t: T): T</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">limitLength
@@ -846,10 +816,6 @@
     N, T]">moveToward[N: static int; T: SomeFloat](from, to: Vector[N, T]; delta: T): Vector[
     N, T]</a></li>
 <li><a class="reference" href="#moveToward%2CT%2CT%2CT" title="moveToward[T: SomeFloat](from, to, delta: T): T">moveToward[T: SomeFloat](from, to, delta: T): T</a></li>
-
-</ul>
-<ul class="simple nested-toc-section">nearestShift
-  <li><a class="reference" href="#nearestShift%2Cuint32" title="nearestShift(pNumber: uint32): uint32">nearestShift(pNumber: uint32): uint32</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">normalized
@@ -992,18 +958,12 @@
   <li><a class="reference" href="#signedAngleTo%2CVector3%2CVector3%2CVector3" title="signedAngleTo(self: Vector3; to: Vector3; axis: Vector3): Float">signedAngleTo(self: Vector3; to: Vector3; axis: Vector3): Float</a></li>
 
 </ul>
-<ul class="simple nested-toc-section">sin
-  <li><a class="reference" href="#sin%2CRadian%5BT%3A%20SomeFloat%5D" title="sin[T: SomeFloat](pX: Radian[T]): T">sin[T: SomeFloat](pX: Radian[T]): T</a></li>
-
-</ul>
 <ul class="simple nested-toc-section">sinc
-  <li><a class="reference" href="#sinc%2CRadian%5BT%3A%20SomeFloat%5D" title="sinc[T: SomeFloat](pX: Radian[T]): T">sinc[T: SomeFloat](pX: Radian[T]): T</a></li>
-<li><a class="reference" href="#sinc%2CT" title="sinc[T: SomeFloat](pX: T): T">sinc[T: SomeFloat](pX: T): T</a></li>
+  <li><a class="reference" href="#sinc%2CT" title="sinc[T: SomeFloat](pX: T): T">sinc[T: SomeFloat](pX: T): T</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">sincn
-  <li><a class="reference" href="#sincn%2CRadian%5BT%3A%20SomeFloat%5D" title="sincn[T: SomeFloat](pX: Radian[T]): T">sincn[T: SomeFloat](pX: Radian[T]): T</a></li>
-<li><a class="reference" href="#sincn%2CT" title="sincn[T: SomeFloat](pX: T): T">sincn[T: SomeFloat](pX: T): T</a></li>
+  <li><a class="reference" href="#sincn%2CT" title="sincn[T: SomeFloat](pX: T): T">sincn[T: SomeFloat](pX: T): T</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">slerp
@@ -1055,10 +1015,6 @@
                                 preA: Quaternion; postB: Quaternion;
                                 weight: Float; bT: Float; preAT: Float;
                                 postBT: Float): Quaternion</a></li>
-
-</ul>
-<ul class="simple nested-toc-section">tan
-  <li><a class="reference" href="#tan%2CRadian%5BT%3A%20SomeFloat%5D" title="tan[T: SomeFloat](pX: Radian[T]): T">tan[T: SomeFloat](pX: Radian[T]): T</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">tdotx
@@ -1231,7 +1187,11 @@
 
 </ul>
 <ul class="simple nested-toc-section">acos
-  <li><a class="reference" href="#acos.t%2CT" title="acos[T: SomeFloat](pX: T): Radian[T]">acos[T: SomeFloat](pX: T): Radian[T]</a></li>
+  <li><a class="reference" href="#acos.t%2CT" title="acos[T: SomeFloat](pX: T): T">acos[T: SomeFloat](pX: T): T</a></li>
+
+</ul>
+<ul class="simple nested-toc-section">acosh
+  <li><a class="reference" href="#acosh.t%2CT" title="acosh[T: SomeFloat](pX: T): T">acosh[T: SomeFloat](pX: T): T</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">all
@@ -1245,15 +1205,23 @@
 
 </ul>
 <ul class="simple nested-toc-section">asin
-  <li><a class="reference" href="#asin.t%2CT" title="asin[T: SomeFloat](pX: T): Radian[T]">asin[T: SomeFloat](pX: T): Radian[T]</a></li>
+  <li><a class="reference" href="#asin.t%2CT" title="asin[T: SomeFloat](pX: T): T">asin[T: SomeFloat](pX: T): T</a></li>
+
+</ul>
+<ul class="simple nested-toc-section">asinh
+  <li><a class="reference" href="#asinh.t%2CT" title="asinh[T: SomeFloat](pX: T): T">asinh[T: SomeFloat](pX: T): T</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">atan
-  <li><a class="reference" href="#atan.t%2CT" title="atan[T: SomeFloat](pX: T): Radian[T]">atan[T: SomeFloat](pX: T): Radian[T]</a></li>
+  <li><a class="reference" href="#atan.t%2CT" title="atan[T: SomeFloat](pX: T): T">atan[T: SomeFloat](pX: T): T</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">atan2
-  <li><a class="reference" href="#atan2.t%2CT%2CT" title="atan2[T: SomeFloat](pY, pX: T): Radian[T]">atan2[T: SomeFloat](pY, pX: T): Radian[T]</a></li>
+  <li><a class="reference" href="#atan2.t%2CT%2CT" title="atan2[T: SomeFloat](pY, pX: T): T">atan2[T: SomeFloat](pY, pX: T): T</a></li>
+
+</ul>
+<ul class="simple nested-toc-section">atanh
+  <li><a class="reference" href="#atanh.t%2CT" title="atanh[T: SomeFloat](pX: T): T">atanh[T: SomeFloat](pX: T): T</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">Back
@@ -1276,10 +1244,6 @@
 </ul>
 <ul class="simple nested-toc-section">clampi
   <li><a class="reference" href="#clampi.t%2CT%2CT%2CT" title="clampi[T: SomeInteger](value, min, max: T): T">clampi[T: SomeInteger](value, min, max: T): T</a></li>
-
-</ul>
-<ul class="simple nested-toc-section">closestPowerOf2
-  <li><a class="reference" href="#closestPowerOf2.t%2Cuint32" title="closestPowerOf2(x: uint32): uint32">closestPowerOf2(x: uint32): uint32</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">Down
@@ -1358,6 +1322,10 @@
 <li><a class="reference" href="#Left.t%2Ctypedesc%5BNVector%5B%2CT%3A%20SomeNumber%5D%5D_2" title="Left[T: SomeNumber](_: typedesc[NVector[3, T]]): NVector[3, T]">Left[T: SomeNumber](_: typedesc[NVector[3, T]]): NVector[3, T]</a></li>
 
 </ul>
+<ul class="simple nested-toc-section">lerpf
+  <li><a class="reference" href="#lerpf.t%2CFloat%2CFloat%2CFloat" title="lerpf(from: Float; to: Float; weight: Float): Float">lerpf(from: Float; to: Float; weight: Float): Float</a></li>
+
+</ul>
 <ul class="simple nested-toc-section">Max
   <li><a class="reference" href="#Max.t%2Ctypedesc%5BVector2i%5D" title="Max(_: typedesc[Vector2i]): Vector2i">Max(_: typedesc[Vector2i]): Vector2i</a></li>
 <li><a class="reference" href="#Max.t%2Ctypedesc%5BVector3i%5D" title="Max(_: typedesc[Vector3i]): Vector3i">Max(_: typedesc[Vector3i]): Vector3i</a></li>
@@ -1410,12 +1378,8 @@
   <li><a class="reference" href="#ModelTop.t%2Ctypedesc%5BVector3%5D" title="ModelTop(_: typedesc[Vector3]): Vector3">ModelTop(_: typedesc[Vector3]): Vector3</a></li>
 
 </ul>
-<ul class="simple nested-toc-section">nearestPowerOf2Templated
-  <li><a class="reference" href="#nearestPowerOf2Templated.t%2CT" title="nearestPowerOf2Templated[T](x: T): T">nearestPowerOf2Templated[T](x: T): T</a></li>
-
-</ul>
-<ul class="simple nested-toc-section">nextPowerOf2
-  <li><a class="reference" href="#nextPowerOf2.t%2Cuint32" title="nextPowerOf2(x: uint32): uint32">nextPowerOf2(x: uint32): uint32</a></li>
+<ul class="simple nested-toc-section">nearestPo2
+  <li><a class="reference" href="#nearestPo2.t%2CInt" title="nearestPo2(value: Int): Int">nearestPo2(value: Int): Int</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">One
@@ -1438,10 +1402,6 @@
 </ul>
 <ul class="simple nested-toc-section">PlaneYz
   <li><a class="reference" href="#PlaneYz.t%2Ctypedesc%5BPlane%5D" title="PlaneYz(_: typedesc[Plane]): Plane">PlaneYz(_: typedesc[Plane]): Plane</a></li>
-
-</ul>
-<ul class="simple nested-toc-section">previousPowerOf2
-  <li><a class="reference" href="#previousPowerOf2.t%2Cuint32" title="previousPowerOf2(x: uint32): uint32">previousPowerOf2(x: uint32): uint32</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">Right
@@ -2298,7 +2258,7 @@
 </div>
 <div id="angle-procs-all">
   <div id="angle,Vector[,T: SomeFloat]">
-  <dt><pre><span class="Keyword">func</span> <a href="#angle%2CVector%5B%2CT%3A%20SomeFloat%5D"><span class="Identifier">angle</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Vector"><span class="Identifier">Vector</span></a><span class="Other">[</span><span class="DecNumber">2</span><span class="Other">,</span> <span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span> {.<span class="Identifier">inline</span>.}</pre></dt>
+  <dt><pre><span class="Keyword">func</span> <a href="#angle%2CVector%5B%2CT%3A%20SomeFloat%5D"><span class="Identifier">angle</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Vector"><span class="Identifier">Vector</span></a><span class="Other">[</span><span class="DecNumber">2</span><span class="Other">,</span> <span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {.<span class="Identifier">inline</span>.}</pre></dt>
   <dd>
     
     
@@ -2327,7 +2287,7 @@
   </dd>
 </div>
 <div id="angleTo,Vector[,T: SomeFloat],Vector[,T: SomeFloat]">
-  <dt><pre><span class="Keyword">func</span> <a href="#angleTo%2CVector%5B%2CT%3A%20SomeFloat%5D%2CVector%5B%2CT%3A%20SomeFloat%5D"><span class="Identifier">angleTo</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">self</span><span class="Other">,</span> <span class="Identifier">to</span><span class="Other">:</span> <a href="builtinindex.html#Vector"><span class="Identifier">Vector</span></a><span class="Other">[</span><span class="DecNumber">2</span><span class="Other">,</span> <span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span> {.<span class="Identifier">inline</span>.}</pre></dt>
+  <dt><pre><span class="Keyword">func</span> <a href="#angleTo%2CVector%5B%2CT%3A%20SomeFloat%5D%2CVector%5B%2CT%3A%20SomeFloat%5D"><span class="Identifier">angleTo</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">self</span><span class="Other">,</span> <span class="Identifier">to</span><span class="Other">:</span> <a href="builtinindex.html#Vector"><span class="Identifier">Vector</span></a><span class="Other">[</span><span class="DecNumber">2</span><span class="Other">,</span> <span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {.<span class="Identifier">inline</span>.}</pre></dt>
   <dd>
     
     
@@ -2338,51 +2298,7 @@
 </div>
 <div id="angleToPoint-procs-all">
   <div id="angleToPoint,Vector[,T],Vector[,T]">
-  <dt><pre><span class="Keyword">func</span> <a href="#angleToPoint%2CVector%5B%2CT%5D%2CVector%5B%2CT%5D"><span class="Identifier">angleToPoint</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">self</span><span class="Other">,</span> <span class="Identifier">to</span><span class="Other">:</span> <a href="builtinindex.html#Vector"><span class="Identifier">Vector</span></a><span class="Other">[</span><span class="DecNumber">2</span><span class="Other">,</span> <span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span> {.<span class="Identifier">inline</span>.}</pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-
-</div>
-<div id="arccos-procs-all">
-  <div id="arccos,T">
-  <dt><pre><span class="Keyword">func</span> <a href="#arccos%2CT"><span class="Identifier">arccos</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span> {.<span class="Identifier">inline</span>.}</pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-
-</div>
-<div id="arcsin-procs-all">
-  <div id="arcsin,T">
-  <dt><pre><span class="Keyword">func</span> <a href="#arcsin%2CT"><span class="Identifier">arcsin</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span> {.<span class="Identifier">inline</span>.}</pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-
-</div>
-<div id="arctan-procs-all">
-  <div id="arctan,T">
-  <dt><pre><span class="Keyword">func</span> <a href="#arctan%2CT"><span class="Identifier">arctan</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span> {.<span class="Identifier">inline</span>.}</pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-
-</div>
-<div id="arctan2-procs-all">
-  <div id="arctan2,T,T">
-  <dt><pre><span class="Keyword">func</span> <a href="#arctan2%2CT%2CT"><span class="Identifier">arctan2</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pY</span><span class="Other">,</span> <span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span> {.<span class="Identifier">inline</span>.}</pre></dt>
+  <dt><pre><span class="Keyword">func</span> <a href="#angleToPoint%2CVector%5B%2CT%5D%2CVector%5B%2CT%5D"><span class="Identifier">angleToPoint</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">self</span><span class="Other">,</span> <span class="Identifier">to</span><span class="Other">:</span> <a href="builtinindex.html#Vector"><span class="Identifier">Vector</span></a><span class="Other">[</span><span class="DecNumber">2</span><span class="Other">,</span> <span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {.<span class="Identifier">inline</span>.}</pre></dt>
   <dd>
     
     
@@ -2681,17 +2597,6 @@
 </div>
 
 </div>
-<div id="cos-procs-all">
-  <div id="cos,Radian[T: SomeFloat]">
-  <dt><pre><span class="Keyword">func</span> <a href="#cos%2CRadian%5BT%3A%20SomeFloat%5D"><span class="Identifier">cos</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {.<span class="Identifier">inline</span>.}</pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-
-</div>
 <div id="createDepthCorrection-procs-all">
   <div id="createDepthCorrection,typedesc[Projection],bool">
   <dt><pre><span class="Keyword">proc</span> <a href="#createDepthCorrection%2Ctypedesc%5BProjection%5D%2Cbool"><span class="Identifier">createDepthCorrection</span></a><span class="Other">(</span><span class="Operator">_</span><span class="Other">:</span> <span class="Identifier">typedesc</span><span class="Other">[</span><a href="builtinindex.html#Projection"><span class="Identifier">Projection</span></a><span class="Other">]</span><span class="Other">;</span> <span class="Identifier">flipY</span><span class="Other">:</span> <span class="Identifier">bool</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Projection"><span class="Identifier">Projection</span></a></pre></dt>
@@ -2873,9 +2778,12 @@
     
   </dd>
 </div>
-<div id="cubicInterpolate,Radian[T: SomeFloat],Radian[T: SomeFloat],Radian[T: SomeFloat],Radian[T: SomeFloat],T">
-  <dt><pre><span class="Keyword">func</span> <a href="#cubicInterpolate%2CRadian%5BT%3A%20SomeFloat%5D%2CRadian%5BT%3A%20SomeFloat%5D%2CRadian%5BT%3A%20SomeFloat%5D%2CRadian%5BT%3A%20SomeFloat%5D%2CT"><span class="Identifier">cubicInterpolate</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pFrom</span><span class="Other">,</span> <span class="Identifier">pTo</span><span class="Other">,</span> <span class="Identifier">pPre</span><span class="Other">,</span> <span class="Identifier">pPost</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">;</span>
-                                    <span class="Identifier">pWeight</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span> {.<span class="Identifier">inline</span>.}</pre></dt>
+
+</div>
+<div id="cubicInterpolateAngle-procs-all">
+  <div id="cubicInterpolateAngle,T,T,T,T,T">
+  <dt><pre><span class="Keyword">func</span> <a href="#cubicInterpolateAngle%2CT%2CT%2CT%2CT%2CT"><span class="Identifier">cubicInterpolateAngle</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pFrom</span><span class="Other">,</span> <span class="Identifier">pTo</span><span class="Other">,</span> <span class="Identifier">pPre</span><span class="Other">,</span> <span class="Identifier">pPost</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">;</span> <span class="Identifier">pWeight</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {.
+    <span class="Identifier">inline</span>.}</pre></dt>
   <dd>
     
     
@@ -2912,28 +2820,6 @@
                             <span class="Identifier">postB</span><span class="Other">:</span> <a href="builtinindex.html#Vector4"><span class="Identifier">Vector4</span></a><span class="Other">;</span> <span class="Identifier">weight</span><span class="Other">:</span> <a href="builtinindex.html#Float"><span class="Identifier">Float</span></a><span class="Other">;</span> <span class="Identifier">bT</span><span class="Other">:</span> <a href="builtinindex.html#Float"><span class="Identifier">Float</span></a><span class="Other">;</span>
                             <span class="Identifier">preAT</span><span class="Other">:</span> <a href="builtinindex.html#Float"><span class="Identifier">Float</span></a><span class="Other">;</span> <span class="Identifier">postBT</span><span class="Other">:</span> <a href="builtinindex.html#Float"><span class="Identifier">Float</span></a><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Vector4"><span class="Identifier">Vector4</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span>
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-
-</div>
-<div id="degree-procs-all">
-  <div id="degree,Radian[T: SomeFloat]">
-  <dt><pre><span class="Keyword">func</span> <a href="#degree%2CRadian%5BT%3A%20SomeFloat%5D"><span class="Identifier">degree</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">rad</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span></pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-
-</div>
-<div id="degToRad-procs-all">
-  <div id="degToRad,T">
-  <dt><pre><span class="Keyword">func</span> <a href="#degToRad%2CT"><span class="Identifier">degToRad</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">degree</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span></pre></dt>
   <dd>
     
     
@@ -3250,9 +3136,9 @@
 
 </div>
 <div id="fromAngle-procs-all">
-  <div id="fromAngle,typedesc[NVector[,T: SomeFloat]],Radian[T: SomeFloat]">
-  <dt><pre><span class="Keyword">func</span> <a href="#fromAngle%2Ctypedesc%5BNVector%5B%2CT%3A%20SomeFloat%5D%5D%2CRadian%5BT%3A%20SomeFloat%5D"><span class="Identifier">fromAngle</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Operator">_</span><span class="Other">:</span> <span class="Identifier">typedesc</span><span class="Other">[</span><a href="builtinindex.html#NVector"><span class="Identifier">NVector</span></a><span class="Other">[</span><span class="DecNumber">2</span><span class="Other">,</span> <span class="Identifier">T</span><span class="Other">]</span><span class="Other">]</span><span class="Other">;</span> <span class="Identifier">angle</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#NVector"><span class="Identifier">NVector</span></a><span class="Other">[</span>
-    <span class="DecNumber">2</span><span class="Other">,</span> <span class="Identifier">T</span><span class="Other">]</span> {.<span class="Identifier">inline</span>.}</pre></dt>
+  <div id="fromAngle,typedesc[NVector[,T: SomeFloat]],T">
+  <dt><pre><span class="Keyword">func</span> <a href="#fromAngle%2Ctypedesc%5BNVector%5B%2CT%3A%20SomeFloat%5D%5D%2CT"><span class="Identifier">fromAngle</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Operator">_</span><span class="Other">:</span> <span class="Identifier">typedesc</span><span class="Other">[</span><a href="builtinindex.html#NVector"><span class="Identifier">NVector</span></a><span class="Other">[</span><span class="DecNumber">2</span><span class="Other">,</span> <span class="Identifier">T</span><span class="Other">]</span><span class="Other">]</span><span class="Other">;</span> <span class="Identifier">angle</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#NVector"><span class="Identifier">NVector</span></a><span class="Other">[</span><span class="DecNumber">2</span><span class="Other">,</span> <span class="Identifier">T</span><span class="Other">]</span> {.
+    <span class="Identifier">inline</span>.}</pre></dt>
   <dd>
     
     
@@ -3584,18 +3470,6 @@
 </div>
 <div id="getScale,Transform2D">
   <dt><pre><span class="Keyword">proc</span> <a href="#getScale%2CTransform2D"><span class="Identifier">getScale</span></a><span class="Other">(</span><span class="Identifier">self</span><span class="Other">:</span> <a href="builtinindex.html#Transform2D"><span class="Identifier">Transform2D</span></a><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Vector2"><span class="Identifier">Vector2</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span>
-    <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-
-</div>
-<div id="getShiftFromPowerOf2-procs-all">
-  <div id="getShiftFromPowerOf2,uint32">
-  <dt><pre><span class="Keyword">func</span> <a href="#getShiftFromPowerOf2%2Cuint32"><span class="Identifier">getShiftFromPowerOf2</span></a><span class="Other">(</span><span class="Identifier">pBits</span><span class="Other">:</span> <span class="Identifier">uint32</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">int32</span> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span>
     <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
   <dd>
     
@@ -4410,16 +4284,19 @@
     
   </dd>
 </div>
-<div id="lerp,Radian[T: SomeFloat],Radian[T: SomeFloat],T">
-  <dt><pre><span class="Keyword">func</span> <a href="#lerp%2CRadian%5BT%3A%20SomeFloat%5D%2CRadian%5BT%3A%20SomeFloat%5D%2CT"><span class="Identifier">lerp</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pFrom</span><span class="Other">,</span> <span class="Identifier">pTo</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">;</span> <span class="Identifier">t</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span> {.<span class="Identifier">inline</span>.}</pre></dt>
+<div id="lerp,T,T,T">
+  <dt><pre><span class="Keyword">func</span> <a href="#lerp%2CT%2CT%2CT"><span class="Identifier">lerp</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pFrom</span><span class="Other">,</span> <span class="Identifier">pTo</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">;</span> <span class="Identifier">t</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {.<span class="Identifier">inline</span>.}</pre></dt>
   <dd>
     
     
     
   </dd>
 </div>
-<div id="lerp,T,T,T">
-  <dt><pre><span class="Keyword">func</span> <a href="#lerp%2CT%2CT%2CT"><span class="Identifier">lerp</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pFrom</span><span class="Other">,</span> <span class="Identifier">pTo</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">;</span> <span class="Identifier">t</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {.<span class="Identifier">inline</span>.}</pre></dt>
+
+</div>
+<div id="lerpAngle-procs-all">
+  <div id="lerpAngle,T,T,T">
+  <dt><pre><span class="Keyword">func</span> <a href="#lerpAngle%2CT%2CT%2CT"><span class="Identifier">lerpAngle</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pFrom</span><span class="Other">,</span> <span class="Identifier">pTo</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">;</span> <span class="Identifier">t</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {.<span class="Identifier">inline</span>.}</pre></dt>
   <dd>
     
     
@@ -4852,18 +4729,6 @@
 </div>
 <div id="moveToward,T,T,T">
   <dt><pre><span class="Keyword">proc</span> <a href="#moveToward%2CT%2CT%2CT"><span class="Identifier">moveToward</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">from</span><span class="Other">,</span> <span class="Identifier">to</span><span class="Other">,</span> <span class="Identifier">delta</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span></pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-
-</div>
-<div id="nearestShift-procs-all">
-  <div id="nearestShift,uint32">
-  <dt><pre><span class="Keyword">func</span> <a href="#nearestShift%2Cuint32"><span class="Identifier">nearestShift</span></a><span class="Other">(</span><span class="Identifier">pNumber</span><span class="Other">:</span> <span class="Identifier">uint32</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">uint32</span> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span>
-    <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
   <dd>
     
     
@@ -5558,27 +5423,8 @@
 </div>
 
 </div>
-<div id="sin-procs-all">
-  <div id="sin,Radian[T: SomeFloat]">
-  <dt><pre><span class="Keyword">func</span> <a href="#sin%2CRadian%5BT%3A%20SomeFloat%5D"><span class="Identifier">sin</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {.<span class="Identifier">inline</span>.}</pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-
-</div>
 <div id="sinc-procs-all">
-  <div id="sinc,Radian[T: SomeFloat]">
-  <dt><pre><span class="Keyword">func</span> <a href="#sinc%2CRadian%5BT%3A%20SomeFloat%5D"><span class="Identifier">sinc</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {.<span class="Identifier">inline</span>.}</pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-<div id="sinc,T">
+  <div id="sinc,T">
   <dt><pre><span class="Keyword">func</span> <a href="#sinc%2CT"><span class="Identifier">sinc</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {.<span class="Identifier">inline</span>.}</pre></dt>
   <dd>
     
@@ -5589,15 +5435,7 @@
 
 </div>
 <div id="sincn-procs-all">
-  <div id="sincn,Radian[T: SomeFloat]">
-  <dt><pre><span class="Keyword">func</span> <a href="#sincn%2CRadian%5BT%3A%20SomeFloat%5D"><span class="Identifier">sincn</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {.<span class="Identifier">inline</span>.}</pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-<div id="sincn,T">
+  <div id="sincn,T">
   <dt><pre><span class="Keyword">func</span> <a href="#sincn%2CT"><span class="Identifier">sincn</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {.<span class="Identifier">inline</span>.}</pre></dt>
   <dd>
     
@@ -5781,17 +5619,6 @@
                                      <span class="Identifier">weight</span><span class="Other">:</span> <a href="builtinindex.html#Float"><span class="Identifier">Float</span></a><span class="Other">;</span> <span class="Identifier">bT</span><span class="Other">:</span> <a href="builtinindex.html#Float"><span class="Identifier">Float</span></a><span class="Other">;</span> <span class="Identifier">preAT</span><span class="Other">:</span> <a href="builtinindex.html#Float"><span class="Identifier">Float</span></a><span class="Other">;</span>
                                      <span class="Identifier">postBT</span><span class="Other">:</span> <a href="builtinindex.html#Float"><span class="Identifier">Float</span></a><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Quaternion"><span class="Identifier">Quaternion</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span>
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">forbids</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-
-</div>
-<div id="tan-procs-all">
-  <div id="tan,Radian[T: SomeFloat]">
-  <dt><pre><span class="Keyword">func</span> <a href="#tan%2CRadian%5BT%3A%20SomeFloat%5D"><span class="Identifier">tan</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {.<span class="Identifier">inline</span>.}</pre></dt>
   <dd>
     
     
@@ -6461,7 +6288,18 @@
 </div>
 <div id="acos-templates-all">
   <div id="acos.t,T">
-  <dt><pre><span class="Keyword">template</span> <a href="#acos.t%2CT"><span class="Identifier">acos</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span> {..}</pre></dt>
+  <dt><pre><span class="Keyword">template</span> <a href="#acos.t%2CT"><span class="Identifier">acos</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {..}</pre></dt>
+  <dd>
+    
+    
+    
+  </dd>
+</div>
+
+</div>
+<div id="acosh-templates-all">
+  <div id="acosh.t,T">
+  <dt><pre><span class="Keyword">template</span> <a href="#acosh.t%2CT"><span class="Identifier">acosh</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {..}</pre></dt>
   <dd>
     
     
@@ -6512,7 +6350,18 @@
 </div>
 <div id="asin-templates-all">
   <div id="asin.t,T">
-  <dt><pre><span class="Keyword">template</span> <a href="#asin.t%2CT"><span class="Identifier">asin</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span> {..}</pre></dt>
+  <dt><pre><span class="Keyword">template</span> <a href="#asin.t%2CT"><span class="Identifier">asin</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {..}</pre></dt>
+  <dd>
+    
+    
+    
+  </dd>
+</div>
+
+</div>
+<div id="asinh-templates-all">
+  <div id="asinh.t,T">
+  <dt><pre><span class="Keyword">template</span> <a href="#asinh.t%2CT"><span class="Identifier">asinh</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {..}</pre></dt>
   <dd>
     
     
@@ -6523,7 +6372,7 @@
 </div>
 <div id="atan-templates-all">
   <div id="atan.t,T">
-  <dt><pre><span class="Keyword">template</span> <a href="#atan.t%2CT"><span class="Identifier">atan</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span> {..}</pre></dt>
+  <dt><pre><span class="Keyword">template</span> <a href="#atan.t%2CT"><span class="Identifier">atan</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {..}</pre></dt>
   <dd>
     
     
@@ -6534,7 +6383,18 @@
 </div>
 <div id="atan2-templates-all">
   <div id="atan2.t,T,T">
-  <dt><pre><span class="Keyword">template</span> <a href="#atan2.t%2CT%2CT"><span class="Identifier">atan2</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pY</span><span class="Other">,</span> <span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Radian"><span class="Identifier">Radian</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span> {..}</pre></dt>
+  <dt><pre><span class="Keyword">template</span> <a href="#atan2.t%2CT%2CT"><span class="Identifier">atan2</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pY</span><span class="Other">,</span> <span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {..}</pre></dt>
+  <dd>
+    
+    
+    
+  </dd>
+</div>
+
+</div>
+<div id="atanh-templates-all">
+  <div id="atanh.t,T">
+  <dt><pre><span class="Keyword">template</span> <a href="#atanh.t%2CT"><span class="Identifier">atanh</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeFloat</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">pX</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {..}</pre></dt>
   <dd>
     
     
@@ -6606,17 +6466,6 @@
 <div id="clampi-templates-all">
   <div id="clampi.t,T,T,T">
   <dt><pre><span class="Keyword">template</span> <a href="#clampi.t%2CT%2CT%2CT"><span class="Identifier">clampi</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeInteger</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">value</span><span class="Other">,</span> <span class="Identifier">min</span><span class="Other">,</span> <span class="Identifier">max</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span> {..}</pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-
-</div>
-<div id="closestPowerOf2-templates-all">
-  <div id="closestPowerOf2.t,uint32">
-  <dt><pre><span class="Keyword">template</span> <a href="#closestPowerOf2.t%2Cuint32"><span class="Identifier">closestPowerOf2</span></a><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <span class="Identifier">uint32</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">uint32</span></pre></dt>
   <dd>
     
     
@@ -6961,6 +6810,17 @@
 </div>
 
 </div>
+<div id="lerpf-templates-all">
+  <div id="lerpf.t,Float,Float,Float">
+  <dt><pre><span class="Keyword">template</span> <a href="#lerpf.t%2CFloat%2CFloat%2CFloat"><span class="Identifier">lerpf</span></a><span class="Other">(</span><span class="Identifier">from</span><span class="Other">:</span> <a href="builtinindex.html#Float"><span class="Identifier">Float</span></a><span class="Other">;</span> <span class="Identifier">to</span><span class="Other">:</span> <a href="builtinindex.html#Float"><span class="Identifier">Float</span></a><span class="Other">;</span> <span class="Identifier">weight</span><span class="Other">:</span> <a href="builtinindex.html#Float"><span class="Identifier">Float</span></a><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Float"><span class="Identifier">Float</span></a> {..}</pre></dt>
+  <dd>
+    
+    
+    
+  </dd>
+</div>
+
+</div>
 <div id="Max-templates-all">
   <div id="Max.t,typedesc[Vector2i]">
   <dt><pre><span class="Keyword">template</span> <a href="#Max.t%2Ctypedesc%5BVector2i%5D"><span class="Identifier">Max</span></a><span class="Other">(</span><span class="Operator">_</span><span class="Other">:</span> <span class="Identifier">typedesc</span><span class="Other">[</span><a href="builtinindex.html#Vector2i"><span class="Identifier">Vector2i</span></a><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Vector2i"><span class="Identifier">Vector2i</span></a></pre></dt>
@@ -7125,20 +6985,9 @@
 </div>
 
 </div>
-<div id="nearestPowerOf2Templated-templates-all">
-  <div id="nearestPowerOf2Templated.t,T">
-  <dt><pre><span class="Keyword">template</span> <a href="#nearestPowerOf2Templated.t%2CT"><span class="Identifier">nearestPowerOf2Templated</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span></pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-
-</div>
-<div id="nextPowerOf2-templates-all">
-  <div id="nextPowerOf2.t,uint32">
-  <dt><pre><span class="Keyword">template</span> <a href="#nextPowerOf2.t%2Cuint32"><span class="Identifier">nextPowerOf2</span></a><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <span class="Identifier">uint32</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">uint32</span></pre></dt>
+<div id="nearestPo2-templates-all">
+  <div id="nearestPo2.t,Int">
+  <dt><pre><span class="Keyword">template</span> <a href="#nearestPo2.t%2CInt"><span class="Identifier">nearestPo2</span></a><span class="Other">(</span><span class="Identifier">value</span><span class="Other">:</span> <a href="private/native.html#Int"><span class="Identifier">Int</span></a><span class="Other">)</span><span class="Other">:</span> <a href="private/native.html#Int"><span class="Identifier">Int</span></a> {..}</pre></dt>
   <dd>
     
     
@@ -7232,17 +7081,6 @@
 <div id="PlaneYz-templates-all">
   <div id="PlaneYz.t,typedesc[Plane]">
   <dt><pre><span class="Keyword">template</span> <a href="#PlaneYz.t%2Ctypedesc%5BPlane%5D"><span class="Identifier">PlaneYz</span></a><span class="Other">(</span><span class="Operator">_</span><span class="Other">:</span> <span class="Identifier">typedesc</span><span class="Other">[</span><a href="builtinindex.html#Plane"><span class="Identifier">Plane</span></a><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <a href="builtinindex.html#Plane"><span class="Identifier">Plane</span></a></pre></dt>
-  <dd>
-    
-    
-    
-  </dd>
-</div>
-
-</div>
-<div id="previousPowerOf2-templates-all">
-  <div id="previousPowerOf2.t,uint32">
-  <dt><pre><span class="Keyword">template</span> <a href="#previousPowerOf2.t%2Cuint32"><span class="Identifier">previousPowerOf2</span></a><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <span class="Identifier">uint32</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">uint32</span></pre></dt>
   <dd>
     
     
@@ -7709,7 +7547,7 @@
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2025-04-04 06:46:21 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2025-04-27 02:52:44 UTC</small>
       </div>
     </div>
   </div>
