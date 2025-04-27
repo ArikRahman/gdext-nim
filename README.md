@@ -7,7 +7,7 @@
     <img src="nimble.svg" height="24">
   </a>
 
-   [Documentation][9] | [Coding Guide][4] | [Examples][1] | Templates | [Forum][5] | [Source][8]
+   [Documentation][9] | [Coding Guide][4] | [Tutorial] | [Examples][1] | Templates | [Forum][5] | [Source][8]
 
 </div>
 
@@ -67,7 +67,7 @@ nimble uninstall gdext
 
 ### Nim compiler
 
-* [nim-lang/nim](https://github.com/nim-lang/nim) 2.0.0 or higher
+* [nim-lang/nim](https://github.com/nim-lang/nim) 2.0.12 or higher
   #### Macos
   Use Nim installed via Homebrew, not choosenim.
   Due to the execution environment of Godot itself, a native AArch64/ARM64 build of Nim is required, and that choosenim installs a x86_64 build emulated via Rosetta.
@@ -79,7 +79,7 @@ nimble uninstall gdext
 
 * OS: Linux (Arch)
 * Engine: Godot 4.3.stable.arch_linux
-* Nim: 2.0.0, 2.0.14, 2.2.0, 2.2.2
+* Nim: 2.0.12, 2.0.14, 2.2.0, 2.2.2
 * CC: gcc version 14.2.1 20240910 (GCC)
 
 ---
@@ -107,3 +107,4 @@ nimble uninstall gdext
 [7]: https://github.com/godot-nim/.github/issues/5
 [8]: https://github.com/godot-nim/gdext-nim
 [9]: https://godot-nim.github.io/gdext-nim/gdext.html
+[Tutorial]: https://github.com/godot-nim/gdext-nim/wiki/Your-first-2D-game
