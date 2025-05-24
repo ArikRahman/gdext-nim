@@ -5,22 +5,23 @@ nim	initLevel	gdext/bridge.html#initLevel.t,InitializationLevel	template initLev
 nim	description	gdext/bridge.html#description.t,string	template description(desc: string)		33
 nim	tool	gdext/bridge.html#tool.t	template tool()		46
 nim	icon	gdext/bridge.html#icon.t,string	template icon(icon_path: string)		56
-nim	Initialization_Default	gdext/bridge.html#Initialization_Default	var Initialization_Default		61
-nim	gdsync	gdext/bridge.html#gdsync.m	macro gdsync(body): untyped		77
-nim	`bind`	gdext/bridge.html#bind.t,typedesc[T],typedesc[E]	template `bind`[T: SomeUserClass; E: enum](Class: typedesc[T]; Enum: typedesc[E])		178
-nim	`bind`	gdext/bridge.html#bind.t,typedesc[T],typedesc[set[E]]	template `bind`[T: SomeUserClass; E: enum](Class: typedesc[T]; Flags: typedesc[set[E]])		190
-nim	`bind`	gdext/bridge.html#bind.t,typedesc[E]	template `bind`[E: enum](Enum: typedesc[E])		206
-nim	`bind`	gdext/bridge.html#bind.t,typedesc[set[E]]	template `bind`[E: enum](Flags: typedesc[set[E]])		210
-nim	gdexport	gdext/bridge.html#gdexport.t	template gdexport()		216
-nim	gdexport	gdext/bridge.html#gdexport.t,Appearance	template gdexport(appearance: Appearance)		221
-nim	gdexport	gdext/bridge.html#gdexport.t,string	template gdexport[T: SomeUserClass](name: string; appearance = default(Appearance)): untyped		228
-nim	gdexport	gdext/bridge.html#gdexport.t,string,typedesc[SomeUserClass],typedesc[SomeProperty],StringName,StringName,string	template gdexport(name: string; typ: typedesc[SomeUserClass];\n         proptyp: typedesc[SomeProperty]; getter, setter: StringName;\n         appearance = default(Appearance); description = ""): untyped		239
-nim	gdexport	gdext/bridge.html#gdexport.t,staticstring,proc(T),proc(T,P),string	template gdexport[T: SomeUserClass; P: SomeProperty](name: static string;\n    getter: proc (self: T): P; setter: proc (self: T; value: P);\n    appearance = default(Appearance); description = ""): untyped		292
-nim	gdexport	gdext/bridge.html#gdexport.m,staticstring,typed,string	macro gdexport(name: static string; iden: typed; appearance = default(Appearance);\n         description = ""): untyped		309
-nim	gdexport	gdext/bridge.html#gdexport.m,typed,string	macro gdexport(iden: typed; appearance = default(Appearance); description = ""): untyped		330
-nimgrp	gdexport	gdext/bridge.html#gdexport-macros-all	macro		309
-nimgrp	bind	gdext/bridge.html#bind-templates-all	template		178
-nimgrp	gdexport	gdext/bridge.html#gdexport-templates-all	template		216
+nim	singleton	gdext/bridge.html#singleton.t	template singleton()		61
+nim	Initialization_Default	gdext/bridge.html#Initialization_Default	var Initialization_Default		68
+nim	gdsync	gdext/bridge.html#gdsync.m	macro gdsync(body): untyped		84
+nim	`bind`	gdext/bridge.html#bind.t,typedesc[T],typedesc[E]	template `bind`[T: SomeUserClass; E: enum](Class: typedesc[T]; Enum: typedesc[E])		187
+nim	`bind`	gdext/bridge.html#bind.t,typedesc[T],typedesc[set[E]]	template `bind`[T: SomeUserClass; E: enum](Class: typedesc[T]; Flags: typedesc[set[E]])		199
+nim	`bind`	gdext/bridge.html#bind.t,typedesc[E]	template `bind`[E: enum](Enum: typedesc[E])		215
+nim	`bind`	gdext/bridge.html#bind.t,typedesc[set[E]]	template `bind`[E: enum](Flags: typedesc[set[E]])		219
+nim	gdexport	gdext/bridge.html#gdexport.t	template gdexport()		225
+nim	gdexport	gdext/bridge.html#gdexport.t,Appearance	template gdexport(appearance: Appearance)		230
+nim	gdexport	gdext/bridge.html#gdexport.t,string	template gdexport[T: SomeUserClass](name: string; appearance = default(Appearance)): untyped		237
+nim	gdexport	gdext/bridge.html#gdexport.t,string,typedesc[SomeUserClass],typedesc[SomeProperty],StringName,StringName,string	template gdexport(name: string; typ: typedesc[SomeUserClass];\n         proptyp: typedesc[SomeProperty]; getter, setter: StringName;\n         appearance = default(Appearance); description = ""): untyped		248
+nim	gdexport	gdext/bridge.html#gdexport.t,staticstring,proc(T),proc(T,P),string	template gdexport[T: SomeUserClass; P: SomeProperty](name: static string;\n    getter: proc (self: T): P; setter: proc (self: T; value: P);\n    appearance = default(Appearance); description = ""): untyped		301
+nim	gdexport	gdext/bridge.html#gdexport.m,staticstring,typed,string	macro gdexport(name: static string; iden: typed; appearance = default(Appearance);\n         description = ""): untyped		318
+nim	gdexport	gdext/bridge.html#gdexport.m,typed,string	macro gdexport(iden: typed; appearance = default(Appearance); description = ""): untyped		339
+nimgrp	gdexport	gdext/bridge.html#gdexport-macros-all	macro		318
+nimgrp	bind	gdext/bridge.html#bind-templates-all	template		187
+nimgrp	gdexport	gdext/bridge.html#gdexport-templates-all	template		225
 heading	Class definition	gdext/bridge.html#class-definition	   Class definition		0
 heading	Procedure definition / Method overriding	gdext/bridge.html#procedure-definition-slash-method-overriding	   Procedure definition / Method overriding		0
 heading	Signal definition	gdext/bridge.html#signal-definition	   Signal definition		0

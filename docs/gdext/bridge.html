@@ -133,6 +133,10 @@
   <li><a class="reference" href="#signal.t" title="signal()">signal()</a></li>
 
 </ul>
+<ul class="simple nested-toc-section">singleton
+  <li><a class="reference" href="#singleton.t" title="singleton()">singleton()</a></li>
+
+</ul>
 <ul class="simple nested-toc-section">tool
   <li><a class="reference" href="#tool.t" title="tool()">tool()</a></li>
 
@@ -424,6 +428,19 @@
 </div>
 
 </div>
+<div id="singleton-templates-all">
+  <div id="singleton.t">
+  <dt><pre><span class="Keyword">template</span> <a href="#singleton.t"><span class="Identifier">singleton</span></a><span class="Other">(</span><span class="Other">)</span> {.<span class="Identifier">pragma</span>.}</pre></dt>
+  <dd>
+    
+    <p>Register the class as a singleton. You can refer the unique instance of it as same as Godot's singletons e.g. Input.</p>
+<p><pre class="listing"><span class="Keyword">type</span> <span class="Identifier">MySingleton</span> <span class="Punctuation">{</span><span class="Operator">.</span><span class="Identifier">gdsync</span><span class="Punctuation">,</span> <span class="Identifier">singleton</span><span class="Operator">.</span><span class="Punctuation">}</span> <span class="Operator">=</span> <span class="Keyword">ptr</span> <span class="Keyword">object</span> <span class="Keyword">of</span> <span class="Keyword">Object</span></pre></p>
+
+    
+  </dd>
+</div>
+
+</div>
 <div id="tool-templates-all">
   <div id="tool.t">
   <dt><pre><span class="Keyword">template</span> <a href="#tool.t"><span class="Identifier">tool</span></a><span class="Other">(</span><span class="Other">)</span> {.<span class="Identifier">pragma</span>.}</pre></dt>
@@ -452,7 +469,7 @@
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2025-04-27 02:52:44 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2025-05-24 11:50:47 UTC</small>
       </div>
     </div>
   </div>
